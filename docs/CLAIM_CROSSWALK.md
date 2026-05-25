@@ -1,7 +1,9 @@
 # Public Claim Crosswalk
 
 This is the public, paper-facing claim map.  It keeps only the statements used
-by the paper and omits development-only roadmap rows.
+by the paper and omits development-only roadmap rows.  For the resolvable
+`M24-C...` and `M24-N...` identifiers cited in the manuscript, see
+`docs/CLAIM_REGISTER.md`.
 
 | Paper statement | Public artifact coverage |
 |---|---|

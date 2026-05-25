@@ -42,6 +42,10 @@ python scripts/analyze_forbidden_shadow_split_p6.py --write
 Additional scripts in `scripts/` regenerate the corresponding JSON artifacts
 in `results/`.
 
+The public all-in-one replay may rewrite canonical JSON files under
+`results/`.  It is designed as a reproducibility/update command, not as a
+read-only checker.
+
 ## Paper Build
 
 From `paper/` run:

@@ -1,9 +1,19 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the companion paper/repository."
-title: "The 24-Meet of Lo Shu and Dürer"
+title: "The 24-Meet of Lo Shu and Dürer: Bounded Magic Spectra, Sagrada Rays, and F2^4 Transport"
 authors:
   - family-names: "Babanskyy"
     given-names: "Oleksiy"
+version: "v1.0.0"
+date-released: "2026-05-25"
 year: 2026
 license: MIT
 repository-code: "https://github.com/aconsciousfractal/The-24-Meet-of-Lo-Shu-and-Durer"
+url: "https://github.com/aconsciousfractal/The-24-Meet-of-Lo-Shu-and-Durer"
+preferred-citation:
+  type: article
+  title: "The 24-Meet of Lo Shu and Dürer: Bounded Magic Spectra, Sagrada Rays, and F2^4 Transport"
+  authors:
+    - family-names: "Babanskyy"
+      given-names: "Oleksiy"
+  year: 2026

@@ -4,7 +4,7 @@ Public companion repository for the paper:
 
 ```text
 The 24-Meet of Lo Shu and Dürer:
-Bounded Magic Spectra, Sagrada Rays, and F_2^4 Transport
+Bounded Magic Spectra, Sagrada Rays, and F2^4 Transport
 ```
 
 Author: Oleksiy Babanskyy
@@ -39,12 +39,20 @@ The checks are computational reproducibility aids.  They do not replace the
 mathematical arguments in the paper; their executable scope is described in
 `docs/EXECUTABLE_REPLAY_SCOPE.md`.
 
+Expected result: all public tests pass.  On the reference export this is
+`141 passed`; runtime is normally several minutes on a laptop, depending on
+Python and filesystem speed.
+
 To regenerate the central public replay artifacts and write
 `results/public_reproducibility_check.json`, run:
 
 ```bash
 python scripts/run_all_reproducibility_checks.py
 ```
+
+This command intentionally rewrites canonical JSON summaries.  A clean rerun
+should preserve the same semantic results; the summary file records return
+code `0` for each replay command.
 
 ## Paper
 
@@ -60,4 +68,6 @@ paper/BUILD.md
 ## Citation And License
 
 See `CITATION.cff` for citation metadata.  This repository is released under
-the MIT license; see `LICENSE`.
+the MIT license; see `LICENSE`.  Unless otherwise stated, the paper source,
+scripts, curated data, and replay artifacts in this companion repository are
+covered by that license.
