@@ -1,0 +1,248 @@
+{
+  "apd_class_count": 5,
+  "apd_classes": [
+    {
+      "apd_vector": "(0,0,0,-288768)",
+      "mask_counts": {
+        "2013": 8,
+        "2130": 4,
+        "3021": 8,
+        "3102": 4
+      },
+      "pair_count": 24,
+      "representative_square_index": 72,
+      "source_diagonal_size_counts": {
+        "4": 24
+      },
+      "square_count": 24
+    },
+    {
+      "apd_vector": "(0,0,0,-290304)",
+      "mask_counts": {
+        "2013": 8,
+        "2130": 4,
+        "3021": 8,
+        "3102": 4
+      },
+      "pair_count": 24,
+      "representative_square_index": 81,
+      "source_diagonal_size_counts": {
+        "8": 24
+      },
+      "square_count": 24
+    },
+    {
+      "apd_vector": "(0,0,0,102912)",
+      "mask_counts": {
+        "1320": 4,
+        "2013": 4,
+        "2130": 4,
+        "3021": 6,
+        "3102": 6
+      },
+      "pair_count": 24,
+      "representative_square_index": 23,
+      "source_diagonal_size_counts": {
+        "4": 24
+      },
+      "square_count": 24
+    },
+    {
+      "apd_vector": "(0,0,0,55296)",
+      "mask_counts": {
+        "1203": 2,
+        "1320": 2,
+        "2013": 10,
+        "2130": 4,
+        "3021": 4,
+        "3102": 2
+      },
+      "pair_count": 24,
+      "representative_square_index": 21,
+      "source_diagonal_size_counts": {
+        "8": 24
+      },
+      "square_count": 24
+    },
+    {
+      "apd_vector": "(0,0,0,79872)",
+      "mask_counts": {
+        "1203": 2,
+        "1320": 6,
+        "2013": 14,
+        "2130": 8,
+        "3021": 10,
+        "3102": 8
+      },
+      "pair_count": 48,
+      "representative_square_index": 16,
+      "source_diagonal_size_counts": {
+        "4": 48
+      },
+      "square_count": 48
+    }
+  ],
+  "durer": {
+    "apd_vector": "(0,0,0,55296)",
+    "canonical_square_index": 174,
+    "mask": "1203",
+    "record": {
+      "mask": "1203",
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 174,
+      "t_max": 10,
+      "terminal_decomposition": {
+        "source_24_incidence_0": 25,
+        "source_34_incidence_1": 50,
+        "source_44_incidence_2": 21
+      },
+      "terminal_diagonal_is_subgroup": true,
+      "terminal_diagonal_order_profile": "1:1,2:3",
+      "terminal_diagonal_set": [
+        "0123",
+        "1032",
+        "2301",
+        "3210"
+      ],
+      "terminal_quaterne_count": 96,
+      "terminal_sum": 24,
+      "values": [
+        12,
+        11,
+        15,
+        16
+      ]
+    },
+    "source_diagonal_type": "S3"
+  },
+  "mask_counts": {
+    "1203": 4,
+    "1320": 12,
+    "2013": 44,
+    "2130": 24,
+    "3021": 36,
+    "3102": 24
+  },
+  "metadata": {
+    "description": "Classification of the 144-pair exact canonical V4 endpoint-24 subclass.",
+    "project": "Magic 24",
+    "source_filter_ladder": "results/order4_filter_ladder.json"
+  },
+  "pair_count": 144,
+  "source_diagonal_type_count": 4,
+  "source_diagonal_types": [
+    {
+      "apd_counts": {
+        "(0,0,0,-288768)": 24,
+        "(0,0,0,102912)": 24,
+        "(0,0,0,79872)": 48
+      },
+      "mask_counts": {
+        "1203": 2,
+        "1320": 10,
+        "2013": 26,
+        "2130": 16,
+        "3021": 24,
+        "3102": 18
+      },
+      "pair_count": 96,
+      "source_diagonal_set": [
+        "0123",
+        "1032",
+        "2301",
+        "3210"
+      ],
+      "source_diagonal_size": 4,
+      "square_count": 96,
+      "type_id": "S1"
+    },
+    {
+      "apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "mask_counts": {
+        "2013": 4,
+        "2130": 6,
+        "3021": 2,
+        "3102": 4
+      },
+      "pair_count": 16,
+      "source_diagonal_set": [
+        "0123",
+        "0132",
+        "1023",
+        "1032",
+        "2301",
+        "2310",
+        "3201",
+        "3210"
+      ],
+      "source_diagonal_size": 8,
+      "square_count": 16,
+      "type_id": "S2"
+    },
+    {
+      "apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "mask_counts": {
+        "1203": 2,
+        "2013": 10,
+        "3021": 2,
+        "3102": 2
+      },
+      "pair_count": 16,
+      "source_diagonal_set": [
+        "0123",
+        "0213",
+        "1032",
+        "1302",
+        "2031",
+        "2301",
+        "3120",
+        "3210"
+      ],
+      "source_diagonal_size": 8,
+      "square_count": 16,
+      "type_id": "S3"
+    },
+    {
+      "apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "mask_counts": {
+        "1320": 2,
+        "2013": 4,
+        "2130": 2,
+        "3021": 8
+      },
+      "pair_count": 16,
+      "source_diagonal_set": [
+        "0123",
+        "0321",
+        "1032",
+        "1230",
+        "2103",
+        "2301",
+        "3012",
+        "3210"
+      ],
+      "source_diagonal_size": 8,
+      "square_count": 16,
+      "type_id": "S4"
+    }
+  ],
+  "square_count": 144,
+  "terminal_decomposition_counts": {
+    "source_24_incidence_0:25; source_34_incidence_1:50; source_44_incidence_2:21": 144
+  },
+  "terminal_decomposition_type_count": 1
+}

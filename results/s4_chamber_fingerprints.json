@@ -1,0 +1,247 @@
+{
+  "comparison": {
+    "D4_contains_V4": true,
+    "chamber_component_counts": {
+      "D4": 4,
+      "V4": 4
+    },
+    "coset_tiler_counts": {
+      "D4": 3,
+      "V4": 6
+    },
+    "poset_cone_status": {
+      "D4": false,
+      "V4": false
+    },
+    "size_drop": "8 -> 4"
+  },
+  "metadata": {
+    "chamber_model": "A3 chambers are indexed by words in S4; chamber adjacency swaps adjacent positions in the word.",
+    "description": "Type-A A3 chamber fingerprints for Durer D4 and terminal V4 permutation-diagonal sets.",
+    "phase": "Phase D",
+    "project": "Magic 24"
+  },
+  "s4_chamber_edge_count": 36,
+  "s4_size": 24,
+  "subsets": {
+    "D4": {
+      "chamber_graph": {
+        "boundary_edge_count": 16,
+        "component_count": 4,
+        "component_sizes": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "components": [
+          [
+            "0123",
+            "0213"
+          ],
+          [
+            "1032",
+            "1302"
+          ],
+          [
+            "2031",
+            "2301"
+          ],
+          [
+            "3120",
+            "3210"
+          ]
+        ],
+        "internal_edge_count": 4
+      },
+      "common_halfspace_closure_size": 24,
+      "common_halfspace_closure_words": [
+        "0123",
+        "0132",
+        "0213",
+        "0231",
+        "0312",
+        "0321",
+        "1023",
+        "1032",
+        "1203",
+        "1230",
+        "1302",
+        "1320",
+        "2013",
+        "2031",
+        "2103",
+        "2130",
+        "2301",
+        "2310",
+        "3012",
+        "3021",
+        "3102",
+        "3120",
+        "3201",
+        "3210"
+      ],
+      "common_precedence_relations": [],
+      "is_standard_poset_cone": false,
+      "is_subgroup": true,
+      "left_coset_count": 3,
+      "left_cosets": [
+        [
+          "0123",
+          "0213",
+          "1032",
+          "1302",
+          "2031",
+          "2301",
+          "3120",
+          "3210"
+        ],
+        [
+          "0132",
+          "0312",
+          "1023",
+          "1203",
+          "2130",
+          "2310",
+          "3021",
+          "3201"
+        ],
+        [
+          "0231",
+          "0321",
+          "1230",
+          "1320",
+          "2013",
+          "2103",
+          "3012",
+          "3102"
+        ]
+      ],
+      "name": "D4_source_diagonals",
+      "order_profile": {
+        "1": 1,
+        "2": 5,
+        "4": 2
+      },
+      "size": 8,
+      "words": [
+        "0123",
+        "0213",
+        "1032",
+        "1302",
+        "2031",
+        "2301",
+        "3120",
+        "3210"
+      ]
+    },
+    "V4": {
+      "chamber_graph": {
+        "boundary_edge_count": 12,
+        "component_count": 4,
+        "component_sizes": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "components": [
+          [
+            "0123"
+          ],
+          [
+            "1032"
+          ],
+          [
+            "2301"
+          ],
+          [
+            "3210"
+          ]
+        ],
+        "internal_edge_count": 0
+      },
+      "common_halfspace_closure_size": 24,
+      "common_halfspace_closure_words": [
+        "0123",
+        "0132",
+        "0213",
+        "0231",
+        "0312",
+        "0321",
+        "1023",
+        "1032",
+        "1203",
+        "1230",
+        "1302",
+        "1320",
+        "2013",
+        "2031",
+        "2103",
+        "2130",
+        "2301",
+        "2310",
+        "3012",
+        "3021",
+        "3102",
+        "3120",
+        "3201",
+        "3210"
+      ],
+      "common_precedence_relations": [],
+      "is_standard_poset_cone": false,
+      "is_subgroup": true,
+      "left_coset_count": 6,
+      "left_cosets": [
+        [
+          "0123",
+          "1032",
+          "2301",
+          "3210"
+        ],
+        [
+          "0132",
+          "1023",
+          "2310",
+          "3201"
+        ],
+        [
+          "0213",
+          "1302",
+          "2031",
+          "3120"
+        ],
+        [
+          "0231",
+          "1320",
+          "2013",
+          "3102"
+        ],
+        [
+          "0312",
+          "1203",
+          "2130",
+          "3021"
+        ],
+        [
+          "0321",
+          "1230",
+          "2103",
+          "3012"
+        ]
+      ],
+      "name": "V4_terminal_diagonals",
+      "order_profile": {
+        "1": 1,
+        "2": 3
+      },
+      "size": 4,
+      "words": [
+        "0123",
+        "1032",
+        "2301",
+        "3210"
+      ]
+    }
+  }
+}

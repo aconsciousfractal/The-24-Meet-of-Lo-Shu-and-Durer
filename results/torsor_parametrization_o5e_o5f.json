@@ -1,0 +1,643 @@
+{
+  "affine_square_mask_pair_count": 3456,
+  "agl_torsor_fiber_distribution": {
+    "False": 48,
+    "True": 96
+  },
+  "agl_torsor_holds_for_all_fibers": false,
+  "distinct_point_map_count_distribution": {
+    "16": 32,
+    "20": 16,
+    "24": 96
+  },
+  "endpoint_distribution_for_agl_torsor_fibers": {
+    "22": 144,
+    "24": 96,
+    "25": 48,
+    "26": 288,
+    "28": 48,
+    "29": 96,
+    "30": 288,
+    "31": 144,
+    "32": 288,
+    "33": 288,
+    "34": 576
+  },
+  "endpoint_distribution_for_non_agl_torsor_fibers": {
+    "24": 48,
+    "25": 96,
+    "26": 144,
+    "28": 96,
+    "29": 48,
+    "30": 144,
+    "32": 144,
+    "33": 144,
+    "34": 288
+  },
+  "fiber_count_by_selected_plane_and_direction": 144,
+  "fiber_size_distribution": {
+    "24": 144
+  },
+  "full_affine_map_count_per_plane_distribution": {
+    "24": 144
+  },
+  "global_refined_key_count": 3456,
+  "interpretation": {
+    "corrected_parametrization": "The pair (phi, mask) is injective inside every (P,W)-fiber, so the 24-factor is a mask-refined incidence fiber, not a pure AGL(2,2) point-map torsor.",
+    "o5e_verdict": "The coarse fiber count exists: 24 selected planes times 6 invertible directions times 24 records.  However, records are not always parametrized by the affine point-map phi alone.",
+    "o5f_verdict": "Only 96 of the 144 (P,W)-fibers realize all 24 affine bijections and hence carry the naive AGL(2,2) torsor on phi. The remaining 48 fibers have duplicated phi maps."
+  },
+  "mask_refined_p_w_phi_mask_parametrization_holds": true,
+  "metadata": {
+    "description": "Tests the proposed (P,W,affine-bijection) parametrization and AGL(2,2) torsor claim.",
+    "phase": "Phase O5e/O5f",
+    "project": "Magic 24"
+  },
+  "naive_p_w_phi_parametrization_holds": false,
+  "point_map_mask_pair_count_distribution": {
+    "24": 144
+  },
+  "point_map_multiplicity_pattern_distribution": {
+    "(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)": 96,
+    "(2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)": 16,
+    "(2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1)": 32
+  },
+  "sample_failures": [
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 16,
+      "duplicate_point_maps": [
+        {
+          "multiplicity": 2,
+          "point_map": "1,6,2,5",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 89
+            },
+            {
+              "endpoint": 34,
+              "mask": "1320",
+              "square_index": 661
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,5,2,6",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 123
+            },
+            {
+              "endpoint": 34,
+              "mask": "1320",
+              "square_index": 627
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,6,5",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 200
+            },
+            {
+              "endpoint": 34,
+              "mask": "3102",
+              "square_index": 747
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,5,6",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 205
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 740
+            }
+          ]
+        }
+      ],
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": false,
+      "selected_plane": "1,2,5,6",
+      "translation_direction": "0,3,12,15"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 16,
+      "duplicate_point_maps": [
+        {
+          "multiplicity": 2,
+          "point_map": "1,6,2,5",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 95
+            },
+            {
+              "endpoint": 34,
+              "mask": "1320",
+              "square_index": 657
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,5,2,6",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 113
+            },
+            {
+              "endpoint": 34,
+              "mask": "1320",
+              "square_index": 641
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,5,6",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 190
+            },
+            {
+              "endpoint": 34,
+              "mask": "3102",
+              "square_index": 734
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,6,5",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 195
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 729
+            }
+          ]
+        }
+      ],
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": false,
+      "selected_plane": "1,2,5,6",
+      "translation_direction": "0,3,13,14"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 16,
+      "duplicate_point_maps": [
+        {
+          "multiplicity": 2,
+          "point_map": "1,10,2,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 62
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 678
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,9,2,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 119
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 634
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,9,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 202
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 745
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,10,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 203
+            },
+            {
+              "endpoint": 34,
+              "mask": "3102",
+              "square_index": 743
+            }
+          ]
+        }
+      ],
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": false,
+      "selected_plane": "1,2,9,10",
+      "translation_direction": "0,3,12,15"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 16,
+      "duplicate_point_maps": [
+        {
+          "multiplicity": 2,
+          "point_map": "1,9,2,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 66
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 674
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,10,2,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 114
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 639
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,10,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 191
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 733
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,9,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 194
+            },
+            {
+              "endpoint": 34,
+              "mask": "3102",
+              "square_index": 730
+            }
+          ]
+        }
+      ],
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": false,
+      "selected_plane": "1,2,9,10",
+      "translation_direction": "0,3,13,14"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 20,
+      "duplicate_point_maps": [
+        {
+          "multiplicity": 2,
+          "point_map": "1,9,2,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 111
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 833
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "1,2,9,10",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 175
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 859
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "2,10,1,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0312",
+              "square_index": 288
+            },
+            {
+              "endpoint": 34,
+              "mask": "3021",
+              "square_index": 788
+            }
+          ]
+        },
+        {
+          "multiplicity": 2,
+          "point_map": "2,1,10,9",
+          "records": [
+            {
+              "endpoint": 34,
+              "mask": "0231",
+              "square_index": 360
+            },
+            {
+              "endpoint": 34,
+              "mask": "2130",
+              "square_index": 807
+            }
+          ]
+        }
+      ],
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": false,
+      "selected_plane": "1,2,9,10",
+      "translation_direction": "0,5,10,15"
+    }
+  ],
+  "sample_successes": [
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 24,
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": true,
+      "selected_plane": "1,2,3,4",
+      "translation_direction": "0,5,10,15"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 24,
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": true,
+      "selected_plane": "1,2,3,4",
+      "translation_direction": "0,5,11,14"
+    },
+    {
+      "all_affine_map_count": 24,
+      "distinct_point_map_count": 24,
+      "fiber_size": 24,
+      "point_map_mask_pair_count": 24,
+      "point_map_multiplicity_pattern": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "realizes_all_affine_maps": true,
+      "selected_plane": "1,2,3,4",
+      "translation_direction": "0,6,11,13"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the companion paper/repository."
+title: "The 24-Meet of Lo Shu and Dürer"
+authors:
+  - family-names: "Babanskyy"
+    given-names: "Oleksiy"
+year: 2026
+license: MIT
+repository-code: "https://github.com/aconsciousfractal/The-24-Meet-of-Lo-Shu-and-Durer"

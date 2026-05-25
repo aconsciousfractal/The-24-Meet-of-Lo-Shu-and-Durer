@@ -1,0 +1,1279 @@
+% The 24-Meet of Lo Shu and Durer --- paper source
+%
+% Public-facing claims are controlled by docs/CLAIM_CROSSWALK.md.
+% Analytic statements are proved in the text.  Finite enumerations and exact
+% replay statements are labelled as Certified Propositions and point to
+% repository replay artifacts.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{xspace}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  citecolor=blue!55!black,
+  urlcolor=blue!55!black,
+  pdftitle={The 24-Meet of Lo Shu and Durer: Bounded Magic Spectra, Sagrada Rays, and F2-to-the-4 Transport},
+  pdfauthor={Oleksiy Babanskyy},
+  pdfsubject={Bounded magic-square endpoint certificates},
+  pdfkeywords={magic squares, Lo Shu, Durer square, Sagrada Familia, F2-to-the-4, affine geometry, finite certificates}
+}
+\emergencystretch=2em
+
+% ---- Theorem environments ----
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{certprop}[theorem]{Certified Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% ---- Notation ----
+\newcommand{\B}{\mathcal B}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Ray}{\operatorname{Ray}}
+\newcommand{\Meet}{\operatorname{Meet}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\SNF}{\operatorname{SNF}}
+\newcommand{\F}{\mathbb F}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\AGL}{\operatorname{AGL}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\APD}{\operatorname{APD}}
+\newcommand{\Durer}{D\"urer\xspace}
+
+\title{The 24-Meet of Lo Shu and \Durer:\\
+Bounded Magic Spectra, Sagrada Rays, and \(F_2^4\) Transport}
+\author{Oleksiy Babanskyy}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We isolate a bounded endpoint shared by two different magic-square
+mechanisms.  On the \(3\times3\) side, repeated-entry magic squares with
+entries in \([1,9]\) have an upper non-degenerate Lo Shu fiber at sum \(24\)
+and a degenerate all-9 fiber at sum \(27\).  On the \(4\times4\) side, a
+one-incidence Sagrada mask on the \Durer-complement square defines a bounded
+ray \(D(t)=D-tM\) whose terminal point occurs at \(t=10\), again at sum
+\(24\).  The weak meet is \(\{24,27\}\); after imposing non-degeneration on
+the Lo Shu side and terminality on the \Durer/Sagrada side, the unique strong
+meet is \(\{24\}\).
+
+The endpoint also carries finite structure on the \Durer side.  The target
+permutation diagonals drop from a dihedral subgroup \(D_4\le S_4\) to the
+Klein four subgroup \(V_4\), and the \Durer value-minus-one cell model gives
+an \(F_2^4\) affine transport layer: \(52\) affine source quaternes reduce to
+\(36\) affine terminal quaternes.  A broader order-four audit shows that
+terminal \(24\) is not unique: it occurs in \(236\) square-mask pairs.  Inside
+that landscape, the robust object is a \(144\)-pair exact \(V_4\) subclass
+characterized by global \(F_2^4\)-affineness; selected-affine near misses are
+separated in the atlas by a quotient-shadow obstruction.  Thus \(24\) is not a
+universal invariant of magic squares.  It is a structured endpoint in a
+specific bounded meet, supported by exact finite certificates.
+\end{abstract}
+
+\noindent\textbf{Keywords.} Magic squares, Lo Shu, \Durer square, Sagrada
+Familia square, bounded lattice points, permutation diagonals, Klein four
+group, affine geometry over \(F_2\), finite certificates.
+
+\smallskip
+\noindent\textbf{MSC 2020.} 05B15 (primary), 05A15, 05E18, 11P21, 52B20,
+20B25.
+
+\section{Introduction}
+
+The classical Lo Shu square and \Durer's order-four magic square belong to
+different corners of the magic-square literature.  \Durer's square has a rich
+record of symmetries, quaterne patterns, and Sagrada Familia variants
+\cite{mathworldDurer,maritzSagrada,trenklerMelancholic,sudberyTesseract}.
+Order-four magic squares also have a classical finite classification: up to
+the standard equivalences there are \(880\) normal representatives
+\cite{ollerenshawBondi}.  The present paper adds no universal numerological
+slogan to this literature.  It puts one observation into a bounded,
+certificate-controlled category.
+
+The observation is that the value \(24\) occurs as the endpoint of two
+unrelated-looking bounded mechanisms:
+\begin{itemize}[leftmargin=*]
+\item a non-degenerate upper fiber of repeated-entry \(3\times3\) magic
+  squares with values in \([1,9]\);
+\item the terminal point of a one-incidence Sagrada perturbation ray inside a
+  \(4\times4\) \Durer-complement square with values in \([1,16]\).
+\end{itemize}
+The first mechanism is a lattice diamond.  The second is a bounded ray.  Their
+weak numerical intersection contains \(24\) and \(27\), but \(27\) fails both
+endpoint tests: it is the degenerate all-9 Lo Shu fiber and an interior point
+of the \Durer/Sagrada ray.  The strong meet is therefore \(24\).
+
+The manuscript has two layers of results.
+\begin{enumerate}[label=\textbf{(\alph*)},leftmargin=*]
+\item The central bounded-meet theorem is a short mathematical consequence of
+  the two certified spectra.
+\item The \Durer-side structure is an exact finite replay: quaterne transport,
+  the \(D_4\to V_4\) permutation-diagonal drop, the \(F_2^4\) affine transport
+  layer, the bounded-polytope guardrail, and the order-four endpoint atlas.
+\end{enumerate}
+We use an explicit claim-level convention: replay-backed statements are
+labelled as \emph{Certified Propositions}.  These are not external theorems;
+they are finite exact replays or finite enumerations whose scope is explicitly
+bounded by repository artifacts, tests, and a claim crosswalk.  The controlling
+ledger for this manuscript is
+\[
+\texttt{docs/CLAIM\_CROSSWALK.md},
+\]
+and the main certificate pack is
+\[
+\texttt{results/magic24\_certificate\_pack.json}.
+\]
+
+\paragraph{What is not claimed.}
+The guardrails are part of the result.  The paper does not claim that \(24\)
+is a universal invariant of magic squares, that the terminal square \(D(10)\)
+is more perfect than \Durer's source square, or that \(D(10)\) is a vertex of
+the bounded order-four magic polytope.  It also does not identify the
+terminal \(V_4\) diagonal subgroup with a type-A poset cone, and it does not
+claim that the \(F_2^4\) layer isolates only the historical \Durer/Sagrada cell
+in the full order-four atlas.  These stronger statements are listed as
+blocked claims in the reproducibility package.
+
+\paragraph{Organization.}
+Sections~\ref{sec:bounded}--\ref{sec:meet} prove the strong bounded meet.
+Sections~\ref{sec:quaternes}--\ref{sec:f2} give the \Durer-side enrichment:
+quaterne transport, permutation diagonals, and the \(F_2^4\) tesseract layer.
+Section~\ref{sec:polytope} records the bounded-polytope guardrail, and
+Section~\ref{sec:order4} summarizes the order-four extension.  The appendices
+collect the endpoint atlas, exact canonical \(V_4\) subclass, secondary
+audits, and open problems.
+
+\section{Bounded Magic Squares and One-Incidence Rays}
+\label{sec:bounded}
+
+\begin{definition}[Bounded repeated-entry magic squares]
+For positive integers \(n,m,S\), let \(\B(n,m,S)\) be the set of integer
+\(n\times n\) arrays \(A=(a_{ij})\) with entries in \([1,m]\) such that all
+rows, all columns, and the two main diagonals sum to \(S\).  Repeated entries
+are allowed.
+\end{definition}
+
+The repeated-entry convention is essential.  It lets the Lo Shu side form a
+short bounded spectrum and lets the \Durer side move along a perturbation ray.
+Thus the phrase ``Lo Shu side'' means the affine \(3\times3\) magic-square
+family normalized around the Lo Shu center, not normal \(3\times3\) squares
+with distinct symbols \(1,\ldots,9\).  It is separate from the distinct-entry
+inside-out enumerations of magic and magilatin labellings
+\cite{beckZaslavskyInsideOut,beckZaslavskyMagicLabellings,beckVanHerick}.
+Throughout this paper, ``magic'' means row sums, column sums, and the two main
+diagonal sums; panmagic or toroidal diagonal constraints are not part of the
+ambient category unless explicitly stated.
+
+\begin{definition}[One-incidence mask]
+Let \(Q\) be an \(n\times n\) magic square.  A zero-one mask \(M\) is
+one-incidence if every row, every column, and both main diagonals of \(M\)
+have sum \(1\).  Then
+\[
+Q(t)=Q-tM
+\]
+is again magic, with magic sum decreased by \(t\), for every integer \(t\).
+The bounded terminal time is the largest \(t\ge 0\) for which \(Q(t)\) remains
+inside the prescribed entry interval.
+\end{definition}
+
+For \(4\times4\) squares, one-incidence masks are indexed by the
+permutations \(\sigma\in S_4\) that use one cell in each row and column and
+also one cell in each main diagonal.
+
+\section{The Lo Shu Lattice Diamond}
+\label{sec:loshu}
+
+Every \(3\times3\) magic square can be parametrized as
+\[
+\begin{pmatrix}
+g+a & g-a-b & g+b\\
+g-a+b & g & g+a-b\\
+g-b & g+a+b & g-a
+\end{pmatrix},
+\qquad S=3g.
+\]
+Imposing entries in \([1,9]\) gives a lattice diamond in the \((a,b)\)-plane:
+\[
+|a+b|\le m,\qquad |a-b|\le m,\qquad
+m=\min(g-1,9-g).
+\]
+The diamond has
+\[
+2m^2+2m+1
+\]
+integer points.
+
+\begin{certprop}[Bounded Lo Shu spectrum]
+\label{prop:loshu-spectrum}
+For \(S=3,6,\ldots,27\), the sizes of \(\B(3,9,S)\) are
+\[
+1,\;5,\;13,\;25,\;41,\;25,\;13,\;5,\;1.
+\]
+In particular,
+\[
+\Spec^+_{3,9}(15)=\{18,21,24,27\}.
+\]
+At \(S=24\) the fiber has \(5\) points, while at \(S=27\) the fiber is the
+unique all-9 square.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C01--M24-C03 and M24-C57 in
+\path{docs/CLAIM_CROSSWALK.md}.  The replay is in the certificate pack and
+the Lo Shu lattice-polygon note:
+\begin{itemize}[leftmargin=*]
+\item \path{results/magic24_certificate_pack.json}
+\item \path{docs/LO_SHU_LATTICE_POLYGON.md}
+\end{itemize}
+The formula above gives the closed-form count.
+\end{proof}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{rrrrrrrrrr}
+\toprule
+\(S\) & 3 & 6 & 9 & 12 & 15 & 18 & 21 & 24 & 27\\
+\midrule
+\(|\B(3,9,S)|\) & 1 & 5 & 13 & 25 & 41 & 25 & 13 & 5 & 1\\
+\bottomrule
+\end{tabular}
+\caption{Bounded repeated-entry \(3\times3\) magic-square counts with entries
+in \([1,9]\).}
+\label{tab:loshu-counts}
+\end{table}
+
+At \(S=24\), \(g=8\), \(m=1\), and the five parameter points are
+\[
+(0,0),\quad (1,0),\quad (0,1),\quad (-1,0),\quad (0,-1).
+\]
+At \(S=27\), \(g=9\), \(m=0\), and the diamond collapses to a single point.
+This collapse is the non-degeneration distinction that will remove \(27\)
+from the strong meet.
+
+\section{The \Durer/Sagrada Ray}
+\label{sec:durer-ray}
+
+We use the \Durer-complement square
+\[
+D=
+\begin{pmatrix}
+1&14&15&4\\
+12&7&6&9\\
+8&11&10&5\\
+13&2&3&16
+\end{pmatrix},
+\qquad S_D=34.
+\]
+This is the complement orientation of the classical \Durer square, obtained
+by \(x\mapsto17-x\), chosen because it matches the Sagrada mask convention
+used here.
+Let \(M\) be the one-incidence mask indexed by \(2013\), selecting the four
+cells
+\[
+(0,2),\quad (1,0),\quad (2,1),\quad (3,3).
+\]
+These cells contain \(15,12,11,16\).
+
+\begin{figure}[htbp]
+\centering
+\[
+\begin{pmatrix}
+1&14&\boxed{15}&4\\
+\boxed{12}&7&6&9\\
+8&\boxed{11}&10&5\\
+13&2&3&\boxed{16}
+\end{pmatrix}
+\]
+\caption{The Sagrada mask \(2013\) on the \Durer-complement square.}
+\label{fig:sagrada-mask}
+\end{figure}
+
+\begin{certprop}[Sagrada terminality]
+\label{prop:sagrada-terminal}
+The ray \(D(t)=D-tM\) remains inside \([1,16]\) exactly for
+\[
+0\le t\le 10.
+\]
+Its terminal magic sum is \(34-10=24\).  Among the eight one-incidence \Durer
+masks, \(2013\) is the unique mask with terminal sum \(24\).  Equivalently,
+it is the unique maximin mask: it uniquely maximizes the smallest selected
+entry, hence uniquely maximizes the allowed downward time \(t_{\max}\).
+\end{certprop}
+
+\begin{proof}[Certification]
+For selected values \(v_1,\ldots,v_4\), the bound \(D-tM\in[1,16]\) gives
+\[
+t_{\max}=\min_i(v_i-1).
+\]
+The selected values for \(2013\) are \(15,12,11,16\), so
+\(t_{\max}=\min(14,11,10,15)=10\).  The eight-mask replay in
+Table~\ref{tab:durer-masks} shows that no other admissible mask has selected
+minimum \(11\), so this is also the unique maximin mask.  The full replay is
+Claim IDs M24-C04, M24-C05, M24-C51, and M24-C64, certified in
+\texttt{results/magic24\_certificate\_pack.json} and
+\texttt{results/f2\_tesseract\_analysis.json}.
+\end{proof}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{llrr}
+\toprule
+Mask & Selected values & \(t_{\max}\) & Terminal sum\\
+\midrule
+0231 & \(1,6,5,2\) & 0 & 34\\
+0312 & \(1,9,11,3\) & 0 & 34\\
+1203 & \(14,6,8,16\) & 5 & 29\\
+1320 & \(14,9,10,13\) & 8 & 26\\
+2013 & \(15,12,11,16\) & 10 & 24\\
+2130 & \(15,7,5,13\) & 4 & 30\\
+3021 & \(4,12,10,2\) & 1 & 33\\
+3102 & \(4,7,8,3\) & 2 & 32\\
+\bottomrule
+\end{tabular}
+\caption{The eight admissible one-incidence masks for the \Durer-complement
+orientation used in this paper.}
+\label{tab:durer-masks}
+\end{table}
+
+The closed bounded ray spectrum is
+\[
+\Ray^-_{D,M}=\{24,25,26,27,28,29,30,31,32,33,34\}.
+\]
+For the meet calculation, we use the strict downward part below the source
+sum \(34\), namely \(\{24,\ldots,33\}\), because the meet compares Lo Shu
+values above the base sum \(15\) with nontrivial downward perturbations below
+the \Durer source.
+
+\section{The Strong Meet}
+\label{sec:meet}
+
+\begin{definition}[Weak and strong meet]
+The weak meet is the numerical intersection of the upward Lo Shu spectrum
+above \(15\) and the strict downward \Durer/Sagrada ray spectrum below \(34\).
+The strong meet keeps only values that are non-degenerate on the Lo Shu side
+and terminal on the \Durer/Sagrada side.
+\end{definition}
+
+\begin{theorem}[Strong bounded Lo Shu/\Durer-Sagrada meet]
+\label{thm:strong-meet}
+For the bounded categories above,
+\[
+\Meet_{\mathrm{weak}}=\{24,27\},
+\qquad
+\Meet_{\mathrm{strong}}=\{24\}.
+\]
+\end{theorem}
+
+\begin{proof}
+By Certified Proposition~\ref{prop:loshu-spectrum},
+\[
+\Spec^+_{3,9}(15)=\{18,21,24,27\}.
+\]
+By Certified Proposition~\ref{prop:sagrada-terminal}, the strict downward
+\Durer/Sagrada ray contains
+\[
+\{24,25,26,27,28,29,30,31,32,33\}.
+\]
+The intersection is \(\{24,27\}\).  The value \(24\) is non-degenerate on the
+Lo Shu side and terminal on the \Durer/Sagrada side.  The value \(27\) is the
+all-9 Lo Shu fiber and occurs at the non-terminal \Durer ray time \(t=7\).
+Therefore only \(24\) survives the strong meet rule.
+\end{proof}
+
+\begin{remark}
+The value \(27\) is the control case.  It shows why the theorem needs the two
+boundary conditions rather than a bare intersection of spectra.
+\end{remark}
+
+\begin{figure}[htbp]
+\centering
+\fbox{\begin{minipage}{0.88\linewidth}
+\[
+\begin{array}{ccl}
+\text{Lo Shu upper spectrum}
+  &:& 18\quad 21\quad \boxed{24}\quad 27_{\mathrm{deg}}\\[2mm]
+\text{\Durer/Sagrada downward ray}
+  &:& 33\quad 32\quad \cdots\quad 27\quad \cdots\quad \boxed{24}_{\mathrm{term}}
+\end{array}
+\]
+\[
+\Meet_{\mathrm{weak}}=\{24,27\},
+\qquad
+\Meet_{\mathrm{strong}}=\{24\}.
+\]
+\end{minipage}}
+\caption{The strong meet keeps the value that is simultaneously
+non-degenerate on the Lo Shu side and terminal on the \Durer/Sagrada side.}
+\label{fig:strong-meet-spine}
+\end{figure}
+
+\section{Quaterne Transport}
+\label{sec:quaternes}
+
+For a \(4\times4\) square \(A\), let \(H_s(A)\) denote the family of
+four-cell subsets whose entries sum to \(s\).  These subsets are not required
+to be rows, columns, diagonals, or geometric lines.  They are the
+four-uniform set-system layer of the square: the transport problem asks how
+these labelled hyperedges move under a bounded mask perturbation.  We use
+``quaterne'' for four-cell subsets, following the \Durer-pattern literature.
+\Durer's \(34\)-sum quaternes are a classical theme in the literature on
+melancholic magic squares \cite{trenklerMelancholic}.
+
+\begin{certprop}[\Durer/Sagrada quaterne transport]
+\label{prop:quaterne-transport}
+The \Durer-complement square has
+\[
+|H_{34}(D)|=86.
+\]
+Against the Sagrada mask, those \(86\) quaternes have incidence distribution
+\[
+19,\;50,\;17
+\]
+for mask incidences \(0,1,2\).  The terminal square has
+\[
+|H_{24}(D(10))|=96,
+\]
+with source decomposition
+\[
+25+50+21,
+\]
+coming respectively from source sum \(24\) and incidence \(0\), source sum
+\(34\) and incidence \(1\), and source sum \(44\) and incidence \(2\).
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C07--M24-C09 and M24-C117, replayed in
+\begin{itemize}[leftmargin=*]
+\item \path{results/magic24_certificate_pack.json}
+\item \path{results/inside_out_set_system_audit.json}
+\end{itemize}
+The transport rule is immediate from \(D(10)=D-10M\): a source quaterne with
+Sagrada incidence \(k\) has terminal sum decreased by \(10k\).
+\end{proof}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Source family & Mask incidence & Count & Terminal sum at \(t=10\)\\
+\midrule
+\(H_{34}(D)\) & 0 & 19 & 34\\
+\(H_{34}(D)\) & 1 & 50 & 24\\
+\(H_{34}(D)\) & 2 & 17 & 14\\
+\midrule
+Source sum 24 & 0 & 25 & 24\\
+Source sum 34 & 1 & 50 & 24\\
+Source sum 44 & 2 & 21 & 24\\
+\bottomrule
+\end{tabular}
+\caption{The source \(H_{34}(D)\) incidence split and the terminal
+\(H_{24}(D(10))\) decomposition.}
+\label{tab:quaterne-transport}
+\end{table}
+
+\begin{remark}[Johnson-scheme reading]
+The quaternes are \(4\)-subsets of the \(16\)-cell set, hence live in the
+Johnson scheme \(J(16,4)\).  For a selected mask \(M\), write
+\[
+J_i(M)=\{Q:\ |Q|=4,\ |Q\cap M|=i\}.
+\]
+The transport identity is simply
+\[
+\sum_{c\in Q}(A-tM)_c=\sum_{c\in Q}A_c-t\,|Q\cap M|.
+\]
+The mask-only Phase-P replay in
+\path{results/johnson_quaterne_layer_p.json} shows that this language
+separates the main \(176=144+32\) selected-affine terminal-24 signature from
+the remaining \(60\) outside-main records, but does not separate the \(144\)
+exact-\(V_4\) records from the \(32\) selected-affine extras.  The anchored
+replay in \path{results/johnson_anchor_refinement_p2.json} adds the fixed
+translation \(V_4=\{0123,1032,2301,3210\}\) from the O5 layer as four
+Johnson anchors; that anchored profile separates the \(144\), \(32\), and
+\(60\) classes.  The direction-level replay in
+\path{results/johnson_anchor_direction_p3.json} explains the exact
+\(144\)-profile: relative to the fixed translation direction, the terminal
+affine quaternes have the uniform inventory
+\[
+  1\ \text{same direction} \;+\; 5\ \text{line-intersection directions}
+  \;+\; 3\ \text{complement directions},
+\]
+giving the anchored shadow
+\[
+  4(4,0,0,0)+20(2,2,0,0)+12(1,1,1,1).
+\]
+The follow-up replays in \path{results/johnson_followup_p4.json} and
+\path{results/o5e_collision_forbidden_shadow_p5.json} sharpen this boundary.
+For the exact \(144\), the \(36\) terminal-affine quaternes have inner
+intersection distribution
+\[
+  |Q\cap Q'|=0:246,\qquad |Q\cap Q'|=1:192,\qquad |Q\cap Q'|=2:192,
+\]
+and every cell has degree \(9\).  More importantly, the \(32\)
+selected-affine extras are exactly the records with positive forbidden
+quotient-shadow mass.  If \(F_{2110}\) counts terminal-affine quaternes whose
+anchored shadow is \((2,1,1,0)\), then
+\[
+  F_{2110}=0 \quad\text{for the exact }144,\qquad
+  F_{2110}\in\{12,16\} \quad\text{for the }32\text{ extras}.
+\]
+The linear reason is short.  Let \(W_0\le F_2^4\) be the two-dimensional
+direction of the fixed translation spread, and let \(A=a+L\) be a
+domain-affine plane.  Under the quotient \(F_2^4\to F_2^4/W_0\), the image of
+\(A\) is an affine subspace of dimension \(0\), \(1\), or \(2\); the nonempty
+fibers of the restricted quotient map all have equal size.  Thus the sorted
+spread-shadow of \(A\) is only
+\[
+  (4,0,0,0),\qquad (2,2,0,0),\qquad \text{or}\qquad (1,1,1,1),
+\]
+and \((2,1,1,0)\) is impossible for a domain-affine plane.  The P6 replay
+\path{results/forbidden_shadow_split_p6.json} also shows that the
+within-the-32 split is not independent: \(F_{2110}=12\) is exactly the
+\(16\) two-diagonal translation-subset terminal records, while \(F_{2110}=16\)
+is exactly the two \(8\)-record \(V_4\)-like terminal-set classes.  Thus the
+\(144/32\) boundary is visible in O5-anchored Johnson data, not in the
+mask-only Johnson strata.
+\end{remark}
+
+The \(50\) transported quaternes are the central bridge between the visible
+\Durer quaterne layer and the terminal \(24\)-layer.  Section~\ref{sec:f2}
+shows that \(36\) of these \(50\) transported quaternes are affine planes in
+the \(F_2^4\) tesseract model.
+
+\section{Permutation Diagonals and the Type-A Scope}
+\label{sec:s4}
+
+The \(24\) permutation diagonals of a \(4\times4\) array are indexed by
+\(S_4\).  This is also the chamber set of the type-A Coxeter complex \(A_3\).
+In the present paper the type-A language is used only at this finite
+chamber-indexing level.
+
+\begin{certprop}[Permutation-diagonal subgroup drop]
+\label{prop:d4-v4}
+In the source \Durer-complement square, the target permutation diagonals of
+sum \(34\) are
+\[
+\{0123,0213,1032,1302,2031,2301,3120,3210\},
+\]
+an order-\(8\) subgroup isomorphic to \(D_4\).  For every \(t>0\) along the
+Sagrada ray, the target diagonals of the current magic sum \(34-t\) are
+\[
+\{0123,1032,2301,3210\},
+\]
+the Klein four subgroup \(V_4\).
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C10 and M24-C11 in the crosswalk, replayed in
+\texttt{results/magic24\_certificate\_pack.json}.
+\end{proof}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lll}
+\toprule
+Ray position & Target diagonal set & Group type\\
+\midrule
+\(t=0\) & \(0123,0213,1032,1302,2031,2301,3120,3210\) & \(D_4\)\\
+\(t>0\) & \(0123,1032,2301,3210\) & \(V_4\)\\
+\bottomrule
+\end{tabular}
+\caption{The \Durer/Sagrada permutation-diagonal drop.}
+\label{tab:d4-v4}
+\end{table}
+
+\begin{certprop}[Type-A guardrail]
+\label{prop:type-a-guardrail}
+In the \(A_3/S_4\) chamber model, these \(D_4\) and \(V_4\) subsets are
+subgroup/coset chamber tilers, not standard poset cones \(L(P)\).  Their
+common-halfspace closure is all of \(S_4\), and their induced chamber graphs
+are disconnected.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C12, M24-C41--M24-C43, and M24-C49, replayed in
+\begin{itemize}[leftmargin=*]
+\item \path{docs/TYPE_A_SUBGROUP_TILERS.md}
+\item \path{docs/TYPE_A_POSET_CONE_COMPARISON.md}
+\item \path{results/s4_chamber_fingerprints.json}
+\item \path{results/s4_poset_cone_comparison.json}
+\end{itemize}
+\end{proof}
+
+\begin{remark}
+The general subgroup/coset chamber-tiler component theorem belongs to the
+separate Type-A/Tetra paper line.  In this paper \(D_4\to V_4\) is used only
+as a \Durer-side enrichment and as a finite guardrail: subgroup tilers are not
+automatically poset cones.
+\end{remark}
+
+\section{The Binary Tesseract Layer}
+\label{sec:f2}
+
+Sudbery's tesseract reading of \Durer's square suggests labelling the \(16\)
+cells by \(D_{ij}-1\), hence by the elements of \(\F_2^4\)
+\cite{sudberyTesseract}.  In the orientation used here this is not merely a
+set-theoretic labelling.  It is linear in row and column bits.
+
+\begin{certprop}[Linear tesseract coordinatization]
+\label{prop:f2-linear}
+Write the row index and column index as two-bit vectors
+\[
+r=(r_0,r_1),\qquad c=(c_0,c_1).
+\]
+If
+\[
+D_{r,c}-1=(\ell_0,\ell_1,\ell_2,\ell_3)\in \F_2^4,
+\]
+then
+\[
+\ell_0=r_1+c_0+c_1,\quad
+\ell_1=r_0+c_0+c_1,\quad
+\ell_2=r_0+r_1+c_0,\quad
+\ell_3=r_0+r_1+c_1,
+\]
+with all operations in \(\F_2\).  Thus the cell-value map is a rank-\(4\)
+linear automorphism of \(\F_2^2\oplus \F_2^2\).  Consequently all \(24\)
+permutation diagonals are affine planes in the \Durer \(F_2^4\) model.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C73 and M24-C74, replayed in
+\begin{itemize}[leftmargin=*]
+\item \path{docs/F2_TESSERACT_LAYER.md}
+\item \path{results/f2_tesseract_analysis.json}
+\item \path{tests/test_f2_tesseract.py}
+\end{itemize}
+The final assertion also uses
+\(\AGL(2,2)\cong S_4\): every permutation of the four column labels is
+affine over \(\F_2^2\), so each graph \(x\mapsto \sigma(x)\) is an affine
+plane.
+\end{proof}
+
+\begin{certprop}[Affine source and terminal transport]
+\label{prop:f2-transport}
+There are \(140=35\cdot4\) affine planes in \(\F_2^4\).  Inside
+\(H_{34}(D)\), the affine quaternes are exactly
+\[
+13\text{ balanced directions}\times4\text{ cosets}=52.
+\]
+The Sagrada mask has direction \(W\).  Among the \(13\) balanced directions,
+\(9\) are complementary to \(W\), and these contribute
+\[
+9\cdot4=36
+\]
+terminal affine quaternes at \(D(10)\).  These \(36\) are precisely the pure
+transport layer from source sum \(34\) and Sagrada incidence \(1\).
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C65--M24-C67 and M24-C75--M24-C77.  The replay is in
+\texttt{docs/F2\_TESSERACT\_LAYER.md} and
+\texttt{results/f2\_tesseract\_analysis.json}.  A direction is balanced
+exactly when no coordinate bit is constant on it; these are the \(13\)
+directions whose cosets have integer value sum \(34\).  Complementarity to
+the Sagrada direction gives one Sagrada point in each coset, hence terminal
+sum \(24\) after subtracting \(10\).
+\end{proof}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lr}
+\toprule
+\(F_2^4\) layer & Count\\
+\midrule
+Ambient affine planes & \(35\cdot4=140\)\\
+Balanced source directions & 13\\
+Affine source quaternes in \(H_{34}(D)\) & \(13\cdot4=52\)\\
+Balanced directions complementary to Sagrada & 9\\
+Terminal affine quaternes in \(H_{24}(D(10))\) & \(9\cdot4=36\)\\
+\bottomrule
+\end{tabular}
+\caption{Finite-affine summary of the tesseract transport layer.}
+\label{tab:f2-transport}
+\end{table}
+
+The same \(F_2^2\) language gives a concise interpretation of
+Proposition~\ref{prop:d4-v4}:
+\[
+D_4=\{x\mapsto x+b\}\cup\{x\mapsto \operatorname{swap}(x)+b\},
+\qquad
+V_4=\{x\mapsto x+b\}.
+\]
+The ray collapses the target diagonal family from translations plus
+bit-swap translations to translations alone.
+
+\begin{remark}
+The \(F_2^4\) layer enriches the \Durer/Sagrada side of the meet.  It does
+not make \(24\) universal, and in the full order-four atlas it tracks the
+exact canonical \(V_4\) affine subclass rather than only the historical
+\Durer/Sagrada cell.
+\end{remark}
+
+\section{Bounded-Polytope Guardrail}
+\label{sec:polytope}
+
+Magic squares can also be studied as lattice points in polyhedral cones and
+bounded polytopes
+\cite{wardMagicVectorSpaces,ahmedMagicSquares,ahmedDeLoeraHemmecke}.  Here
+that language serves mainly as a guardrail.
+
+\begin{certprop}[The terminal square is not a vertex]
+\label{prop:not-vertex}
+The terminal square \(D(10)\) lies on the boundary of the bounded order-four
+magic-square polytope, but it is not a vertex of either the free-sum bounded
+polytope or the fixed-sum \(S=24\) bounded polytope.  The full fixed-sum
+\(S=24\) bounded polytope has affine dimension \(7\) and \(292\) vertices,
+with \(180\) integral and \(112\) semi-integral vertices.  The point \(D(10)\)
+has a two-vertex barycentric certificate
+\[
+D(10)=\frac45 V_{126}+\frac15 V_{140}
+\]
+in the full vertex catalogue.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C52, M24-C56, M24-C60, M24-C61, and M24-C63, replayed
+in the bounded-polytope and fixed-sum audit artifacts:
+\begin{itemize}[leftmargin=*]
+\item \path{docs/BOUNDED_MAGIC_POLYTOPE.md}
+\item \path{docs/FIXED_SUM24_POLYTOPE_AUDIT.md}
+\item \path{results/bounded_magic_polytope.json}
+\item \path{results/fixed_sum24_polytope_audit.json}
+\end{itemize}
+\end{proof}
+
+Thus the \(4\times4\) side is a bounded ray endpoint, not a shared vertex
+mechanism with the Lo Shu side.  This negative statement prevents the paper
+from replacing one overclaim by another.
+
+\section{Order-Four Extension}
+\label{sec:order4}
+
+The \Durer/Sagrada endpoint is not unique in the wider normal order-four
+dataset.  The companion replay first reconstructs the classical counts
+\[
+7040
+\]
+raw normal order-four magic squares and
+\[
+880
+\]
+essential representatives \cite{ollerenshawBondi}.
+
+\begin{certprop}[Endpoint-24 atlas and exact \(V_4\) subclass]
+\label{prop:order4-extension}
+Across the \(880\) essential order-four representatives and the eight
+admissible one-incidence masks, endpoint \(24\) occurs in \(236\)
+essential square-mask pairs.  In those terminal-24 records, affine cell-value
+labelling occurs in exactly \(144\) pairs, and this equals the exact
+canonical \(V_4\) terminal subclass in the chosen essential orientation.  The
+main inside-out terminal signature is a broader \(176\)-pair class:
+\[
+176=144+32.
+\]
+\end{certprop}
+
+\begin{proof}[Certification]
+This is Claim IDs M24-C15--M24-C17, M24-C78--M24-C80, M24-C124--M24-C127,
+and M24-C139.  The replay artifacts are
+\begin{itemize}[leftmargin=*]
+\item \path{data/order4_normal_essential_880.json}
+\item \path{results/order4_endpoint_spectrum.json}
+\item \path{results/order4_f2_extension.json}
+\item \path{results/exact_v4_affine_class_audit.json}
+\item \path{results/inside_out_main_signature_split.json}
+\end{itemize}
+\end{proof}
+
+The conclusion is qualitative rather than uniqueness-based.  \Durer/Sagrada is
+a historical canonical representative inside a larger structured terminal-24
+landscape.  The \(32\) extras in the \(176=144+32\) signature are structured
+near misses: earlier finite invariants did not explain them, while the
+current O5-anchored Johnson refinement separates them from the exact
+\(V_4\) class by positive forbidden quotient-shadow mass.  Their broader
+conceptual role remains a follow-up question rather than a strong-meet
+mechanism.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\begin{minipage}{0.86\linewidth}
+\[
+\begin{array}{rcl}
+236 & & \text{terminal-24 essential square-mask pairs}\\
+ & \supset & 176 \quad \text{main selected-mask-affine / inside-out class}\\
+ & & \quad = 144 \quad \text{exact canonical }V_4
+      \text{ and globally affine cell-value class}\\
+ & & \qquad\quad \supset 8 \quad \text{\Durer/Sagrada quotient cell}\\
+ & & \quad + 32 \quad \text{structured non-exact extras}\\
+ & \supset & 60 \quad \text{outside the main signature.}
+\end{array}
+\]
+\end{minipage}}
+\caption{Order-four terminal-24 containment diagram.  The robust class is the
+\(144\)-pair globally affine exact-\(V_4\) subclass; the historical
+\Durer/Sagrada cell is a small canonical representative inside it.}
+\label{fig:order4-containment}
+\end{figure}
+
+\section{Certificate Architecture}
+\label{sec:certificates}
+
+The main body uses a narrow claim set.  Table~\ref{tab:claim-map} summarizes
+the claim levels and keeps the computational layers in their proper roles.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{p{0.24\linewidth}p{0.30\linewidth}p{0.34\linewidth}}
+\toprule
+Layer & Paper role & Primary repository control\\
+\midrule
+Strong meet & theorem & \texttt{CLAIM\_CROSSWALK.md}\\
+Lo Shu and Sagrada ray & certified propositions & certificate pack\\
+Quaterne transport & certified proposition & certificate pack, inside-out audit\\
+\(D_4\to V_4\), Type-A scope & certified propositions & \(S_4\) reports\\
+\(F_2^4\), bounded polytope & certified propositions / guardrails & Phase F/E reports\\
+880/236/144/176 extension & certified proposition / appendix & Phase C/H/O reports\\
+APD, Markov, Hilbert, \(N\)-poset & appendix audits & reproducibility package\\
+\bottomrule
+\end{tabular}
+\caption{Paper-v2 claim levels and repository controls.}
+\label{tab:claim-map}
+\end{table}
+
+The strongest methodological lesson is that finite certificates are most
+useful when they also state what they do \emph{not} prove.  This is why the
+APD/PTE, Morse-Hedlund, Markov, Hilbert, and pointed five-state analyses
+remain appendices or follow-up problems.
+
+\appendix
+
+\section{\texorpdfstring{Endpoint Spectrum for the \(880\)-Representative Atlas}{Endpoint Spectrum for the 880-Representative Atlas}}
+\label{app:endpoint-atlas}
+
+The endpoint spectrum across the \(880\) essential representatives and the
+eight one-incidence masks is
+\[
+\begin{array}{c|rrrrrrrrrrrrr}
+\text{endpoint} & 22&23&24&25&26&27&28&29&30&31&32&33&34\\
+\hline
+\text{count} & 176&44&236&268&676&108&328&376&772&420&884&992&1760
+\end{array}
+\]
+Endpoint \(24\) is therefore not rare in the strongest possible sense.  Its
+role in this paper comes from the strong meet and from the \Durer-side
+structure, not from absolute uniqueness in the order-four atlas.
+
+The enriched filter ladder
+\[
+7040\to236\to220\to160\to152\to144
+\]
+passes through endpoint \(24\), subgroup terminal diagonals, Klein-four
+profile, terminal quaterne count \(96\), selected values
+\(\{11,12,15,16\}\), and exact canonical \(V_4\).
+
+\section{\texorpdfstring{The Exact Canonical \(V_4\) Subclass and the \Durer/Sagrada Cell}{The Exact Canonical V4 Subclass and the Durer/Sagrada Cell}}
+\label{app:v4-subclass}
+
+The \(144\)-pair exact canonical \(V_4\) subclass has selected values
+\[
+(11,12,15,16),
+\]
+terminal diagonal set
+\[
+\{0123,1032,2301,3210\},
+\]
+and terminal quaterne decomposition \(25+50+21\).
+
+The Phase-O structural audit sharpens this class inside the \(236\)
+terminal-24 records.  The following conditions are equivalent there:
+\[
+\begin{gathered}
+\text{exact canonical }V_4,\\
+\text{global affine cell-value labelling},\\
+\text{zero affine defect},\\
+\text{full translation terminal }V_4,\\
+\text{preservation of all }140\text{ domain affine planes},\\
+\text{preservation of all }24\text{ permutation-diagonal affine planes}.
+\end{gathered}
+\]
+The selected-mask affine condition alone remains too broad: it gives the
+\(176=144+32\) main class.  The \(32\) selected-affine extras are the first
+near-miss layer, with affine defect \(4\), \(76/140\) domain affine planes
+preserved, and \(8/24\) permutation-diagonal affine planes preserved.
+
+There is also a wider affine-layer explanation of the number \(144\).  It is
+useful to state it separately, because it no longer depends on filtering the
+terminal-24 atlas.
+
+\begin{lemma}[Balanced directions]
+\label{lem:balanced-directions}
+In \(\F_2^4\), exactly \(13\) two-dimensional linear subspaces are balanced,
+meaning that no coordinate bit is constant on the subspace.
+\end{lemma}
+
+\begin{proof}
+There are
+\[
+\left[\begin{matrix}4\\2\end{matrix}\right]_2=35
+\]
+two-dimensional subspaces of \(\F_2^4\).  A direction is bad exactly when it
+is contained in at least one coordinate hyperplane.  Each coordinate
+hyperplane is \(\F_2^3\) and contains
+\[
+\left[\begin{matrix}3\\2\end{matrix}\right]_2=7
+\]
+two-dimensional subspaces.  Two coordinate hyperplanes intersect in one
+two-dimensional coordinate plane, while three coordinate hyperplanes
+intersect in a line and contain no two-dimensional subspace.  Hence
+\[
+\#\{\text{bad directions}\}=4\cdot7-\binom42=22,
+\]
+so \(35-22=13\) directions are balanced.
+\end{proof}
+
+\begin{certprop}[Affine normal count]
+\label{prop:affine-normal-count}
+There are \(432\) essential normal order-four magic squares whose cell-value
+labelling \(x\mapsto Q_x-1\) is globally affine over \(\F_2^4\).  Moreover,
+across the eight admissible one-incidence masks, these representatives give
+\[
+432\cdot8=3456
+\]
+affine square-mask pairs, uniformly distributed as
+\[
+24\text{ selected value planes}\times144\text{ pairs}.
+\]
+\end{certprop}
+
+\begin{proof}[Certification and finite-linear derivation]
+Write a globally affine normal square as
+\[
+Q_x-1=A x+b,\qquad A\in GL(4,2),\quad b\in\F_2^4.
+\]
+If a four-cell affine plane has balanced direction, then every coordinate bit
+is \(1\) on exactly two of its four labels.  Therefore its label sum is
+\[
+2(8+4+2+1)=30,
+\]
+and its value sum is \(30+4=34\).  Thus a linear part \(A\) is good exactly
+when it sends the row, column, and diagonal directions of the cell domain to
+balanced directions in value space; the main and anti-diagonal are parallel
+affine planes and share the same direction.
+
+The finite \(F_2\)-linear replay gives the following count.  The
+complementarity graph on the \(13\) balanced directions has \(6\) triangles,
+so there are \(6\cdot6=36\) ordered pairwise-complementary balanced image
+triples.  For each ordered image triple there are \(6\) linear maps, hence
+\[
+36\cdot6=216
+\]
+good linear parts.  Offsets are free, giving
+\[
+216\cdot16=3456
+\]
+raw affine normal squares.  Since a normal square has all entries distinct,
+no nontrivial square symmetry fixes it cellwise; hence each square-symmetry
+orbit has size \(8\), and
+\[
+3456/8=432
+\]
+essential affine representatives.
+
+The same replay shows that each affine representative sends the eight
+admissible masks to exactly
+\[
+8=2\text{ coordinate directions}\times4\text{ cosets}
+\]
+selected value planes.  The two directions form one of the three matchings of
+the four coordinate axes:
+\[
+1,2\,|\,4,8,\qquad 1,4\,|\,2,8,\qquad 1,8\,|\,2,4.
+\]
+The \(24\) value-bit permutations preserve the affine normal layer and induce
+the natural \(S_4\to S_3\) action on these three matchings.  Each matching has
+stabilizer size \(8\), so the \(432\) affine representatives split as
+\[
+144+144+144.
+\]
+This yields the uniform \(24\times144\) selected-value-plane split.
+
+The replay artifacts are
+\begin{itemize}[leftmargin=*]
+\item \path{results/affine_normal_layer.json}
+\item \path{results/affine_normal_spread_structure.json}
+\item \path{results/affine_normal_count_derivation.json}
+\end{itemize}
+\end{proof}
+
+\begin{lemma}[Admissible-mask torsor]
+\label{lem:mask-torsor}
+The square-symmetry group of order \(8\) acts freely and transitively on the
+eight admissible one-incidence masks.
+\end{lemma}
+
+\begin{proof}[Certification]
+The eight masks are
+\[
+0231,\;0312,\;1203,\;1320,\;2013,\;2130,\;3021,\;3102.
+\]
+The square-symmetry replay has one orbit of size \(8\) and trivial stabilizer
+for each mask.  This is recorded in
+\(\texttt{results/affine\_normal\_count\_derivation.json}\).
+\end{proof}
+
+The two appearances of \(3456\) count different but compatible sets:
+\[
+\begin{array}{rcl}
+216\cdot16&=&3456\quad\text{raw affine normal squares},\\
+432\cdot8&=&3456\quad\text{essential affine square-mask pairs}.
+\end{array}
+\]
+Lemma~\ref{lem:mask-torsor} explains why these counts mirror each other after
+passing between oriented squares and essential representatives with a chosen
+admissible mask.
+
+Finally, if a selected value plane is \(P\), then its bounded downward endpoint
+is
+\[
+34-(\min P-1)=35-\min P.
+\]
+Among the \(24\) selected value planes in Proposition~\ref{prop:affine-normal-count},
+the unique plane with endpoint \(24\) is
+\[
+\{11,12,15,16\}.
+\]
+Every record in this plane has full translation terminal \(V_4\).  Thus the
+`\(144\)' is not only a terminal-24 census count: it is one uniform value
+plane inside the globally affine normal order-four layer.
+
+\begin{certprop}[Affine translation torsors]
+\label{prop:affine-translation-torsors}
+For every one of the \(3456\) globally affine square-mask pairs, the four
+fixed translation diagonals
+\[
+0123,\qquad 1032,\qquad 2301,\qquad 3210
+\]
+map to the four cosets of one balanced value-space direction \(W\).  If
+\(P=a+U\) is the selected value plane, then
+\[
+\F_2^4=U\oplus W,
+\]
+so \(P\) intersects each \(W\)-coset in exactly one point.  The resulting map
+from the four translation labels to the four points of \(P\) is an affine
+bijection.
+
+Moreover, this structure is uniform over all selected value planes.  For
+each selected direction \(U\), let \(Q\) be its coordinate partner in the
+matching of coordinate axes.  The nine balanced complements to \(U\) are
+graphs of linear maps
+\[
+Q\longrightarrow U
+\]
+with no zero rows.  They split as
+\[
+9=6+3,
+\]
+where the six used directions are precisely the invertible maps
+\(\GL(2,2)\), and the three unused directions are rank-one graphs.  Hence
+each selected plane has
+\[
+6\text{ used directions}\times24\text{ records}=144
+\]
+affine square-mask pairs.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is a finite replay of the Phase-O5 torsor refinement.  The kernel
+guardrail is recorded in
+\(\texttt{results/kernel\_v4\_o5.json}\): the value-bit kernel \(V_4\) of
+the \(S_4\to S_3\) action on coordinate matchings is not the terminal
+translation \(V_4\).  The quotient-section statement is replayed in
+\path{results/terminal_parallel_torsor_o5b.json}, where all \(3456\)
+affine square-mask pairs have balanced translation-image
+direction, complementary selected direction, intersection pattern
+\((1,1,1,1)\), and affine translation-to-selected point map.
+
+The six-of-nine split for the terminal-24 plane is replayed in
+\(\texttt{results/six\_of\_nine\_o5c.json}\), and the all-selected-plane
+generalization is replayed in
+\path{results/selected_plane_six_of_nine_o5d.json}.  There are \(24\)
+selected planes; each has \(144\) records, nine balanced
+complements to its selected direction, six invertible graph complements,
+three rank-one graph complements, and zero violations of the rule that the
+used directions are exactly the six invertible graph complements.
+\end{proof}
+
+\begin{remark}[The final \(24\)-factor]
+The count
+\[
+3456=24\text{ selected planes}\times6\text{ invertible directions}
+\times24\text{ records}
+\]
+does not mean that every \((P,W)\)-fiber is the full
+\(\AGL(2,2)\)-torsor of affine point maps.  The Phase-O5e/O5f audit shows
+that only \(96\) of the \(144\) \((P,W)\)-fibers realize all \(24\) affine
+point maps; \(48\) fibers have duplicated point maps.  The safe
+parametrization is mask-refined: \((P,W,\phi,\mathrm{mask})\) is injective,
+with \(24\) distinct \((\phi,\mathrm{mask})\) pairs in every \((P,W)\)-fiber.
+The P5 replay sharpens the negative statement: in every \((P,W)\)-fiber the
+point-map collision graph is a matching with \(0\), \(4\), or \(8\) collision
+edges, and the pair consisting of selected-plane direction and translation
+direction determines which case occurs.  The replays are
+\path{results/torsor_parametrization_o5e_o5f.json} and
+\path{results/o5e_collision_forbidden_shadow_p5.json}.
+\end{remark}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lrl}
+\toprule
+Source type & Count & Source diagonal set\\
+\midrule
+S1 & 96 & \(\{0123,1032,2301,3210\}\)\\
+S2 & 16 & \(\{0123,0132,1023,1032,2301,2310,3201,3210\}\)\\
+S3 & 16 & \(\{0123,0213,1032,1302,2031,2301,3120,3210\}\)\\
+S4 & 16 & \(\{0123,0321,1032,1230,2103,2301,3012,3210\}\)\\
+\bottomrule
+\end{tabular}
+\caption{Source diagonal types inside the \(144\)-pair exact canonical
+\(V_4\) subclass.  The \Durer/Sagrada representative lies in type S3.}
+\label{tab:v4-source-types}
+\end{table}
+
+The \Durer/Sagrada quotient cell has \(8\) pairs.  In the current finite atlas
+it is characterized by APD vector \((0,0,0,55296)\), source type S3, exact
+terminal \(V_4\), and terminal quaterne decomposition \(25+50+21\).  The
+essential square indices are
+\[
+112,\;174,\;289,\;359,\;789,\;802,\;834,\;849.
+\]
+All \(8\) records are associated and complement-fixed after
+canonicalization.  The canonical \Durer-complement representative is square
+index \(174\); under canonicalization the Sagrada mask appears as \(1203\),
+with selected values \(12,11,15,16\).
+
+\section{Inside-Out, APD, and Permutation-Polytope Audits}
+\label{app:secondary-audits}
+
+The following audits support the paper while staying outside the main theorem
+mechanism.
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Inside-out set systems.}  The row, column, diagonal, mask,
+source-quaterne, and terminal-quaterne incidence systems have exact
+rank/\(\SNF\)/kernel and colored-automorphism replays.  The main terminal
+signature is the broad \(176=144+32\) class; the later O5-anchored Johnson
+replay separates its \(144\) exact-\(V_4\) records from the \(32\) extras by
+the forbidden quotient-shadow count \(F_{2110}\).
+\item \textbf{APD/PTE.}  Along the Sagrada ray,
+\[
+\APD_1(t)=0,\qquad \APD_2(t)=0,\qquad
+\APD_3(t)=-24t(t-4)(t-16).
+\]
+Moreover \(\APD_3(D(t))=6\det \widehat E(t)\) in the centered local model.
+This gives a useful parity-power or Prouhet--Tarry--Escott reading of the
+ray \cite{takemuraAPD,takemura880}, but endpoint \(24\) is selected by
+bounded terminality, not by APD vanishing.
+\item \textbf{Morse-Hedlund/Prouhet family fit.}  The \Durer-complement source
+fits the displayed Morse-Hedlund/Prouhet order-four family, but the Sagrada
+direction, terminal point, and full ray do not under the tested transform
+scope \cite{sergeyevSymmetricSums}.
+\item \textbf{Permutation polytopes.}  The subgroup polytopes
+\[
+P(D_4)=\conv\{P_\sigma:\sigma\in D_4\},
+\qquad
+P(V_4)=\conv\{P_\sigma:\sigma\in V_4\}
+\]
+fit naturally into the permutation-polytope language
+\cite{baumeisterPermutationPolytopes,guralnickPerkinson}.  The face audit
+shows that \(P(V_4)\) is a tetrahedron, but it is not a face of \(P(D_4)\) or
+of the Birkhoff polytope \(B_4\).
+\end{itemize}
+
+\section{Markov and Hilbert Follow-Up Audits}
+\label{app:markov-hilbert}
+
+The terminal-24 records also support two technical follow-up directions.
+
+\begin{itemize}[leftmargin=*]
+\item The first Markov-style graph uses primitive \(\{-1,0,1\}\) fixed-sum
+diagonal-magic kernel moves.  It has \(236\) nodes, \(247\) edges, \(98\)
+connected components, and \(50\) isolated vertices.  This is a small-move
+graph, not a complete Markov-basis theorem.
+\item The finite Hilbert-style audit through magic sum \(8\) finds \(20\)
+checked atoms:
+\[
+8\text{ at sum }1,\qquad 12\text{ at sum }2.
+\]
+All \(236\) terminal-24 endpoints decompose in this checked atom set.  This
+is not yet a proof of the full Hilbert basis of the nonnegative
+diagonal-magic cone.
+\end{itemize}
+
+\section{The Pointed Five-State Bridge}
+\label{app:five-state}
+
+The Lo Shu \(S=24\) fiber has five points.  A separate audit compares this
+five-state object with the graph of linear extensions of an \(N\)-poset and
+with the order-ideal lattice \(J(A_2^+)\), using standard poset language
+\cite{naatzLinearExtensions,stanleyPosetPolytopes}.
+
+The natural Lo Shu adjacency is a diamond with a central point and four
+boundary points, so it is not directly the \(N\)-poset linear-extension
+graph.  After adding a boundary cycle on the four nonconstant points and
+marking one boundary point, however, the resulting pointed graph is a
+4-cycle with one pendant vertex.  It is isomorphic to the \(N\)-poset
+linear-extension graph and to the Hasse graph of \(J(A_2^+)\).
+
+The bridge is controlled but noncanonical: every boundary mark works, and no
+current \Durer-side structure selects one.  It remains an open problem rather
+than a foundation for the meet theorem.
+
+\section{Open Problems}
+\label{app:open}
+
+The most useful follow-up questions are:
+\begin{enumerate}[leftmargin=*]
+\item Extend the finite-linear Phase-O/O2/O3/O4/O5 explanation of the exact
+\(V_4\) affine class beyond the normal order-four affine layer, or show that
+this layer is the natural boundary of the phenomenon.
+\item Generalize the forbidden quotient-shadow obstruction for the \(32\)
+structured extras inside the \(176=144+32\) inside-out signature, or show that
+it is specific to this fixed order-four selected-affine terminal layer.
+\item Develop subgroup/coset chamber tilers as a sibling theory to type-A
+poset-cone tilers.  This belongs primarily to the Type-A/Tetra paper line;
+Magic supplies the \(D_4\to V_4\) seed example.
+\item Decide whether a complete Markov-basis or Hilbert-basis treatment is
+worth a separate technical paper.
+\item Find, or rule out, a natural \Durer-to-Lo-Shu boundary selector for the
+pointed five-state bridge.
+\end{enumerate}
+
+\bibliographystyle{alpha}
+\bibliography{refs}
+
+\end{document}

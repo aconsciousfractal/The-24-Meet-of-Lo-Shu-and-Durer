@@ -1,0 +1,273 @@
+{
+  "all_d4_domain_transforms_are_affine_automorphisms": true,
+  "canonical_value_complement_stable_count": 880,
+  "d4_domain_transform_profiles": [
+    {
+      "columns": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "offset": 0,
+      "transform_id": 0
+    },
+    {
+      "columns": [
+        2,
+        1,
+        8,
+        4
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        12,
+        8,
+        4,
+        0,
+        13,
+        9,
+        5,
+        1,
+        14,
+        10,
+        6,
+        2,
+        15,
+        11,
+        7,
+        3
+      ],
+      "offset": 12,
+      "transform_id": 1
+    },
+    {
+      "columns": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "offset": 15,
+      "transform_id": 2
+    },
+    {
+      "columns": [
+        2,
+        1,
+        8,
+        4
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        3,
+        7,
+        11,
+        15,
+        2,
+        6,
+        10,
+        14,
+        1,
+        5,
+        9,
+        13,
+        0,
+        4,
+        8,
+        12
+      ],
+      "offset": 3,
+      "transform_id": 3
+    },
+    {
+      "columns": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        12,
+        13,
+        14,
+        15,
+        8,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        7,
+        0,
+        1,
+        2,
+        3
+      ],
+      "offset": 12,
+      "transform_id": 4
+    },
+    {
+      "columns": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        3,
+        2,
+        1,
+        0,
+        7,
+        6,
+        5,
+        4,
+        11,
+        10,
+        9,
+        8,
+        15,
+        14,
+        13,
+        12
+      ],
+      "offset": 3,
+      "transform_id": 5
+    },
+    {
+      "columns": [
+        2,
+        1,
+        8,
+        4
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        0,
+        4,
+        8,
+        12,
+        1,
+        5,
+        9,
+        13,
+        2,
+        6,
+        10,
+        14,
+        3,
+        7,
+        11,
+        15
+      ],
+      "offset": 0,
+      "transform_id": 6
+    },
+    {
+      "columns": [
+        2,
+        1,
+        8,
+        4
+      ],
+      "is_affine": true,
+      "is_affine_automorphism": true,
+      "linear_rank_over_f2": 4,
+      "mapping": [
+        15,
+        11,
+        7,
+        3,
+        14,
+        10,
+        6,
+        2,
+        13,
+        9,
+        5,
+        1,
+        12,
+        8,
+        4,
+        0
+      ],
+      "offset": 15,
+      "transform_id": 7
+    }
+  ],
+  "direct_value_complement_stable_count": 880,
+  "essential_square_count": 880,
+  "metadata": {
+    "description": "Tests orientation and complement stability of the affine cell-value criterion and terminal-24 F2 profiles.",
+    "phase": "Phase F orientation-stability micro-audit",
+    "project": "Magic 24"
+  },
+  "orientation_affine_count_distribution": {
+    "0": 448,
+    "8": 432
+  },
+  "orientation_affine_flag_stable_for_all_880": true,
+  "raw_oriented_affine_cell_labeling_count": 3456,
+  "raw_oriented_non_affine_cell_labeling_count": 3584,
+  "raw_oriented_total": 7040,
+  "terminal24_pair_count": 236,
+  "terminal24_pair_d4_profile_stable": true,
+  "unstable_orientation_square_indices": [],
+  "unstable_terminal24_records": []
+}

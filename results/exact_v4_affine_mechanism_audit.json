@@ -1,0 +1,508 @@
+{
+  "affine_defect": {
+    "exact_v4_basis_mismatch_distribution": {
+      "0": 144
+    },
+    "exact_v4_preserved_domain_affine_planes_distribution": {
+      "140": 144
+    },
+    "exact_v4_preserved_permutation_diagonal_planes_distribution": {
+      "24": 144
+    },
+    "selected_affine_extra_basis_mismatch_distribution": {
+      "4": 32
+    },
+    "selected_affine_extra_preserved_domain_affine_planes_distribution": {
+      "76": 32
+    },
+    "selected_affine_extra_preserved_permutation_diagonal_planes_distribution": {
+      "8": 32
+    },
+    "selected_affine_extra_records": [
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 5,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 78,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 87,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 93,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 133,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2130",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 143,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 201,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 204,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 238,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 244,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 348,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "1320",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 370,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 411,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 415,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 416,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 537,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "1320",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 550,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 554,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 578,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2130",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 610,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 630,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 649,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 654,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 688,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2013",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 699,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2130",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 735,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 782,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2130",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 795,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3102",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 829,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "3021",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 830,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "2130",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 846,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ]
+      },
+      {
+        "basis_interpolation_mismatch_count": 4,
+        "broken_domain_affine_planes": 64,
+        "broken_permutation_diagonal_planes": 16,
+        "mask": "1320",
+        "preserved_domain_affine_planes": 76,
+        "preserved_permutation_diagonal_planes": 8,
+        "square_index": 855,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ]
+      }
+    ]
+  },
+  "exact_canonical_v4_pair_count": 144,
+  "linear_mechanism": {
+    "exact_v4_all_terminal_sets_full_translation_v4": true,
+    "exact_v4_terminal_sets_full_translation_v4": 144,
+    "selected_affine_extras_full_translation_v4_count": 0,
+    "selected_affine_extras_translation_subset_count": 16,
+    "terminal_set_profiles_exact_v4": {
+      "{'(2, 1)': 4}": 144
+    },
+    "terminal_set_profiles_selected_affine_extras": {
+      "{'(1, 2)': 2, '(2, 1)': 2}": 16,
+      "{'(2, 1)': 2}": 16
+    }
+  },
+  "metadata": {
+    "description": "Mechanism, orientation, and affine-defect audit for exact canonical V4.",
+    "phase": "Phase J2",
+    "project": "Magic 24"
+  },
+  "orientation": {
+    "affine_cell_value_criterion_is_stable_object": true,
+    "canonical_v4_square_symmetry_orbit": [
+      [
+        "0123",
+        "1032",
+        "2301",
+        "3210"
+      ]
+    ],
+    "canonical_v4_square_symmetry_orbit_size": 1,
+    "exact_v4_terminal_sets_in_square_symmetry_orbit": true,
+    "selected_affine_extra_terminal_sets_in_square_symmetry_orbit_count": 0,
+    "word_set_is_orientation_language": true
+  },
+  "selected_affine_extra_count": 32,
+  "terminal24_pair_count": 236
+}

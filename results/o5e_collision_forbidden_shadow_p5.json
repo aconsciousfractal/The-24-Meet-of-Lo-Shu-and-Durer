@@ -1,0 +1,661 @@
+{
+  "forbidden_shadow_obstruction": {
+    "F_2110_equals_non_domain_affine_inside_main_176": true,
+    "ambient_domain_affine_plane_count": 140,
+    "ambient_domain_affine_shadow_profile": {
+      "1,1,1,1": 64,
+      "2,2,0,0": 72,
+      "4,0,0,0": 4
+    },
+    "ambient_has_forbidden_2110": false,
+    "class_counts": {
+      "exact_v4": 144,
+      "extra32": 32,
+      "outside_main": 60
+    },
+    "exact_v4_iff_F_2110_zero_inside_main_176": true,
+    "interpretation": {
+      "extra32": "Inside the main 176, the 32 extras are exactly the records with positive forbidden-shadow mass F_2110.",
+      "forbidden_shadow": "The shadow 2,1,1,0 cannot occur for a domain-affine plane under the quotient by the fixed translation spread."
+    },
+    "invariant_rows_main_176": [
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "count": 144,
+        "non_domain_affine": 0
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 16,
+        "F_2200": 8,
+        "F_4000": 0,
+        "class": "extra32",
+        "count": 16,
+        "non_domain_affine": 16
+      },
+      {
+        "F_1111": 16,
+        "F_2110": 12,
+        "F_2200": 8,
+        "F_4000": 0,
+        "class": "extra32",
+        "count": 16,
+        "non_domain_affine": 12
+      }
+    ],
+    "main_176_count": 176,
+    "records_sample": [
+      {
+        "F_1111": 16,
+        "F_2110": 12,
+        "F_2200": 8,
+        "F_4000": 0,
+        "class": "extra32",
+        "mask": "3021",
+        "non_domain_affine": 12,
+        "shadow_profile": {
+          "1,1,1,1": 16,
+          "2,1,1,0": 12,
+          "2,2,0,0": 8
+        },
+        "square_index": 5,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 10,
+        "F_2200": 8,
+        "F_4000": 2,
+        "class": "outside_main",
+        "mask": "3102",
+        "non_domain_affine": 10,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,1,1,0": 10,
+          "2,2,0,0": 8,
+          "4,0,0,0": 2
+        },
+        "square_index": 14,
+        "terminal_affine_count": 32
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "3102",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 16,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "3021",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 17,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "3102",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 21,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "3021",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 23,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "2130",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 26,
+        "terminal_affine_count": 36
+      },
+      {
+        "F_1111": 12,
+        "F_2110": 0,
+        "F_2200": 20,
+        "F_4000": 4,
+        "class": "exact_v4",
+        "mask": "2013",
+        "non_domain_affine": 0,
+        "shadow_profile": {
+          "1,1,1,1": 12,
+          "2,2,0,0": 20,
+          "4,0,0,0": 4
+        },
+        "square_index": 30,
+        "terminal_affine_count": 36
+      }
+    ]
+  },
+  "interpretation": {
+    "extra32": "The missing invariant for the 32 extras is positive forbidden quotient-shadow mass F_2110 relative to the fixed translation spread.",
+    "guardrail": "P5 is affine/atlas follow-up structure, not a new proof of the strong meet.",
+    "o5e": "Every O5e fiber collision graph is a matching with 0, 4, or 8 collision edges; the direction pair (U,W) classifies the type."
+  },
+  "metadata": {
+    "description": "O5e collision-matching table and forbidden quotient-shadow obstruction for the 32 extras.",
+    "phase": "P5",
+    "project": "Magic 24"
+  },
+  "o5e_collision_table": {
+    "ambiguous_direction_pairs": {},
+    "collision_edge_distribution": {
+      "0": 96,
+      "4": 16,
+      "8": 32
+    },
+    "direction_pair_classifier_holds": true,
+    "direction_pair_count": 36,
+    "direction_pair_table": [
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,5,10,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,5,11,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,6,11,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,6,9,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,7,10,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,7,9,14"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,3,12,15"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,3,13,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,6,11,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,6,9,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,7,11,12"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,7,9,14"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,3,12,15"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,3,13,14"
+      },
+      {
+        "collision_edges": 4,
+        "distinct_point_maps": 20,
+        "duplicate_point_maps": 4,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,5,10,15"
+      },
+      {
+        "collision_edges": 4,
+        "distinct_point_maps": 20,
+        "duplicate_point_maps": 4,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,5,11,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,7,10,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,1,8,9",
+        "translation_direction": "0,7,11,12"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,3,12,15"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,3,13,14"
+      },
+      {
+        "collision_edges": 4,
+        "distinct_point_maps": 20,
+        "duplicate_point_maps": 4,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,5,10,15"
+      },
+      {
+        "collision_edges": 4,
+        "distinct_point_maps": 20,
+        "duplicate_point_maps": 4,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,5,11,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,7,10,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,4,6",
+        "translation_direction": "0,7,11,12"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,3,12,15"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,3,13,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,6,11,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,6,9,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,7,11,12"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,2,8,10",
+        "translation_direction": "0,7,9,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,5,10,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,5,11,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,6,11,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,6,9,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,7,10,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "fiber_count": 4,
+        "selected_plane_direction": "0,4,8,12",
+        "translation_direction": "0,7,9,14"
+      }
+    ],
+    "distinct_point_map_distribution": {
+      "16": 32,
+      "20": 16,
+      "24": 96
+    },
+    "duplicate_point_map_distribution": {
+      "0": 96,
+      "4": 16,
+      "8": 32
+    },
+    "fiber_count": 144,
+    "matching_collision_graph_holds": true,
+    "max_multiplicity_distribution": {
+      "1": 96,
+      "2": 48
+    },
+    "sample_fibers": [
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,5,10,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,5,11,14"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,6,11,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,6,9,15"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,7,10,13"
+      },
+      {
+        "collision_edges": 0,
+        "distinct_point_maps": 24,
+        "duplicate_point_maps": 0,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 12,
+          "0312": 12
+        },
+        "max_point_map_multiplicity": 1,
+        "multiplicity_pattern": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,3,4",
+        "selected_plane_direction": "0,1,2,3",
+        "translation_direction": "0,7,9,14"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 6,
+          "0312": 10,
+          "1320": 4,
+          "2130": 2,
+          "3102": 2
+        },
+        "max_point_map_multiplicity": 2,
+        "multiplicity_pattern": "2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,5,6",
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,3,12,15"
+      },
+      {
+        "collision_edges": 8,
+        "distinct_point_maps": 16,
+        "duplicate_point_maps": 8,
+        "endpoint_distribution": {
+          "34": 24
+        },
+        "mask_distribution": {
+          "0231": 6,
+          "0312": 10,
+          "1320": 4,
+          "2130": 2,
+          "3102": 2
+        },
+        "max_point_map_multiplicity": 2,
+        "multiplicity_pattern": "2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1",
+        "record_count": 24,
+        "selected_plane": "1,2,5,6",
+        "selected_plane_direction": "0,1,4,5",
+        "translation_direction": "0,3,13,14"
+      }
+    ]
+  }
+}

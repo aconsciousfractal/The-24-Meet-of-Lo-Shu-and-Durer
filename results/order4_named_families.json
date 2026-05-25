@@ -1,0 +1,409 @@
+{
+  "associated_exact_v4": {
+    "apd_counts": {
+      "(0,0,0,-290304)": 8,
+      "(0,0,0,55296)": 8
+    },
+    "durer_cell_overlap_count": 8,
+    "durer_cell_overlap_square_indices": [
+      112,
+      174,
+      289,
+      359,
+      789,
+      802,
+      834,
+      849
+    ],
+    "pair_count": 16,
+    "source_type_counts": {
+      "S3": 16
+    },
+    "square_count": 16,
+    "square_indices": [
+      112,
+      123,
+      174,
+      205,
+      289,
+      305,
+      359,
+      394,
+      475,
+      557,
+      627,
+      740,
+      789,
+      802,
+      834,
+      849
+    ]
+  },
+  "combined_square_family_counts": {
+    "associated,complement_fixed": 48,
+    "complement_fixed": 304,
+    "none": 480,
+    "panmagic,local_2x2,wrap_2x2,most_perfect_proxy": 48
+  },
+  "family_square_counts": {
+    "associated": 48,
+    "complement_fixed": 352,
+    "local_2x2": 48,
+    "most_perfect_proxy": 48,
+    "panmagic": 48,
+    "wrap_2x2": 48
+  },
+  "family_summaries": {
+    "associated": {
+      "endpoint_24_pair_count": 16,
+      "endpoint_distribution": {
+        "22": 16,
+        "24": 16,
+        "25": 16,
+        "26": 48,
+        "28": 16,
+        "29": 16,
+        "30": 48,
+        "31": 16,
+        "32": 48,
+        "33": 48,
+        "34": 96
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "exact_v4_mask_counts": {
+        "1203": 2,
+        "2013": 10,
+        "3021": 2,
+        "3102": 2
+      },
+      "exact_v4_pair_count": 16,
+      "exact_v4_source_type_counts": {
+        "S3": 16
+      },
+      "exact_v4_square_count": 16,
+      "exact_v4_square_indices": [
+        112,
+        123,
+        174,
+        205,
+        289,
+        305,
+        359,
+        394,
+        475,
+        557,
+        627,
+        740,
+        789,
+        802,
+        834,
+        849
+      ],
+      "pair_count": 384,
+      "square_count": 48
+    },
+    "complement_fixed": {
+      "endpoint_24_pair_count": 84,
+      "endpoint_distribution": {
+        "22": 64,
+        "23": 20,
+        "24": 84,
+        "25": 96,
+        "26": 232,
+        "27": 56,
+        "28": 152,
+        "29": 160,
+        "30": 312,
+        "31": 172,
+        "32": 364,
+        "33": 400,
+        "34": 704
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-288768)": 8,
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,102912)": 8,
+        "(0,0,0,55296)": 8,
+        "(0,0,0,79872)": 16
+      },
+      "exact_v4_mask_counts": {
+        "1203": 2,
+        "1320": 4,
+        "2013": 14,
+        "2130": 8,
+        "3021": 12,
+        "3102": 8
+      },
+      "exact_v4_pair_count": 48,
+      "exact_v4_source_type_counts": {
+        "S1": 32,
+        "S3": 16
+      },
+      "exact_v4_square_count": 48,
+      "exact_v4_square_indices": [
+        16,
+        17,
+        72,
+        76,
+        109,
+        112,
+        123,
+        124,
+        136,
+        174,
+        181,
+        205,
+        224,
+        225,
+        286,
+        289,
+        305,
+        308,
+        309,
+        312,
+        341,
+        359,
+        366,
+        394,
+        431,
+        435,
+        475,
+        476,
+        539,
+        557,
+        598,
+        603,
+        627,
+        632,
+        698,
+        740,
+        770,
+        773,
+        789,
+        790,
+        802,
+        805,
+        834,
+        835,
+        839,
+        841,
+        849,
+        858
+      ],
+      "pair_count": 2816,
+      "square_count": 352
+    },
+    "local_2x2": {
+      "endpoint_24_pair_count": 16,
+      "endpoint_distribution": {
+        "22": 16,
+        "24": 16,
+        "25": 16,
+        "26": 48,
+        "28": 16,
+        "29": 16,
+        "30": 48,
+        "31": 16,
+        "32": 48,
+        "33": 48,
+        "34": 96
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "exact_v4_mask_counts": {
+        "1320": 2,
+        "2013": 4,
+        "2130": 2,
+        "3021": 8
+      },
+      "exact_v4_pair_count": 16,
+      "exact_v4_source_type_counts": {
+        "S4": 16
+      },
+      "exact_v4_square_count": 16,
+      "exact_v4_square_indices": [
+        101,
+        116,
+        176,
+        200,
+        278,
+        304,
+        371,
+        392,
+        482,
+        536,
+        564,
+        645,
+        703,
+        747,
+        784,
+        827
+      ],
+      "pair_count": 384,
+      "square_count": 48
+    },
+    "most_perfect_proxy": {
+      "endpoint_24_pair_count": 16,
+      "endpoint_distribution": {
+        "22": 16,
+        "24": 16,
+        "25": 16,
+        "26": 48,
+        "28": 16,
+        "29": 16,
+        "30": 48,
+        "31": 16,
+        "32": 48,
+        "33": 48,
+        "34": 96
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "exact_v4_mask_counts": {
+        "1320": 2,
+        "2013": 4,
+        "2130": 2,
+        "3021": 8
+      },
+      "exact_v4_pair_count": 16,
+      "exact_v4_source_type_counts": {
+        "S4": 16
+      },
+      "exact_v4_square_count": 16,
+      "exact_v4_square_indices": [
+        101,
+        116,
+        176,
+        200,
+        278,
+        304,
+        371,
+        392,
+        482,
+        536,
+        564,
+        645,
+        703,
+        747,
+        784,
+        827
+      ],
+      "pair_count": 384,
+      "square_count": 48
+    },
+    "panmagic": {
+      "endpoint_24_pair_count": 16,
+      "endpoint_distribution": {
+        "22": 16,
+        "24": 16,
+        "25": 16,
+        "26": 48,
+        "28": 16,
+        "29": 16,
+        "30": 48,
+        "31": 16,
+        "32": 48,
+        "33": 48,
+        "34": 96
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "exact_v4_mask_counts": {
+        "1320": 2,
+        "2013": 4,
+        "2130": 2,
+        "3021": 8
+      },
+      "exact_v4_pair_count": 16,
+      "exact_v4_source_type_counts": {
+        "S4": 16
+      },
+      "exact_v4_square_count": 16,
+      "exact_v4_square_indices": [
+        101,
+        116,
+        176,
+        200,
+        278,
+        304,
+        371,
+        392,
+        482,
+        536,
+        564,
+        645,
+        703,
+        747,
+        784,
+        827
+      ],
+      "pair_count": 384,
+      "square_count": 48
+    },
+    "wrap_2x2": {
+      "endpoint_24_pair_count": 16,
+      "endpoint_distribution": {
+        "22": 16,
+        "24": 16,
+        "25": 16,
+        "26": 48,
+        "28": 16,
+        "29": 16,
+        "30": 48,
+        "31": 16,
+        "32": 48,
+        "33": 48,
+        "34": 96
+      },
+      "exact_v4_apd_counts": {
+        "(0,0,0,-290304)": 8,
+        "(0,0,0,55296)": 8
+      },
+      "exact_v4_mask_counts": {
+        "1320": 2,
+        "2013": 4,
+        "2130": 2,
+        "3021": 8
+      },
+      "exact_v4_pair_count": 16,
+      "exact_v4_source_type_counts": {
+        "S4": 16
+      },
+      "exact_v4_square_count": 16,
+      "exact_v4_square_indices": [
+        101,
+        116,
+        176,
+        200,
+        278,
+        304,
+        371,
+        392,
+        482,
+        536,
+        564,
+        645,
+        703,
+        747,
+        784,
+        827
+      ],
+      "pair_count": 384,
+      "square_count": 48
+    }
+  },
+  "metadata": {
+    "description": "Comparison of endpoint structures with computational order-4 family labels.",
+    "project": "Magic 24",
+    "source_dataset": "data/order4_normal_essential_880.json"
+  }
+}

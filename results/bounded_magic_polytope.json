@@ -1,0 +1,6224 @@
+{
+  "D10_fixed_sum_24_barycentric_certificate": {
+    "reconstructs_D10": true,
+    "strictly_positive_weights": true,
+    "type": "two_vertex_segment",
+    "vertex_indices": [
+      34,
+      41
+    ],
+    "vertices": [
+      {
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "index": 34,
+        "matrix": [
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            6,
+            11
+          ],
+          [
+            6,
+            1,
+            11,
+            6
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          }
+        ],
+        "index": 41,
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            11,
+            6
+          ]
+        ]
+      }
+    ],
+    "weights": [
+      "4/5",
+      "1/5"
+    ],
+    "weights_sum": 1
+  },
+  "D10_fixed_sum_24_minimal_face": {
+    "D10_is_vertex_of_this_face": false,
+    "active_bound_count_distribution": {
+      "10": 8,
+      "12": 8,
+      "7": 6,
+      "8": 19,
+      "9": 6
+    },
+    "face_dimension": 5,
+    "fixed_sum": 24,
+    "forced_bounds": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "label": "r0c0",
+        "value": 1
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "label": "r2c1",
+        "value": 1
+      }
+    ],
+    "integral_vertex_count": 37,
+    "max_denominator_distribution": {
+      "1": 37,
+      "2": 10
+    },
+    "vertex_count": 47,
+    "vertices": [
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            "17/2",
+            "27/2"
+          ],
+          [
+            6,
+            "17/2",
+            "17/2",
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            "27/2",
+            1,
+            "17/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            "27/2",
+            "17/2"
+          ],
+          [
+            1,
+            "27/2",
+            "17/2",
+            1
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ],
+          [
+            6,
+            "17/2",
+            1,
+            "17/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            1,
+            11,
+            1,
+            11
+          ],
+          [
+            11,
+            1,
+            11,
+            1
+          ],
+          [
+            11,
+            11,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            1,
+            11,
+            6,
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            11,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            6,
+            11
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            11,
+            1,
+            1,
+            11
+          ],
+          [
+            11,
+            6,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            "7/2",
+            16,
+            "7/2",
+            1
+          ],
+          [
+            16,
+            1,
+            "7/2",
+            "7/2"
+          ],
+          [
+            "7/2",
+            6,
+            11,
+            "7/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            6,
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            11,
+            6,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            11,
+            6,
+            6,
+            1
+          ],
+          [
+            11,
+            1,
+            11,
+            1
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            11,
+            6,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ],
+          [
+            11,
+            1,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            11,
+            1,
+            11
+          ],
+          [
+            11,
+            11,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            11,
+            1,
+            11,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            11,
+            1,
+            11
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            6,
+            11,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            11,
+            11,
+            1
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ],
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            11,
+            6,
+            6
+          ],
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            11,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            1,
+            11
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            "7/2",
+            "7/2"
+          ],
+          [
+            1,
+            "7/2",
+            "27/2",
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            "7/2",
+            1,
+            "27/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            "7/2",
+            "7/2"
+          ],
+          [
+            1,
+            "7/2",
+            "7/2",
+            16
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            16,
+            "7/2",
+            1,
+            "7/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            "7/2",
+            "7/2"
+          ],
+          [
+            6,
+            "7/2",
+            "7/2",
+            11
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            16,
+            "7/2",
+            1,
+            "7/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            "27/2",
+            1,
+            "17/2",
+            1
+          ],
+          [
+            1,
+            1,
+            "27/2",
+            "17/2"
+          ],
+          [
+            "17/2",
+            6,
+            1,
+            "17/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            "7/2",
+            6,
+            "27/2",
+            1
+          ],
+          [
+            16,
+            1,
+            "7/2",
+            "7/2"
+          ],
+          [
+            "7/2",
+            1,
+            6,
+            "27/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            11,
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            6,
+            11
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            11,
+            1,
+            6,
+            6
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            11,
+            6,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 7,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            11,
+            6,
+            6,
+            1
+          ],
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            11,
+            1,
+            6,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 16
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            1,
+            16
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            6,
+            11
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            11,
+            6,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            6,
+            6,
+            1,
+            11
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            "17/2",
+            6,
+            "17/2",
+            1
+          ],
+          [
+            1,
+            1,
+            "17/2",
+            "27/2"
+          ],
+          [
+            "27/2",
+            1,
+            1,
+            "17/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 16
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            16,
+            1
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            1,
+            16
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            6,
+            11
+          ],
+          [
+            6,
+            1,
+            11,
+            6
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              1
+            ],
+            "label": "r0c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            1,
+            1,
+            11,
+            11
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 9,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 16
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            "7/2",
+            16,
+            "7/2",
+            1
+          ],
+          [
+            16,
+            1,
+            "7/2",
+            "7/2"
+          ],
+          [
+            "7/2",
+            1,
+            16,
+            "7/2"
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            11,
+            6,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            16,
+            6,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            16,
+            6
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            6,
+            11,
+            6,
+            1
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            6,
+            11,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            1,
+            16
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ],
+          [
+            11,
+            1,
+            6,
+            6
+          ],
+          [
+            6,
+            1,
+            16,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            11,
+            6
+          ],
+          [
+            1,
+            16,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            6,
+            11
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 10,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              2
+            ],
+            "label": "r1c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            11,
+            6
+          ],
+          [
+            6,
+            16,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            6,
+            16
+          ],
+          [
+            16,
+            1,
+            6,
+            1
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 12,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              0,
+              2
+            ],
+            "label": "r0c2",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              3
+            ],
+            "label": "r0c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              3
+            ],
+            "label": "r2c3",
+            "value": 16
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              0
+            ],
+            "label": "r3c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              2
+            ],
+            "label": "r3c2",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            16,
+            1
+          ],
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            6,
+            1,
+            1,
+            16
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "active_bound_count": 8,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              0
+            ],
+            "label": "r1c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              1,
+              1
+            ],
+            "label": "r1c1",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              1,
+              3
+            ],
+            "label": "r1c3",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              2,
+              0
+            ],
+            "label": "r2c0",
+            "value": 16
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              2
+            ],
+            "label": "r2c2",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              3,
+              1
+            ],
+            "label": "r3c1",
+            "value": 1
+          }
+        ],
+        "matrix": [
+          [
+            1,
+            6,
+            6,
+            11
+          ],
+          [
+            1,
+            16,
+            6,
+            1
+          ],
+          [
+            16,
+            1,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            11,
+            6
+          ]
+        ]
+      }
+    ]
+  },
+  "D10_fixed_sum_24_minimal_face_fingerprint": {
+    "D10_active_bounds": [
+      {
+        "bound": "lower",
+        "cell": [
+          0,
+          0
+        ],
+        "label": "r0c0",
+        "value": 1
+      },
+      {
+        "bound": "lower",
+        "cell": [
+          2,
+          1
+        ],
+        "label": "r2c1",
+        "value": 1
+      }
+    ],
+    "D10_active_bounds_equal_common_active_bounds": true,
+    "D10_nonforced_min_lower_slack": 1,
+    "D10_nonforced_min_upper_slack": 2,
+    "D10_relative_interior_of_minimal_face": true,
+    "D4_vertex_set_stabilizer": [
+      "id"
+    ],
+    "D4_vertex_set_stabilizer_size": 1,
+    "common_active_bounds_across_vertices": [
+      {
+        "cell": [
+          0,
+          0
+        ],
+        "label": "r0c0",
+        "value": 1
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "label": "r2c1",
+        "value": 1
+      }
+    ]
+  },
+  "affine_spaces": {
+    "order3": {
+      "fixed_sum_dimension": 2,
+      "fixed_sum_rank": 7,
+      "free_sum_dimension": 3,
+      "free_sum_rank": 6,
+      "line_count": 8,
+      "n": 3,
+      "variable_count": 9
+    },
+    "order4": {
+      "fixed_sum_dimension": 7,
+      "fixed_sum_rank": 9,
+      "free_sum_dimension": 8,
+      "free_sum_rank": 8,
+      "line_count": 10,
+      "n": 4,
+      "variable_count": 16
+    }
+  },
+  "lo_shu": {
+    "counts_by_sum": {
+      "12": 25,
+      "15": 41,
+      "18": 25,
+      "21": 13,
+      "24": 5,
+      "27": 1,
+      "3": 1,
+      "6": 5,
+      "9": 13
+    },
+    "model": "Lo Shu fixed-sum fiber uses center g=S/3 and integer parameters (a,b).",
+    "s24": {
+      "common_active_bounds": [],
+      "dimension": 2,
+      "g": 8,
+      "is_common_boundary_face_of_free_polytope": false,
+      "lattice_point_count": 5,
+      "vertices_ab": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ]
+    }
+  },
+  "lo_shu_lattice_formula": {
+    "all_counts_match_formula": true,
+    "counts_by_sum_formula": {
+      "12": 25,
+      "15": 41,
+      "18": 25,
+      "21": 13,
+      "24": 5,
+      "27": 1,
+      "3": 1,
+      "6": 5,
+      "9": 13
+    },
+    "rows": [
+      {
+        "area": 0,
+        "boundary_lattice_points": 1,
+        "g": 1,
+        "m": 0,
+        "matches_formula": true,
+        "measured_lattice_count": 1,
+        "pick_formula_count": 1,
+        "sum": 3,
+        "vertices_ab": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "area": 2,
+        "boundary_lattice_points": 4,
+        "g": 2,
+        "m": 1,
+        "matches_formula": true,
+        "measured_lattice_count": 5,
+        "pick_formula_count": 5,
+        "sum": 6,
+        "vertices_ab": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "area": 8,
+        "boundary_lattice_points": 8,
+        "g": 3,
+        "m": 2,
+        "matches_formula": true,
+        "measured_lattice_count": 13,
+        "pick_formula_count": 13,
+        "sum": 9,
+        "vertices_ab": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            0,
+            -2
+          ]
+        ]
+      },
+      {
+        "area": 18,
+        "boundary_lattice_points": 12,
+        "g": 4,
+        "m": 3,
+        "matches_formula": true,
+        "measured_lattice_count": 25,
+        "pick_formula_count": 25,
+        "sum": 12,
+        "vertices_ab": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      {
+        "area": 32,
+        "boundary_lattice_points": 16,
+        "g": 5,
+        "m": 4,
+        "matches_formula": true,
+        "measured_lattice_count": 41,
+        "pick_formula_count": 41,
+        "sum": 15,
+        "vertices_ab": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            -4,
+            0
+          ],
+          [
+            0,
+            -4
+          ]
+        ]
+      },
+      {
+        "area": 18,
+        "boundary_lattice_points": 12,
+        "g": 6,
+        "m": 3,
+        "matches_formula": true,
+        "measured_lattice_count": 25,
+        "pick_formula_count": 25,
+        "sum": 18,
+        "vertices_ab": [
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            -3,
+            0
+          ],
+          [
+            0,
+            -3
+          ]
+        ]
+      },
+      {
+        "area": 8,
+        "boundary_lattice_points": 8,
+        "g": 7,
+        "m": 2,
+        "matches_formula": true,
+        "measured_lattice_count": 13,
+        "pick_formula_count": 13,
+        "sum": 21,
+        "vertices_ab": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            0,
+            -2
+          ]
+        ]
+      },
+      {
+        "area": 2,
+        "boundary_lattice_points": 4,
+        "g": 8,
+        "m": 1,
+        "matches_formula": true,
+        "measured_lattice_count": 5,
+        "pick_formula_count": 5,
+        "sum": 24,
+        "vertices_ab": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      },
+      {
+        "area": 0,
+        "boundary_lattice_points": 1,
+        "g": 9,
+        "m": 0,
+        "matches_formula": true,
+        "measured_lattice_count": 1,
+        "pick_formula_count": 1,
+        "sum": 27,
+        "vertices_ab": [
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "statement": "For fixed center g, put m=min(g-1,9-g). The bounded Lo Shu fiber is the lattice diamond |a+b|<=m, |a-b|<=m, with count 2m^2+2m+1."
+  },
+  "metadata": {
+    "description": "Initial bounded magic-polytope checks for the Sagrada ray and Lo Shu S=24 fiber.",
+    "phase": "Phase E",
+    "project": "Magic 24"
+  },
+  "sagrada_ray": {
+    "D0": {
+      "fixed_sum_face": {
+        "active_bound_count": 2,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 16
+          }
+        ],
+        "base_dimension": 7,
+        "base_rank": 9,
+        "face_dimension": 5,
+        "fixed_sum": 34,
+        "is_vertex": false
+      },
+      "free_sum_face": {
+        "active_bound_count": 2,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "upper",
+            "cell": [
+              3,
+              3
+            ],
+            "label": "r3c3",
+            "value": 16
+          }
+        ],
+        "base_dimension": 8,
+        "base_rank": 8,
+        "face_dimension": 6,
+        "fixed_sum": null,
+        "is_vertex": false
+      },
+      "line_sums": {
+        "columns": [
+          34,
+          34,
+          34,
+          34
+        ],
+        "diagonals": [
+          34,
+          34
+        ],
+        "rows": [
+          34,
+          34,
+          34,
+          34
+        ]
+      },
+      "matrix": [
+        [
+          1,
+          14,
+          15,
+          4
+        ],
+        [
+          12,
+          7,
+          6,
+          9
+        ],
+        [
+          8,
+          11,
+          10,
+          5
+        ],
+        [
+          13,
+          2,
+          3,
+          16
+        ]
+      ]
+    },
+    "D10": {
+      "fixed_sum_face": {
+        "active_bound_count": 2,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          }
+        ],
+        "base_dimension": 7,
+        "base_rank": 9,
+        "face_dimension": 5,
+        "fixed_sum": 24,
+        "is_vertex": false
+      },
+      "free_sum_face": {
+        "active_bound_count": 2,
+        "active_bounds": [
+          {
+            "bound": "lower",
+            "cell": [
+              0,
+              0
+            ],
+            "label": "r0c0",
+            "value": 1
+          },
+          {
+            "bound": "lower",
+            "cell": [
+              2,
+              1
+            ],
+            "label": "r2c1",
+            "value": 1
+          }
+        ],
+        "base_dimension": 8,
+        "base_rank": 8,
+        "face_dimension": 6,
+        "fixed_sum": null,
+        "is_vertex": false
+      },
+      "line_sums": {
+        "columns": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "diagonals": [
+          24,
+          24
+        ],
+        "rows": [
+          24,
+          24,
+          24,
+          24
+        ]
+      },
+      "matrix": [
+        [
+          1,
+          14,
+          5,
+          4
+        ],
+        [
+          2,
+          7,
+          6,
+          9
+        ],
+        [
+          8,
+          1,
+          10,
+          5
+        ],
+        [
+          13,
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "active_bounds_along_ray": {
+      "t_0": [
+        {
+          "bound": "lower",
+          "cell": [
+            0,
+            0
+          ],
+          "label": "r0c0",
+          "value": 1
+        },
+        {
+          "bound": "upper",
+          "cell": [
+            3,
+            3
+          ],
+          "label": "r3c3",
+          "value": 16
+        }
+      ],
+      "t_10": [
+        {
+          "bound": "lower",
+          "cell": [
+            0,
+            0
+          ],
+          "label": "r0c0",
+          "value": 1
+        },
+        {
+          "bound": "lower",
+          "cell": [
+            2,
+            1
+          ],
+          "label": "r2c1",
+          "value": 1
+        }
+      ],
+      "t_1_to_9_constant": [
+        {
+          "bound": "lower",
+          "cell": [
+            0,
+            0
+          ],
+          "label": "r0c0",
+          "value": 1
+        }
+      ]
+    },
+    "mask": "2013",
+    "selected_cells": [
+      {
+        "cell": [
+          0,
+          2
+        ],
+        "label": "r0c2",
+        "source_value": 15
+      },
+      {
+        "cell": [
+          1,
+          0
+        ],
+        "label": "r1c0",
+        "source_value": 12
+      },
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "label": "r2c1",
+        "source_value": 11
+      },
+      {
+        "cell": [
+          3,
+          3
+        ],
+        "label": "r3c3",
+        "source_value": 16
+      }
+    ],
+    "source_magic_sum": 34,
+    "t_interval_downward": [
+      0,
+      10
+    ],
+    "terminal_hit_cells": [
+      {
+        "cell": [
+          2,
+          1
+        ],
+        "label": "r2c1",
+        "source_value": 11
+      }
+    ],
+    "terminal_magic_sum": 24,
+    "terminal_t": 10
+  },
+  "summary": {
+    "D10_barycentric_certificate_type": "two_vertex_segment",
+    "D10_barycentric_certificate_vertex_indices": [
+      34,
+      41
+    ],
+    "D10_barycentric_certificate_weights": [
+      "4/5",
+      "1/5"
+    ],
+    "D10_fixed_sum_24_face_dimension": 5,
+    "D10_fixed_sum_24_minimal_face_integral_vertex_count": 37,
+    "D10_fixed_sum_24_minimal_face_vertex_count": 47,
+    "D10_free_sum_face_dimension": 6,
+    "D10_is_vertex_fixed_sum_24": false,
+    "D10_is_vertex_free_sum": false,
+    "D10_local_face_D4_stabilizer_size": 1,
+    "D10_relative_interior_of_minimal_face": true,
+    "lo_shu_counts_match_lattice_formula": true,
+    "lo_shu_s24_lattice_count": 5
+  }
+}

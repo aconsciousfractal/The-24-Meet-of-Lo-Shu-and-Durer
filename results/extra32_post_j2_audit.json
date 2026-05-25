@@ -1,0 +1,1382 @@
+{
+  "metadata": {
+    "description": "Post-J2 audit of the 32 selected-mask-affine extras using affine-defect support, small-move Markov data, and finite Hilbert-style decomposition data.",
+    "guardrail": "This is a targeted invariant audit for the 32 extras; it is not a complete Markov-basis or Hilbert-basis theorem.",
+    "phase": "Phase K1",
+    "project": "Magic 24"
+  },
+  "records": [
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3021",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 5,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "3021",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 78,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 87,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 93,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 133,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "2130",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 143,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3021",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 201,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 204,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 16,
+        "2": 4
+      },
+      "hilbert_min_atom_count": 20,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 238,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 8,
+        "2": 8
+      },
+      "hilbert_min_atom_count": 16,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "exact_v4:4,main_extra:2,outside_main:2",
+      "markov_component_size": 8,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 244,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 8,
+        "2": 8
+      },
+      "hilbert_min_atom_count": 16,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "exact_v4:4,main_extra:2,outside_main:2",
+      "markov_component_size": 8,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 348,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 16,
+        "2": 4
+      },
+      "hilbert_min_atom_count": 20,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "1320",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 370,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 16,
+        "2": 4
+      },
+      "hilbert_min_atom_count": 20,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 411,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 8,
+        "2": 8
+      },
+      "hilbert_min_atom_count": 16,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "exact_v4:4,main_extra:2,outside_main:2",
+      "markov_component_size": 8,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 415,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "3021",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 416,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 8,
+        "2": 8
+      },
+      "hilbert_min_atom_count": 16,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "exact_v4:4,main_extra:2,outside_main:2",
+      "markov_component_size": 8,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 537,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 16,
+        "2": 4
+      },
+      "hilbert_min_atom_count": 20,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "1320",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 550,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 554,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "2": 12
+      },
+      "hilbert_min_atom_count": 12,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "3021",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 578,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "2130",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 610,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 8,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3021",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 630,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 649,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 654,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "3021",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 688,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "2013",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 699,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "2": 12
+      },
+      "hilbert_min_atom_count": 12,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:1",
+      "markov_component_size": 1,
+      "markov_degree": 0,
+      "markov_neighbor_class_counts": {},
+      "mask": "2130",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 735,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "3021",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 782,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "1": 4,
+        "2": 10
+      },
+      "hilbert_min_atom_count": 14,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "2130",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 795,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "3102",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        5,
+        6,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 829,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "2": 12
+      },
+      "hilbert_min_atom_count": 12,
+      "hilbert_support_size": 6,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "3021",
+      "mismatch_cells": [
+        "r1c1",
+        "r1c3",
+        "r2c1",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 830,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "complement_fixed": false,
+      "hilbert_atom_degree_profile": {
+        "2": 12
+      },
+      "hilbert_min_atom_count": 12,
+      "hilbert_support_size": 5,
+      "markov_component_profile": "main_extra:2",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "main_extra": 1
+      },
+      "mask": "2130",
+      "mismatch_cells": [
+        "r2c1",
+        "r2c2",
+        "r3c1",
+        "r3c2"
+      ],
+      "mismatch_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "mismatch_mask_intersection_count": 0,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 4,
+      "square_index": 846,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "complement_fixed": true,
+      "hilbert_atom_degree_profile": {
+        "1": 12,
+        "2": 6
+      },
+      "hilbert_min_atom_count": 18,
+      "hilbert_support_size": 7,
+      "markov_component_profile": "main_extra:1,outside_main:1",
+      "markov_component_size": 2,
+      "markov_degree": 1,
+      "markov_neighbor_class_counts": {
+        "outside_main": 1
+      },
+      "mask": "1320",
+      "mismatch_cells": [
+        "r1c2",
+        "r1c3",
+        "r2c2",
+        "r2c3"
+      ],
+      "mismatch_indices": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "mismatch_mask_intersection_count": 2,
+      "mismatch_support_is_mask": false,
+      "source_diagonal_size": 2,
+      "square_index": 855,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    }
+  ],
+  "summary": {
+    "extra_pair_count": 32,
+    "hilbert_min_atom_count_distribution": {
+      "12": 4,
+      "14": 8,
+      "16": 4,
+      "18": 12,
+      "20": 4
+    },
+    "markov_component_profile_distribution": {
+      "exact_v4:4,main_extra:2,outside_main:2": 4,
+      "main_extra:1": 12,
+      "main_extra:1,outside_main:1": 10,
+      "main_extra:2": 6
+    },
+    "markov_degree_distribution": {
+      "0": 12,
+      "1": 20
+    },
+    "mismatch_mask_intersection_distribution": {
+      "0": 22,
+      "2": 10
+    },
+    "mismatch_support_distribution": {
+      "('r1c1', 'r1c2', 'r3c1', 'r3c2')": 9,
+      "('r1c1', 'r1c3', 'r2c1', 'r2c3')": 7,
+      "('r1c2', 'r1c3', 'r2c2', 'r2c3')": 9,
+      "('r2c1', 'r2c2', 'r3c1', 'r3c2')": 7
+    },
+    "mismatch_support_is_mask_count": 0,
+    "terminal_set_class_distribution": {
+      "two_diagonal_pair": 16,
+      "v4_like_0213": 8,
+      "v4_like_1302": 8
+    }
+  },
+  "terminal_class_summaries": {
+    "two_diagonal_pair": {
+      "complement_fixed_distribution": {
+        "False": 8,
+        "True": 8
+      },
+      "count": 16,
+      "hilbert_min_atom_count_distribution": {
+        "14": 4,
+        "18": 12
+      },
+      "hilbert_support_size_distribution": {
+        "5": 3,
+        "6": 4,
+        "7": 3,
+        "8": 6
+      },
+      "markov_component_profile_distribution": {
+        "main_extra:1": 10,
+        "main_extra:1,outside_main:1": 6
+      },
+      "markov_degree_distribution": {
+        "0": 10,
+        "1": 6
+      },
+      "mismatch_mask_intersection_distribution": {
+        "0": 10,
+        "2": 6
+      },
+      "mismatch_support_distribution": {
+        "('r1c1', 'r1c2', 'r3c1', 'r3c2')": 4,
+        "('r1c1', 'r1c3', 'r2c1', 'r2c3')": 4,
+        "('r1c2', 'r1c3', 'r2c2', 'r2c3')": 5,
+        "('r2c1', 'r2c2', 'r3c1', 'r3c2')": 3
+      },
+      "source_diagonal_size_distribution": {
+        "2": 12,
+        "4": 4
+      }
+    },
+    "v4_like_0213": {
+      "complement_fixed_distribution": {
+        "False": 8
+      },
+      "count": 8,
+      "hilbert_min_atom_count_distribution": {
+        "14": 4,
+        "20": 4
+      },
+      "hilbert_support_size_distribution": {
+        "5": 2,
+        "6": 4,
+        "7": 2
+      },
+      "markov_component_profile_distribution": {
+        "main_extra:1": 1,
+        "main_extra:1,outside_main:1": 4,
+        "main_extra:2": 3
+      },
+      "markov_degree_distribution": {
+        "0": 1,
+        "1": 7
+      },
+      "mismatch_mask_intersection_distribution": {
+        "0": 6,
+        "2": 2
+      },
+      "mismatch_support_distribution": {
+        "('r1c1', 'r1c2', 'r3c1', 'r3c2')": 3,
+        "('r1c1', 'r1c3', 'r2c1', 'r2c3')": 1,
+        "('r1c2', 'r1c3', 'r2c2', 'r2c3')": 2,
+        "('r2c1', 'r2c2', 'r3c1', 'r3c2')": 2
+      },
+      "source_diagonal_size_distribution": {
+        "4": 8
+      }
+    },
+    "v4_like_1302": {
+      "complement_fixed_distribution": {
+        "False": 8
+      },
+      "count": 8,
+      "hilbert_min_atom_count_distribution": {
+        "12": 4,
+        "16": 4
+      },
+      "hilbert_support_size_distribution": {
+        "5": 1,
+        "6": 3,
+        "7": 2,
+        "8": 2
+      },
+      "markov_component_profile_distribution": {
+        "exact_v4:4,main_extra:2,outside_main:2": 4,
+        "main_extra:1": 1,
+        "main_extra:2": 3
+      },
+      "markov_degree_distribution": {
+        "0": 1,
+        "1": 7
+      },
+      "mismatch_mask_intersection_distribution": {
+        "0": 6,
+        "2": 2
+      },
+      "mismatch_support_distribution": {
+        "('r1c1', 'r1c2', 'r3c1', 'r3c2')": 2,
+        "('r1c1', 'r1c3', 'r2c1', 'r2c3')": 2,
+        "('r1c2', 'r1c3', 'r2c2', 'r2c3')": 2,
+        "('r2c1', 'r2c2', 'r3c1', 'r3c2')": 2
+      },
+      "source_diagonal_size_distribution": {
+        "4": 8
+      }
+    }
+  }
+}

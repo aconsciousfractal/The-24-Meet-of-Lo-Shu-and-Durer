@@ -1,0 +1,461 @@
+{
+  "comparison": {
+    "all_d4_cosets_have_same_dimension_and_edge_count": true,
+    "all_v4_cosets_are_birkhoff_independent": true,
+    "birkhoff_edge_drop": "16 -> 0",
+    "dimension_drop": "5 -> 3"
+  },
+  "cosets": {
+    "D4": [
+      {
+        "birkhoff_induced_edge_count": 16,
+        "birkhoff_induced_edges": [
+          [
+            "0123",
+            "0213"
+          ],
+          [
+            "0123",
+            "1302"
+          ],
+          [
+            "0123",
+            "2031"
+          ],
+          [
+            "0123",
+            "3120"
+          ],
+          [
+            "0213",
+            "1032"
+          ],
+          [
+            "0213",
+            "2301"
+          ],
+          [
+            "0213",
+            "3210"
+          ],
+          [
+            "1032",
+            "1302"
+          ],
+          [
+            "1032",
+            "2031"
+          ],
+          [
+            "1032",
+            "3120"
+          ],
+          [
+            "1302",
+            "2301"
+          ],
+          [
+            "1302",
+            "3210"
+          ],
+          [
+            "2031",
+            "2301"
+          ],
+          [
+            "2031",
+            "3210"
+          ],
+          [
+            "2301",
+            "3120"
+          ],
+          [
+            "3120",
+            "3210"
+          ]
+        ],
+        "index": 0,
+        "is_birkhoff_independent_set": false,
+        "name": "D4_coset_0",
+        "permutation_polytope_dimension": 5,
+        "size": 8,
+        "words": [
+          "0123",
+          "0213",
+          "1032",
+          "1302",
+          "2031",
+          "2301",
+          "3120",
+          "3210"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 16,
+        "birkhoff_induced_edges": [
+          [
+            "0132",
+            "0312"
+          ],
+          [
+            "0132",
+            "1203"
+          ],
+          [
+            "0132",
+            "2130"
+          ],
+          [
+            "0132",
+            "3021"
+          ],
+          [
+            "0312",
+            "1023"
+          ],
+          [
+            "0312",
+            "2310"
+          ],
+          [
+            "0312",
+            "3201"
+          ],
+          [
+            "1023",
+            "1203"
+          ],
+          [
+            "1023",
+            "2130"
+          ],
+          [
+            "1023",
+            "3021"
+          ],
+          [
+            "1203",
+            "2310"
+          ],
+          [
+            "1203",
+            "3201"
+          ],
+          [
+            "2130",
+            "2310"
+          ],
+          [
+            "2130",
+            "3201"
+          ],
+          [
+            "2310",
+            "3021"
+          ],
+          [
+            "3021",
+            "3201"
+          ]
+        ],
+        "index": 1,
+        "is_birkhoff_independent_set": false,
+        "name": "D4_coset_1",
+        "permutation_polytope_dimension": 5,
+        "size": 8,
+        "words": [
+          "0132",
+          "0312",
+          "1023",
+          "1203",
+          "2130",
+          "2310",
+          "3021",
+          "3201"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 16,
+        "birkhoff_induced_edges": [
+          [
+            "0231",
+            "0321"
+          ],
+          [
+            "0231",
+            "1230"
+          ],
+          [
+            "0231",
+            "2103"
+          ],
+          [
+            "0231",
+            "3012"
+          ],
+          [
+            "0321",
+            "1320"
+          ],
+          [
+            "0321",
+            "2013"
+          ],
+          [
+            "0321",
+            "3102"
+          ],
+          [
+            "1230",
+            "1320"
+          ],
+          [
+            "1230",
+            "2013"
+          ],
+          [
+            "1230",
+            "3102"
+          ],
+          [
+            "1320",
+            "2103"
+          ],
+          [
+            "1320",
+            "3012"
+          ],
+          [
+            "2013",
+            "2103"
+          ],
+          [
+            "2013",
+            "3012"
+          ],
+          [
+            "2103",
+            "3102"
+          ],
+          [
+            "3012",
+            "3102"
+          ]
+        ],
+        "index": 2,
+        "is_birkhoff_independent_set": false,
+        "name": "D4_coset_2",
+        "permutation_polytope_dimension": 5,
+        "size": 8,
+        "words": [
+          "0231",
+          "0321",
+          "1230",
+          "1320",
+          "2013",
+          "2103",
+          "3012",
+          "3102"
+        ]
+      }
+    ],
+    "V4": [
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 0,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_0",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0123",
+          "1032",
+          "2301",
+          "3210"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 1,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_1",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0132",
+          "1023",
+          "2310",
+          "3201"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 2,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_2",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0213",
+          "1302",
+          "2031",
+          "3120"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 3,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_3",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0231",
+          "1320",
+          "2013",
+          "3102"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 4,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_4",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0312",
+          "1203",
+          "2130",
+          "3021"
+        ]
+      },
+      {
+        "birkhoff_induced_edge_count": 0,
+        "birkhoff_induced_edges": [],
+        "index": 5,
+        "is_birkhoff_independent_set": true,
+        "name": "V4_coset_5",
+        "permutation_polytope_dimension": 3,
+        "size": 4,
+        "words": [
+          "0321",
+          "1230",
+          "2103",
+          "3012"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "birkhoff_adjacency": "Two permutations are adjacent iff their relative permutation is one nontrivial cycle.",
+    "description": "Permutation-polytope and Birkhoff-graph bridge for D4 -> V4.",
+    "phase": "Phase G",
+    "project": "Magic 24"
+  },
+  "subsets": {
+    "D4": {
+      "birkhoff_induced_edge_count": 16,
+      "birkhoff_induced_edges": [
+        [
+          "0123",
+          "0213"
+        ],
+        [
+          "0123",
+          "1302"
+        ],
+        [
+          "0123",
+          "2031"
+        ],
+        [
+          "0123",
+          "3120"
+        ],
+        [
+          "0213",
+          "1032"
+        ],
+        [
+          "0213",
+          "2301"
+        ],
+        [
+          "0213",
+          "3210"
+        ],
+        [
+          "1032",
+          "1302"
+        ],
+        [
+          "1032",
+          "2031"
+        ],
+        [
+          "1032",
+          "3120"
+        ],
+        [
+          "1302",
+          "2301"
+        ],
+        [
+          "1302",
+          "3210"
+        ],
+        [
+          "2031",
+          "2301"
+        ],
+        [
+          "2031",
+          "3210"
+        ],
+        [
+          "2301",
+          "3120"
+        ],
+        [
+          "3120",
+          "3210"
+        ]
+      ],
+      "is_birkhoff_independent_set": false,
+      "name": "D4_source_diagonals",
+      "permutation_polytope_dimension": 5,
+      "size": 8,
+      "words": [
+        "0123",
+        "0213",
+        "1032",
+        "1302",
+        "2031",
+        "2301",
+        "3120",
+        "3210"
+      ]
+    },
+    "V4": {
+      "birkhoff_induced_edge_count": 0,
+      "birkhoff_induced_edges": [],
+      "is_birkhoff_independent_set": true,
+      "name": "V4_terminal_diagonals",
+      "permutation_polytope_dimension": 3,
+      "size": 4,
+      "words": [
+        "0123",
+        "1032",
+        "2301",
+        "3210"
+      ]
+    }
+  }
+}

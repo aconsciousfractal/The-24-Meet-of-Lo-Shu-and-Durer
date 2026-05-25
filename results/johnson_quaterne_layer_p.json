@@ -1,0 +1,1558 @@
+{
+  "atlas_class_counts": {
+    "exact_v4": 144,
+    "extra32": 32,
+    "outside_main": 60
+  },
+  "atlas_class_summary": {
+    "exact_v4": {
+      "combined_signature_count": 1,
+      "combined_top": [
+        {
+          "count": 144,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 36
+            },
+            "terminal_affine_inner_profile": {
+              "0": 246,
+              "1": 192,
+              "2": 192,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 25,
+              "source_34_incidence_1": 50,
+              "source_44_incidence_2": 21
+            },
+            "terminal_inner_profile": {
+              "0": 1336,
+              "1": 2058,
+              "2": 1090,
+              "3": 76,
+              "4": 0
+            }
+          }
+        }
+      ],
+      "field_summaries": {
+        "source_h34_affine_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 8,
+                "1": 36,
+                "2": 8,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "source_h34_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 19,
+                "1": 50,
+                "2": 17,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_decomposition": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "source_34_incidence_1": 36
+              }
+            }
+          ]
+        },
+        "terminal_affine_inner_profile": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 246,
+                "1": 192,
+                "2": 192,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 0,
+                "1": 36,
+                "2": 0,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_decomposition": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "source_24_incidence_0": 25,
+                "source_34_incidence_1": 50,
+                "source_44_incidence_2": 21
+              }
+            }
+          ]
+        },
+        "terminal_inner_profile": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 1336,
+                "1": 2058,
+                "2": 1090,
+                "3": 76,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 144,
+              "signature": {
+                "0": 25,
+                "1": 50,
+                "2": 21,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        }
+      },
+      "record_count": 144
+    },
+    "extra32": {
+      "combined_signature_count": 1,
+      "combined_top": [
+        {
+          "count": 32,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 36
+            },
+            "terminal_affine_inner_profile": {
+              "0": 246,
+              "1": 192,
+              "2": 192,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 25,
+              "source_34_incidence_1": 50,
+              "source_44_incidence_2": 21
+            },
+            "terminal_inner_profile": {
+              "0": 1336,
+              "1": 2058,
+              "2": 1090,
+              "3": 76,
+              "4": 0
+            }
+          }
+        }
+      ],
+      "field_summaries": {
+        "source_h34_affine_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 8,
+                "1": 36,
+                "2": 8,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "source_h34_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 19,
+                "1": 50,
+                "2": 17,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_decomposition": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "source_34_incidence_1": 36
+              }
+            }
+          ]
+        },
+        "terminal_affine_inner_profile": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 246,
+                "1": 192,
+                "2": 192,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 0,
+                "1": 36,
+                "2": 0,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_decomposition": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "source_24_incidence_0": 25,
+                "source_34_incidence_1": 50,
+                "source_44_incidence_2": 21
+              }
+            }
+          ]
+        },
+        "terminal_inner_profile": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 1336,
+                "1": 2058,
+                "2": 1090,
+                "3": 76,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_johnson_strata": {
+          "signature_count": 1,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 25,
+                "1": 50,
+                "2": 21,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        }
+      },
+      "record_count": 32
+    },
+    "outside_main": {
+      "combined_signature_count": 8,
+      "combined_top": [
+        {
+          "count": 16,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 34,
+              "source_54_incidence_3": 1
+            },
+            "terminal_affine_inner_profile": {
+              "0": 217,
+              "1": 206,
+              "2": 172,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 27,
+              "source_34_incidence_1": 54,
+              "source_44_incidence_2": 23,
+              "source_54_incidence_3": 3
+            },
+            "terminal_inner_profile": {
+              "0": 1637,
+              "1": 2595,
+              "2": 1346,
+              "3": 93,
+              "4": 0
+            }
+          }
+        },
+        {
+          "count": 12,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 30,
+              "source_44_incidence_2": 1,
+              "source_54_incidence_3": 1
+            },
+            "terminal_affine_inner_profile": {
+              "0": 171,
+              "1": 189,
+              "2": 136,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 28,
+              "source_34_incidence_1": 55,
+              "source_44_incidence_2": 25,
+              "source_54_incidence_3": 3
+            },
+            "terminal_inner_profile": {
+              "0": 1745,
+              "1": 2832,
+              "2": 1433,
+              "3": 95,
+              "4": 0
+            }
+          }
+        },
+        {
+          "count": 8,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 30,
+              "source_44_incidence_2": 1,
+              "source_54_incidence_3": 1
+            },
+            "terminal_affine_inner_profile": {
+              "0": 171,
+              "1": 189,
+              "2": 136,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 24,
+              "source_34_incidence_1": 49,
+              "source_44_incidence_2": 20,
+              "source_54_incidence_3": 2
+            },
+            "terminal_inner_profile": {
+              "0": 1287,
+              "1": 2072,
+              "2": 1027,
+              "3": 79,
+              "4": 0
+            }
+          }
+        },
+        {
+          "count": 8,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 30
+            },
+            "terminal_affine_inner_profile": {
+              "0": 163,
+              "1": 144,
+              "2": 128,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 25,
+              "source_34_incidence_1": 50,
+              "source_44_incidence_2": 19,
+              "source_54_incidence_3": 2
+            },
+            "terminal_inner_profile": {
+              "0": 1289,
+              "1": 2113,
+              "2": 1075,
+              "3": 83,
+              "4": 0
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "terminal_affine_decomposition": {
+              "source_34_incidence_1": 28,
+              "source_54_incidence_3": 1
+            },
+            "terminal_affine_inner_profile": {
+              "0": 150,
+              "1": 140,
+              "2": 116,
+              "3": 0,
+              "4": 0
+            },
+            "terminal_decomposition": {
+              "source_24_incidence_0": 23,
+              "source_34_incidence_1": 46,
+              "source_44_incidence_2": 19,
+              "source_54_incidence_3": 2
+            },
+            "terminal_inner_profile": {
+              "0": 1164,
+              "1": 1835,
+              "2": 929,
+              "3": 77,
+              "4": 0
+            }
+          }
+        }
+      ],
+      "field_summaries": {
+        "source_h34_affine_johnson_strata": {
+          "signature_count": 3,
+          "top": [
+            {
+              "count": 32,
+              "signature": {
+                "0": 11,
+                "1": 30,
+                "2": 11,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 16,
+              "signature": {
+                "0": 9,
+                "1": 34,
+                "2": 9,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "0": 12,
+                "1": 28,
+                "2": 12,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "source_h34_johnson_strata": {
+          "signature_count": 7,
+          "top": [
+            {
+              "count": 16,
+              "signature": {
+                "0": 17,
+                "1": 54,
+                "2": 15,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "0": 17,
+                "1": 55,
+                "2": 14,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 19,
+                "1": 49,
+                "2": 18,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 18,
+                "1": 50,
+                "2": 18,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 20,
+                "1": 46,
+                "2": 20,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_decomposition": {
+          "signature_count": 6,
+          "top": [
+            {
+              "count": 20,
+              "signature": {
+                "source_34_incidence_1": 30,
+                "source_44_incidence_2": 1,
+                "source_54_incidence_3": 1
+              }
+            },
+            {
+              "count": 16,
+              "signature": {
+                "source_34_incidence_1": 34,
+                "source_54_incidence_3": 1
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "source_34_incidence_1": 30
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "source_34_incidence_1": 28,
+                "source_54_incidence_3": 1
+              }
+            },
+            {
+              "count": 4,
+              "signature": {
+                "source_34_incidence_1": 30,
+                "source_54_incidence_3": 1
+              }
+            }
+          ]
+        },
+        "terminal_affine_inner_profile": {
+          "signature_count": 5,
+          "top": [
+            {
+              "count": 20,
+              "signature": {
+                "0": 171,
+                "1": 189,
+                "2": 136,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 16,
+              "signature": {
+                "0": 217,
+                "1": 206,
+                "2": 172,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "0": 150,
+                "1": 140,
+                "2": 116,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 163,
+                "1": 144,
+                "2": 128,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 4,
+              "signature": {
+                "0": 167,
+                "1": 166,
+                "2": 132,
+                "3": 0,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_affine_johnson_strata": {
+          "signature_count": 6,
+          "top": [
+            {
+              "count": 20,
+              "signature": {
+                "0": 0,
+                "1": 30,
+                "2": 1,
+                "3": 1,
+                "4": 0
+              }
+            },
+            {
+              "count": 16,
+              "signature": {
+                "0": 0,
+                "1": 34,
+                "2": 0,
+                "3": 1,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 0,
+                "1": 30,
+                "2": 0,
+                "3": 0,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 0,
+                "1": 28,
+                "2": 0,
+                "3": 1,
+                "4": 0
+              }
+            },
+            {
+              "count": 4,
+              "signature": {
+                "0": 0,
+                "1": 30,
+                "2": 0,
+                "3": 1,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_decomposition": {
+          "signature_count": 7,
+          "top": [
+            {
+              "count": 16,
+              "signature": {
+                "source_24_incidence_0": 27,
+                "source_34_incidence_1": 54,
+                "source_44_incidence_2": 23,
+                "source_54_incidence_3": 3
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "source_24_incidence_0": 28,
+                "source_34_incidence_1": 55,
+                "source_44_incidence_2": 25,
+                "source_54_incidence_3": 3
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "source_24_incidence_0": 24,
+                "source_34_incidence_1": 49,
+                "source_44_incidence_2": 20,
+                "source_54_incidence_3": 2
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "source_24_incidence_0": 25,
+                "source_34_incidence_1": 50,
+                "source_44_incidence_2": 19,
+                "source_54_incidence_3": 2
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "source_24_incidence_0": 23,
+                "source_34_incidence_1": 46,
+                "source_44_incidence_2": 19,
+                "source_54_incidence_3": 2
+              }
+            }
+          ]
+        },
+        "terminal_inner_profile": {
+          "signature_count": 8,
+          "top": [
+            {
+              "count": 16,
+              "signature": {
+                "0": 1637,
+                "1": 2595,
+                "2": 1346,
+                "3": 93,
+                "4": 0
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "0": 1745,
+                "1": 2832,
+                "2": 1433,
+                "3": 95,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 1287,
+                "1": 2072,
+                "2": 1027,
+                "3": 79,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 1289,
+                "1": 2113,
+                "2": 1075,
+                "3": 83,
+                "4": 0
+              }
+            },
+            {
+              "count": 4,
+              "signature": {
+                "0": 1164,
+                "1": 1835,
+                "2": 929,
+                "3": 77,
+                "4": 0
+              }
+            }
+          ]
+        },
+        "terminal_johnson_strata": {
+          "signature_count": 7,
+          "top": [
+            {
+              "count": 16,
+              "signature": {
+                "0": 27,
+                "1": 54,
+                "2": 23,
+                "3": 3,
+                "4": 0
+              }
+            },
+            {
+              "count": 12,
+              "signature": {
+                "0": 28,
+                "1": 55,
+                "2": 25,
+                "3": 3,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 24,
+                "1": 49,
+                "2": 20,
+                "3": 2,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 25,
+                "1": 50,
+                "2": 19,
+                "3": 2,
+                "4": 0
+              }
+            },
+            {
+              "count": 8,
+              "signature": {
+                "0": 23,
+                "1": 46,
+                "2": 19,
+                "3": 2,
+                "4": 0
+              }
+            }
+          ]
+        }
+      },
+      "record_count": 60
+    }
+  },
+  "durer_sagrada": {
+    "mask": "2013",
+    "mask_cells": [
+      2,
+      4,
+      9,
+      15
+    ],
+    "selected_values": [
+      15,
+      12,
+      11,
+      16
+    ],
+    "source_h34_affine_count": 52,
+    "source_h34_affine_inner_profile": {
+      "0": 486,
+      "1": 432,
+      "2": 408,
+      "3": 0,
+      "4": 0
+    },
+    "source_h34_affine_johnson_strata": {
+      "0": 8,
+      "1": 36,
+      "2": 8,
+      "3": 0,
+      "4": 0
+    },
+    "source_h34_count": 86,
+    "source_h34_inner_profile": {
+      "0": 1075,
+      "1": 1620,
+      "2": 960,
+      "3": 0,
+      "4": 0
+    },
+    "source_h34_johnson_strata": {
+      "0": 19,
+      "1": 50,
+      "2": 17,
+      "3": 0,
+      "4": 0
+    },
+    "t_max": 10,
+    "terminal_affine_count": 36,
+    "terminal_affine_decomposition": {
+      "source_34_incidence_1": 36
+    },
+    "terminal_affine_inner_profile": {
+      "0": 246,
+      "1": 192,
+      "2": 192,
+      "3": 0,
+      "4": 0
+    },
+    "terminal_affine_johnson_strata": {
+      "0": 0,
+      "1": 36,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "terminal_count": 96,
+    "terminal_decomposition": {
+      "source_24_incidence_0": 25,
+      "source_34_incidence_1": 50,
+      "source_44_incidence_2": 21
+    },
+    "terminal_inner_profile": {
+      "0": 1336,
+      "1": 2058,
+      "2": 1090,
+      "3": 76,
+      "4": 0
+    },
+    "terminal_johnson_strata": {
+      "0": 25,
+      "1": 50,
+      "2": 21,
+      "3": 0,
+      "4": 0
+    },
+    "terminal_sum": 24
+  },
+  "interpretation": {
+    "johnson_transport_identity": "sum_{Q}(A-tM) = sum_{Q}(A) - t |Q cap M|",
+    "main_negative_result": "The tested Johnson profiles do not separate the 144 exact-V4 records from the 32 selected-affine extras.",
+    "main_positive_result": "The tested Johnson profiles separate the main 176-pair selected-affine signature from the 60 outside-main records.",
+    "paper_role": "Useful notation and a classifier for 176 versus outside-main; not a conceptual solution of the 144/32 boundary."
+  },
+  "johnson_scheme": {
+    "ambient": "J(16,4)",
+    "ambient_strata_for_fixed_mask": {
+      "0": 495,
+      "1": 880,
+      "2": 396,
+      "3": 48,
+      "4": 1
+    },
+    "stratum_definition": "J_i(M) = {Q: |Q cap M| = i}"
+  },
+  "metadata": {
+    "description": "Johnson-scheme quaterne transport profiles for Durer/Sagrada and the terminal-24 atlas.",
+    "phase": "P",
+    "project": "Magic 24",
+    "source_classes": [
+      "results/exact_v4_structural_characterization.json",
+      "results/inside_out_main_signature_split.json"
+    ],
+    "source_terminal24": "results/order4_terminal24_fingerprints.json"
+  },
+  "sample_records": [
+    {
+      "class": "extra32",
+      "mask": "3021",
+      "profile": {
+        "mask": "3021",
+        "mask_cells": [
+          3,
+          4,
+          10,
+          13
+        ],
+        "selected_values": [
+          16,
+          15,
+          11,
+          12
+        ],
+        "source_h34_affine_count": 52,
+        "source_h34_affine_inner_profile": {
+          "0": 486,
+          "1": 432,
+          "2": 408,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_affine_johnson_strata": {
+          "0": 8,
+          "1": 36,
+          "2": 8,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_count": 86,
+        "source_h34_inner_profile": {
+          "0": 1075,
+          "1": 1620,
+          "2": 960,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_johnson_strata": {
+          "0": 19,
+          "1": 50,
+          "2": 17,
+          "3": 0,
+          "4": 0
+        },
+        "t_max": 10,
+        "terminal_affine_count": 36,
+        "terminal_affine_decomposition": {
+          "source_34_incidence_1": 36
+        },
+        "terminal_affine_inner_profile": {
+          "0": 246,
+          "1": 192,
+          "2": 192,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_affine_johnson_strata": {
+          "0": 0,
+          "1": 36,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_count": 96,
+        "terminal_decomposition": {
+          "source_24_incidence_0": 25,
+          "source_34_incidence_1": 50,
+          "source_44_incidence_2": 21
+        },
+        "terminal_inner_profile": {
+          "0": 1336,
+          "1": 2058,
+          "2": 1090,
+          "3": 76,
+          "4": 0
+        },
+        "terminal_johnson_strata": {
+          "0": 25,
+          "1": 50,
+          "2": 21,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_sum": 24
+      },
+      "square_index": 5
+    },
+    {
+      "class": "outside_main",
+      "mask": "3102",
+      "profile": {
+        "mask": "3102",
+        "mask_cells": [
+          3,
+          5,
+          8,
+          14
+        ],
+        "selected_values": [
+          16,
+          15,
+          14,
+          11
+        ],
+        "source_h34_affine_count": 52,
+        "source_h34_affine_inner_profile": {
+          "0": 486,
+          "1": 432,
+          "2": 408,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_affine_johnson_strata": {
+          "0": 11,
+          "1": 30,
+          "2": 11,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_count": 86,
+        "source_h34_inner_profile": {
+          "0": 1075,
+          "1": 1620,
+          "2": 960,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_johnson_strata": {
+          "0": 17,
+          "1": 55,
+          "2": 14,
+          "3": 0,
+          "4": 0
+        },
+        "t_max": 10,
+        "terminal_affine_count": 32,
+        "terminal_affine_decomposition": {
+          "source_34_incidence_1": 30,
+          "source_44_incidence_2": 1,
+          "source_54_incidence_3": 1
+        },
+        "terminal_affine_inner_profile": {
+          "0": 171,
+          "1": 189,
+          "2": 136,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_affine_johnson_strata": {
+          "0": 0,
+          "1": 30,
+          "2": 1,
+          "3": 1,
+          "4": 0
+        },
+        "terminal_count": 111,
+        "terminal_decomposition": {
+          "source_24_incidence_0": 28,
+          "source_34_incidence_1": 55,
+          "source_44_incidence_2": 25,
+          "source_54_incidence_3": 3
+        },
+        "terminal_inner_profile": {
+          "0": 1745,
+          "1": 2832,
+          "2": 1433,
+          "3": 95,
+          "4": 0
+        },
+        "terminal_johnson_strata": {
+          "0": 28,
+          "1": 55,
+          "2": 25,
+          "3": 3,
+          "4": 0
+        },
+        "terminal_sum": 24
+      },
+      "square_index": 14
+    },
+    {
+      "class": "exact_v4",
+      "mask": "3102",
+      "profile": {
+        "mask": "3102",
+        "mask_cells": [
+          3,
+          5,
+          8,
+          14
+        ],
+        "selected_values": [
+          16,
+          15,
+          12,
+          11
+        ],
+        "source_h34_affine_count": 52,
+        "source_h34_affine_inner_profile": {
+          "0": 486,
+          "1": 432,
+          "2": 408,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_affine_johnson_strata": {
+          "0": 8,
+          "1": 36,
+          "2": 8,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_count": 86,
+        "source_h34_inner_profile": {
+          "0": 1075,
+          "1": 1620,
+          "2": 960,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_johnson_strata": {
+          "0": 19,
+          "1": 50,
+          "2": 17,
+          "3": 0,
+          "4": 0
+        },
+        "t_max": 10,
+        "terminal_affine_count": 36,
+        "terminal_affine_decomposition": {
+          "source_34_incidence_1": 36
+        },
+        "terminal_affine_inner_profile": {
+          "0": 246,
+          "1": 192,
+          "2": 192,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_affine_johnson_strata": {
+          "0": 0,
+          "1": 36,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_count": 96,
+        "terminal_decomposition": {
+          "source_24_incidence_0": 25,
+          "source_34_incidence_1": 50,
+          "source_44_incidence_2": 21
+        },
+        "terminal_inner_profile": {
+          "0": 1336,
+          "1": 2058,
+          "2": 1090,
+          "3": 76,
+          "4": 0
+        },
+        "terminal_johnson_strata": {
+          "0": 25,
+          "1": 50,
+          "2": 21,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_sum": 24
+      },
+      "square_index": 16
+    },
+    {
+      "class": "exact_v4",
+      "mask": "3021",
+      "profile": {
+        "mask": "3021",
+        "mask_cells": [
+          3,
+          4,
+          10,
+          13
+        ],
+        "selected_values": [
+          16,
+          15,
+          12,
+          11
+        ],
+        "source_h34_affine_count": 52,
+        "source_h34_affine_inner_profile": {
+          "0": 486,
+          "1": 432,
+          "2": 408,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_affine_johnson_strata": {
+          "0": 8,
+          "1": 36,
+          "2": 8,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_count": 86,
+        "source_h34_inner_profile": {
+          "0": 1075,
+          "1": 1620,
+          "2": 960,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_johnson_strata": {
+          "0": 19,
+          "1": 50,
+          "2": 17,
+          "3": 0,
+          "4": 0
+        },
+        "t_max": 10,
+        "terminal_affine_count": 36,
+        "terminal_affine_decomposition": {
+          "source_34_incidence_1": 36
+        },
+        "terminal_affine_inner_profile": {
+          "0": 246,
+          "1": 192,
+          "2": 192,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_affine_johnson_strata": {
+          "0": 0,
+          "1": 36,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_count": 96,
+        "terminal_decomposition": {
+          "source_24_incidence_0": 25,
+          "source_34_incidence_1": 50,
+          "source_44_incidence_2": 21
+        },
+        "terminal_inner_profile": {
+          "0": 1336,
+          "1": 2058,
+          "2": 1090,
+          "3": 76,
+          "4": 0
+        },
+        "terminal_johnson_strata": {
+          "0": 25,
+          "1": 50,
+          "2": 21,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_sum": 24
+      },
+      "square_index": 17
+    },
+    {
+      "class": "exact_v4",
+      "mask": "3102",
+      "profile": {
+        "mask": "3102",
+        "mask_cells": [
+          3,
+          5,
+          8,
+          14
+        ],
+        "selected_values": [
+          15,
+          16,
+          12,
+          11
+        ],
+        "source_h34_affine_count": 52,
+        "source_h34_affine_inner_profile": {
+          "0": 486,
+          "1": 432,
+          "2": 408,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_affine_johnson_strata": {
+          "0": 8,
+          "1": 36,
+          "2": 8,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_count": 86,
+        "source_h34_inner_profile": {
+          "0": 1075,
+          "1": 1620,
+          "2": 960,
+          "3": 0,
+          "4": 0
+        },
+        "source_h34_johnson_strata": {
+          "0": 19,
+          "1": 50,
+          "2": 17,
+          "3": 0,
+          "4": 0
+        },
+        "t_max": 10,
+        "terminal_affine_count": 36,
+        "terminal_affine_decomposition": {
+          "source_34_incidence_1": 36
+        },
+        "terminal_affine_inner_profile": {
+          "0": 246,
+          "1": 192,
+          "2": 192,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_affine_johnson_strata": {
+          "0": 0,
+          "1": 36,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_count": 96,
+        "terminal_decomposition": {
+          "source_24_incidence_0": 25,
+          "source_34_incidence_1": 50,
+          "source_44_incidence_2": 21
+        },
+        "terminal_inner_profile": {
+          "0": 1336,
+          "1": 2058,
+          "2": 1090,
+          "3": 76,
+          "4": 0
+        },
+        "terminal_johnson_strata": {
+          "0": 25,
+          "1": 50,
+          "2": 21,
+          "3": 0,
+          "4": 0
+        },
+        "terminal_sum": 24
+      },
+      "square_index": 21
+    }
+  ],
+  "separation_tests": [
+    {
+      "field": "source_h34_johnson_strata",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 7
+      }
+    },
+    {
+      "field": "source_h34_affine_johnson_strata",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 3
+      }
+    },
+    {
+      "field": "terminal_johnson_strata",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 7
+      }
+    },
+    {
+      "field": "terminal_decomposition",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 7
+      }
+    },
+    {
+      "field": "terminal_affine_johnson_strata",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 6
+      }
+    },
+    {
+      "field": "terminal_affine_decomposition",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 6
+      }
+    },
+    {
+      "field": "terminal_inner_profile",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 8
+      }
+    },
+    {
+      "field": "terminal_affine_inner_profile",
+      "pairwise_intersections": {
+        "exact_v4__extra32": 1,
+        "exact_v4__outside_main": 0,
+        "extra32__outside_main": 0
+      },
+      "separates_all_classes": false,
+      "separates_exact_144_from_extra_32": false,
+      "separates_main_176_from_outside_60": true,
+      "signature_counts": {
+        "exact_v4": 1,
+        "extra32": 1,
+        "outside_main": 5
+      }
+    }
+  ]
+}

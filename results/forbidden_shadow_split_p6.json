@@ -1,0 +1,124 @@
+{
+  "F_2110_by_terminal_set_class": {
+    "12": {
+      "two_diagonal_pair": 16
+    },
+    "16": {
+      "v4_like_0213": 8,
+      "v4_like_1302": 8
+    }
+  },
+  "F_2110_by_translation_subset": {
+    "12": {
+      "True": 16
+    },
+    "16": {
+      "False": 16
+    }
+  },
+  "F_2110_distribution": {
+    "12": 16,
+    "16": 16
+  },
+  "equivalences": {
+    "F_2110_12_iff_terminal_translation_subset": true,
+    "F_2110_12_iff_two_diagonal_pair": true,
+    "F_2110_16_iff_v4_like": true
+  },
+  "extra32_count": 32,
+  "metadata": {
+    "description": "Linear quotient-shadow lemma and terminal-set explanation of the extra-32 F_2110 split.",
+    "phase": "P6",
+    "project": "Magic 24"
+  },
+  "quotient_shadow_lemma": {
+    "allowed_sorted_shadows": [
+      "4,0,0,0",
+      "2,2,0,0",
+      "1,1,1,1"
+    ],
+    "forbidden_shadow": "2,1,1,0",
+    "plane_dimension": 2,
+    "possible_quotient_image_dimensions": [
+      0,
+      1,
+      2
+    ],
+    "proof_sketch": "If A is a 2-dimensional affine plane and W0 is the 2-dimensional translation spread direction, the projection pi(A) in V/W0 is an affine subspace of dimension r=0,1,2.  Each nonempty fiber of pi|A has size 2^(2-r), so the four coset counts are respectively 4,0,0,0; 2,2,0,0; or 1,1,1,1 after sorting.",
+    "spread_dimension": 2
+  },
+  "terminal_profile_rows": [
+    {
+      "count": 16,
+      "example": {
+        "mask": "3021",
+        "square_index": 5
+      },
+      "profile": {
+        "F_1111": 16,
+        "F_2110": 12,
+        "F_2200": 8,
+        "terminal_diagonal_set": [
+          "0123",
+          "3210"
+        ],
+        "terminal_linear_part_counts": {
+          "(2, 1)": 2
+        },
+        "terminal_set_class": "two_diagonal_pair",
+        "terminal_set_is_translation_subset": true,
+        "terminal_translation_offset_count": 2
+      }
+    },
+    {
+      "count": 8,
+      "example": {
+        "mask": "3102",
+        "square_index": 238
+      },
+      "profile": {
+        "F_1111": 12,
+        "F_2110": 16,
+        "F_2200": 8,
+        "terminal_diagonal_set": [
+          "0123",
+          "0213",
+          "3120",
+          "3210"
+        ],
+        "terminal_linear_part_counts": {
+          "(1, 2)": 2,
+          "(2, 1)": 2
+        },
+        "terminal_set_class": "v4_like_0213",
+        "terminal_set_is_translation_subset": false,
+        "terminal_translation_offset_count": 2
+      }
+    },
+    {
+      "count": 8,
+      "example": {
+        "mask": "2013",
+        "square_index": 244
+      },
+      "profile": {
+        "F_1111": 12,
+        "F_2110": 16,
+        "F_2200": 8,
+        "terminal_diagonal_set": [
+          "0123",
+          "1302",
+          "2031",
+          "3210"
+        ],
+        "terminal_linear_part_counts": {
+          "(1, 2)": 2,
+          "(2, 1)": 2
+        },
+        "terminal_set_class": "v4_like_1302",
+        "terminal_set_is_translation_subset": false,
+        "terminal_translation_offset_count": 2
+      }
+    }
+  ]
+}

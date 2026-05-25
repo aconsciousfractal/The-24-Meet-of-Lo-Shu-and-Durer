@@ -1,0 +1,961 @@
+{
+  "automorphism_tuple_counts": {
+    "(1, 1, 1, 1)": 32
+  },
+  "extra_pair_count": 32,
+  "metadata": {
+    "automorphism_tuple_order": "lines_plus_mask, source, terminal, combined",
+    "description": "Colored set-system automorphism orders and terminal-set/source-size split for the 32 structured extras in the main inside-out signature.",
+    "phase": "Phase H extra-32 automorphism/source audit",
+    "project": "Magic 24"
+  },
+  "records": [
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 5,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 78,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 87,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 93,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 133,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2130",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 143,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 201,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 204,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 238,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 244,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 348,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "1320",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 370,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 411,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 415,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 416,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 537,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,3072,417792)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "1320",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 550,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 554,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 578,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2130",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 610,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,0,156672)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 630,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 649,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 654,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1253376)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 688,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,-9216,-1256448)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2013",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 699,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2130",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 735,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 782,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2130",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 795,
+      "terminal_order_profile": "1:1,2:3",
+      "terminal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_0213"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3102",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 829,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "3021",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 830,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,12288,1671168)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": false,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "2130",
+      "source_diagonal_size": 4,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 846,
+      "terminal_order_profile": "1:1,2:1,4:2",
+      "terminal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ],
+      "terminal_set_class": "v4_like_1302"
+    },
+    {
+      "apd_vector": "(0,0,0,141312)",
+      "automorphism_orders": {
+        "combined": 1,
+        "lines_plus_mask": 1,
+        "source": 1,
+        "terminal": 1
+      },
+      "family_flags": {
+        "associated": false,
+        "complement_fixed": true,
+        "local_2x2": false,
+        "most_perfect_proxy": false,
+        "panmagic": false,
+        "wrap_2x2": false
+      },
+      "mask": "1320",
+      "source_diagonal_size": 2,
+      "source_type": "outside_exact_v4_source_types",
+      "square_index": 855,
+      "terminal_order_profile": "1:1,2:1",
+      "terminal_set": [
+        "0123",
+        "3210"
+      ],
+      "terminal_set_class": "two_diagonal_pair"
+    }
+  ],
+  "terminal_set_class_summaries": {
+    "two_diagonal_pair": {
+      "automorphism_tuple_counts": {
+        "(1, 1, 1, 1)": 16
+      },
+      "complement_fixed_count": 8,
+      "mask_counts": {
+        "1320": 1,
+        "2013": 4,
+        "2130": 2,
+        "3021": 5,
+        "3102": 4
+      },
+      "pair_count": 16,
+      "source_diagonal_size_counts": {
+        "2": 12,
+        "4": 4
+      }
+    },
+    "v4_like_0213": {
+      "automorphism_tuple_counts": {
+        "(1, 1, 1, 1)": 8
+      },
+      "complement_fixed_count": 0,
+      "mask_counts": {
+        "1320": 2,
+        "2130": 1,
+        "3021": 2,
+        "3102": 3
+      },
+      "pair_count": 8,
+      "source_diagonal_size_counts": {
+        "4": 8
+      }
+    },
+    "v4_like_1302": {
+      "automorphism_tuple_counts": {
+        "(1, 1, 1, 1)": 8
+      },
+      "complement_fixed_count": 0,
+      "mask_counts": {
+        "2013": 4,
+        "2130": 2,
+        "3021": 2
+      },
+      "pair_count": 8,
+      "source_diagonal_size_counts": {
+        "4": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,982 @@
+{
+  "case_by_name": {
+    "H24_affine_colored": {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "1": 8,
+        "2": 4
+      },
+      "cell_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "1^8 2^4": 1
+      },
+      "edge_color_distribution": {
+        "affine": 36,
+        "non_affine": 60
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 8,
+        "2": 44
+      },
+      "name": "H24_affine_colored",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "AB23EF678901CD45"
+      ]
+    },
+    "H24_all": {
+      "automorphism_group_order": 16,
+      "cell_orbit_size_distribution": {
+        "1": 8,
+        "2": 4
+      },
+      "cell_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^10 2^3": 4,
+        "1^12 2^2": 6,
+        "1^14 2^1": 4,
+        "1^16": 1,
+        "1^8 2^4": 1
+      },
+      "edge_color_distribution": {
+        "edge": 96
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 8,
+        "2": 12,
+        "4": 16
+      },
+      "name": "H24_all",
+      "sagrada_mask_orbit_count": 16,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "01234F6789ABCDE5",
+        "0123E56789ABCD4F",
+        "0123EF6789ABCD45",
+        "0B23456789A1CDEF",
+        "0B234F6789A1CDE5",
+        "0B23E56789A1CD4F",
+        "0B23EF6789A1CD45",
+        "A1234567890BCDEF",
+        "A1234F67890BCDE5",
+        "A123E567890BCD4F",
+        "A123EF67890BCD45"
+      ]
+    },
+    "H24_source_affine_colored": {
+      "automorphism_group_order": 1,
+      "cell_orbit_size_distribution": {
+        "1": 16
+      },
+      "cell_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1
+      },
+      "edge_color_distribution": {
+        "source_24_incidence_0_non_affine": 25,
+        "source_34_incidence_1_affine": 36,
+        "source_34_incidence_1_non_affine": 14,
+        "source_44_incidence_2_non_affine": 21
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 96
+      },
+      "name": "H24_source_affine_colored",
+      "sagrada_mask_orbit_count": 1,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF"
+      ]
+    },
+    "H24_source_colored": {
+      "automorphism_group_order": 1,
+      "cell_orbit_size_distribution": {
+        "1": 16
+      },
+      "cell_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1
+      },
+      "edge_color_distribution": {
+        "source_24_incidence_0": 25,
+        "source_34_incidence_1": 50,
+        "source_44_incidence_2": 21
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 96
+      },
+      "name": "H24_source_colored",
+      "sagrada_mask_orbit_count": 1,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF"
+      ]
+    },
+    "H34_affine_colored": {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "2": 8
+      },
+      "cell_orbits": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "2^8": 1
+      },
+      "edge_color_distribution": {
+        "affine": 52,
+        "non_affine": 34
+      },
+      "edge_count": 86,
+      "edge_orbit_size_distribution": {
+        "1": 28,
+        "2": 29
+      },
+      "name": "H34_affine_colored",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "FEDCBA9876543210"
+      ]
+    },
+    "H34_affine_only": {
+      "automorphism_group_order": 384,
+      "cell_orbit_size_distribution": {
+        "16": 1
+      },
+      "cell_orbits": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "1^2 2^1 4^3": 48,
+        "1^4 2^6": 12,
+        "1^4 3^4": 32,
+        "1^8 2^4": 12,
+        "2^2 6^2": 96,
+        "2^8": 51,
+        "4^4": 84,
+        "8^2": 48
+      },
+      "edge_color_distribution": {
+        "affine": 52
+      },
+      "edge_count": 52,
+      "edge_orbit_size_distribution": {
+        "12": 1,
+        "16": 1,
+        "24": 1
+      },
+      "name": "H34_affine_only",
+      "sagrada_mask_orbit_count": 24,
+      "sagrada_mask_stabilizer_order": 16,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "012389AB4567CDEF",
+        "0145236789CDABEF",
+        "014589CD2367ABEF",
+        "018923AB45CD67EF",
+        "018945CD23AB67EF",
+        "021346578A9BCEDF",
+        "02138A9B4657CEDF",
+        "024613578ACE9BDF",
+        "02468ACE13579BDF",
+        "028A139B46CE57DF",
+        "028A46CE139B57DF"
+      ]
+    },
+    "H34_all": {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "2": 8
+      },
+      "cell_orbits": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "2^8": 1
+      },
+      "edge_color_distribution": {
+        "edge": 86
+      },
+      "edge_count": 86,
+      "edge_orbit_size_distribution": {
+        "1": 28,
+        "2": 29
+      },
+      "name": "H34_all",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "FEDCBA9876543210"
+      ]
+    }
+  },
+  "cases": [
+    {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "2": 8
+      },
+      "cell_orbits": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "2^8": 1
+      },
+      "edge_color_distribution": {
+        "edge": 86
+      },
+      "edge_count": 86,
+      "edge_orbit_size_distribution": {
+        "1": 28,
+        "2": 29
+      },
+      "name": "H34_all",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "FEDCBA9876543210"
+      ]
+    },
+    {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "2": 8
+      },
+      "cell_orbits": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "2^8": 1
+      },
+      "edge_color_distribution": {
+        "affine": 52,
+        "non_affine": 34
+      },
+      "edge_count": 86,
+      "edge_orbit_size_distribution": {
+        "1": 28,
+        "2": 29
+      },
+      "name": "H34_affine_colored",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "FEDCBA9876543210"
+      ]
+    },
+    {
+      "automorphism_group_order": 384,
+      "cell_orbit_size_distribution": {
+        "16": 1
+      },
+      "cell_orbits": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "1^2 2^1 4^3": 48,
+        "1^4 2^6": 12,
+        "1^4 3^4": 32,
+        "1^8 2^4": 12,
+        "2^2 6^2": 96,
+        "2^8": 51,
+        "4^4": 84,
+        "8^2": 48
+      },
+      "edge_color_distribution": {
+        "affine": 52
+      },
+      "edge_count": 52,
+      "edge_orbit_size_distribution": {
+        "12": 1,
+        "16": 1,
+        "24": 1
+      },
+      "name": "H34_affine_only",
+      "sagrada_mask_orbit_count": 24,
+      "sagrada_mask_stabilizer_order": 16,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "012389AB4567CDEF",
+        "0145236789CDABEF",
+        "014589CD2367ABEF",
+        "018923AB45CD67EF",
+        "018945CD23AB67EF",
+        "021346578A9BCEDF",
+        "02138A9B4657CEDF",
+        "024613578ACE9BDF",
+        "02468ACE13579BDF",
+        "028A139B46CE57DF",
+        "028A46CE139B57DF"
+      ]
+    },
+    {
+      "automorphism_group_order": 16,
+      "cell_orbit_size_distribution": {
+        "1": 8,
+        "2": 4
+      },
+      "cell_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^10 2^3": 4,
+        "1^12 2^2": 6,
+        "1^14 2^1": 4,
+        "1^16": 1,
+        "1^8 2^4": 1
+      },
+      "edge_color_distribution": {
+        "edge": 96
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 8,
+        "2": 12,
+        "4": 16
+      },
+      "name": "H24_all",
+      "sagrada_mask_orbit_count": 16,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "01234F6789ABCDE5",
+        "0123E56789ABCD4F",
+        "0123EF6789ABCD45",
+        "0B23456789A1CDEF",
+        "0B234F6789A1CDE5",
+        "0B23E56789A1CD4F",
+        "0B23EF6789A1CD45",
+        "A1234567890BCDEF",
+        "A1234F67890BCDE5",
+        "A123E567890BCD4F",
+        "A123EF67890BCD45"
+      ]
+    },
+    {
+      "automorphism_group_order": 2,
+      "cell_orbit_size_distribution": {
+        "1": 8,
+        "2": 4
+      },
+      "cell_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1,
+        "1^8 2^4": 1
+      },
+      "edge_color_distribution": {
+        "affine": 36,
+        "non_affine": 60
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 8,
+        "2": 44
+      },
+      "name": "H24_affine_colored",
+      "sagrada_mask_orbit_count": 2,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF",
+        "AB23EF678901CD45"
+      ]
+    },
+    {
+      "automorphism_group_order": 1,
+      "cell_orbit_size_distribution": {
+        "1": 16
+      },
+      "cell_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1
+      },
+      "edge_color_distribution": {
+        "source_24_incidence_0": 25,
+        "source_34_incidence_1": 50,
+        "source_44_incidence_2": 21
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 96
+      },
+      "name": "H24_source_colored",
+      "sagrada_mask_orbit_count": 1,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF"
+      ]
+    },
+    {
+      "automorphism_group_order": 1,
+      "cell_orbit_size_distribution": {
+        "1": 16
+      },
+      "cell_orbits": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ]
+      ],
+      "cycle_type_profile": {
+        "1^16": 1
+      },
+      "edge_color_distribution": {
+        "source_24_incidence_0_non_affine": 25,
+        "source_34_incidence_1_affine": 36,
+        "source_34_incidence_1_non_affine": 14,
+        "source_44_incidence_2_non_affine": 21
+      },
+      "edge_count": 96,
+      "edge_orbit_size_distribution": {
+        "1": 96
+      },
+      "name": "H24_source_affine_colored",
+      "sagrada_mask_orbit_count": 1,
+      "sagrada_mask_stabilizer_order": 1,
+      "sample_permutations": [
+        "0123456789ABCDEF"
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "Colored hypergraph automorphism groups for H34(D) and H24(D(10)) in the Durer value-label model.",
+    "method": "Colored incidence graph automorphisms via networkx VF2.",
+    "phase": "Phase F automorphism audit",
+    "project": "Magic 24"
+  },
+  "sagrada_label_set": [
+    10,
+    11,
+    14,
+    15
+  ]
+}

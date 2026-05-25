@@ -1,0 +1,79 @@
+{
+  "conclusion": {
+    "direction_fits_linear_family": false,
+    "full_sagrada_ray_fits_family_under_tested_scope": false,
+    "source_fits_family": true,
+    "terminal_fits_family": false
+  },
+  "first_direction_fit": null,
+  "first_ray_fit": null,
+  "first_source_fit": {
+    "col_perm": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "complement_values": false,
+    "direction_parameters": null,
+    "row_perm": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "source_parameters": {
+      "a": 14,
+      "b": 15,
+      "c": 16,
+      "d": 13,
+      "k1": -4,
+      "k2": -8,
+      "magic_sum": 34
+    },
+    "terminal_parameters": null,
+    "transpose_first": false
+  },
+  "first_terminal_fit": null,
+  "fit_counts": {
+    "direction": 0,
+    "ray": 0,
+    "source": 256,
+    "terminal": 0
+  },
+  "fit_counts_by_transpose_and_complement": {
+    "direction": {},
+    "ray": {},
+    "source": {
+      "transpose=False,complement=False": 64,
+      "transpose=False,complement=True": 64,
+      "transpose=True,complement=False": 64,
+      "transpose=True,complement=True": 64
+    },
+    "terminal": {}
+  },
+  "identity_orientation": {
+    "negative_mask_direction_in_linear_family": false,
+    "negative_mask_direction_parameters": null,
+    "ray_in_family": false,
+    "source_in_family": true,
+    "source_parameters": {
+      "a": 14,
+      "b": 15,
+      "c": 16,
+      "d": 13,
+      "k1": -4,
+      "k2": -8,
+      "magic_sum": 34
+    },
+    "terminal_in_family": false,
+    "terminal_parameters": null
+  },
+  "metadata": {
+    "family": "[[d+k1+k2,a,b,c+k1+k2],[c+k1,b+k2,a+k2,d+k1],[c+k2,b+k1,a+k1,d+k2],[d,a+k1+k2,b+k1+k2,c]], a+b=c+d",
+    "phase": "Phase G Morse-Hedlund/Prouhet family-fit test",
+    "project": "Magic 24",
+    "transform_count": 2304,
+    "transform_scope": "transpose optional x row permutations x column permutations x value complement"
+  }
+}

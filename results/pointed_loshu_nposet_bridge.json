@@ -1,0 +1,551 @@
+{
+  "a2_positive_root_poset": {
+    "order_ideal_graph": {
+      "automorphism_order": 2,
+      "degree_sequence": [
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "edge_count": 5,
+      "edges": [
+        [
+          "{alpha,beta,alpha+beta}",
+          "{alpha,beta}"
+        ],
+        [
+          "{alpha,beta}",
+          "{alpha}"
+        ],
+        [
+          "{alpha,beta}",
+          "{beta}"
+        ],
+        [
+          "{alpha}",
+          "{}"
+        ],
+        [
+          "{beta}",
+          "{}"
+        ]
+      ],
+      "vertex_count": 5,
+      "vertices": [
+        "{alpha,beta,alpha+beta}",
+        "{alpha,beta}",
+        "{alpha}",
+        "{beta}",
+        "{}"
+      ]
+    },
+    "order_ideals": [
+      "{}",
+      "{beta}",
+      "{alpha}",
+      "{alpha,beta}",
+      "{alpha,beta,alpha+beta}"
+    ],
+    "relations": [
+      [
+        "alpha",
+        "alpha+beta"
+      ],
+      [
+        "beta",
+        "alpha+beta"
+      ]
+    ]
+  },
+  "all_boundary_marks_give_isomorphic_graphs": true,
+  "boundary_mark_count": 4,
+  "comparisons": {
+    "explicit_loshu_to_a2_mapping_verified": true,
+    "explicit_loshu_to_n_mapping_verified": true,
+    "n_poset_graph_isomorphic_to_a2_ideal_graph": true,
+    "natural_loshu_isomorphic_to_n_poset_graph": false,
+    "pointed_loshu_isomorphic_to_a2_ideal_graph": true,
+    "pointed_loshu_isomorphic_to_n_poset_graph": true
+  },
+  "degree_sequence_counts": {
+    "a2_order_ideals": {
+      "1": 1,
+      "2": 3,
+      "3": 1
+    },
+    "n_poset": {
+      "1": 1,
+      "2": 3,
+      "3": 1
+    },
+    "natural_loshu": {
+      "1": 4,
+      "4": 1
+    },
+    "pointed_loshu": {
+      "1": 1,
+      "2": 3,
+      "3": 1
+    }
+  },
+  "explicit_mappings": {
+    "pointed_loshu_E_to_a2_order_ideals": {
+      "E": "{alpha,beta}",
+      "N": "{alpha}",
+      "O": "{alpha,beta,alpha+beta}",
+      "S": "{beta}",
+      "W": "{}"
+    },
+    "pointed_loshu_E_to_n_poset_extensions": {
+      "E": "cadb",
+      "N": "acdb",
+      "O": "cdab",
+      "S": "cabd",
+      "W": "acbd"
+    }
+  },
+  "lo_shu_s24_points": {
+    "E": {
+      "coordinates": [
+        1,
+        0
+      ],
+      "square": [
+        [
+          9,
+          7,
+          8
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          8,
+          9,
+          7
+        ]
+      ]
+    },
+    "N": {
+      "coordinates": [
+        0,
+        1
+      ],
+      "square": [
+        [
+          8,
+          7,
+          9
+        ],
+        [
+          9,
+          8,
+          7
+        ],
+        [
+          7,
+          9,
+          8
+        ]
+      ]
+    },
+    "O": {
+      "coordinates": [
+        0,
+        0
+      ],
+      "square": [
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8
+        ]
+      ]
+    },
+    "S": {
+      "coordinates": [
+        0,
+        -1
+      ],
+      "square": [
+        [
+          8,
+          9,
+          7
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          9,
+          7,
+          8
+        ]
+      ]
+    },
+    "W": {
+      "coordinates": [
+        -1,
+        0
+      ],
+      "square": [
+        [
+          7,
+          9,
+          8
+        ],
+        [
+          9,
+          8,
+          7
+        ],
+        [
+          8,
+          7,
+          9
+        ]
+      ]
+    }
+  },
+  "metadata": {
+    "description": "Tests the pointed Lo Shu S=24 fiber against the N-poset linear-extension graph and J(A2+) order-ideal graph.",
+    "phase": "Phase G pointed five-state bridge",
+    "project": "Magic 24"
+  },
+  "n_poset": {
+    "linear_extension_graph": {
+      "automorphism_order": 2,
+      "degree_sequence": [
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "edge_count": 5,
+      "edges": [
+        [
+          "acbd",
+          "acdb"
+        ],
+        [
+          "acbd",
+          "cabd"
+        ],
+        [
+          "acdb",
+          "cadb"
+        ],
+        [
+          "cabd",
+          "cadb"
+        ],
+        [
+          "cadb",
+          "cdab"
+        ]
+      ],
+      "vertex_count": 5,
+      "vertices": [
+        "acbd",
+        "acdb",
+        "cabd",
+        "cadb",
+        "cdab"
+      ]
+    },
+    "linear_extensions": [
+      "acbd",
+      "acdb",
+      "cabd",
+      "cadb",
+      "cdab"
+    ],
+    "relations": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ]
+    ]
+  },
+  "natural_loshu_graph": {
+    "automorphism_order": 24,
+    "degree_sequence": [
+      1,
+      1,
+      1,
+      1,
+      4
+    ],
+    "edge_count": 4,
+    "edges": [
+      [
+        "E",
+        "O"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "O",
+        "S"
+      ],
+      [
+        "O",
+        "W"
+      ]
+    ],
+    "vertex_count": 5,
+    "vertices": [
+      "E",
+      "N",
+      "O",
+      "S",
+      "W"
+    ]
+  },
+  "pointed_boundary_mark_variants": {
+    "E": {
+      "graph": {
+        "automorphism_order": 2,
+        "degree_sequence": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "edge_count": 5,
+        "edges": [
+          [
+            "E",
+            "N"
+          ],
+          [
+            "E",
+            "O"
+          ],
+          [
+            "E",
+            "S"
+          ],
+          [
+            "N",
+            "W"
+          ],
+          [
+            "S",
+            "W"
+          ]
+        ],
+        "vertex_count": 5,
+        "vertices": [
+          "E",
+          "N",
+          "O",
+          "S",
+          "W"
+        ]
+      },
+      "isomorphic_to_n_poset_graph": true
+    },
+    "N": {
+      "graph": {
+        "automorphism_order": 2,
+        "degree_sequence": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "edge_count": 5,
+        "edges": [
+          [
+            "E",
+            "N"
+          ],
+          [
+            "E",
+            "S"
+          ],
+          [
+            "N",
+            "O"
+          ],
+          [
+            "N",
+            "W"
+          ],
+          [
+            "S",
+            "W"
+          ]
+        ],
+        "vertex_count": 5,
+        "vertices": [
+          "E",
+          "N",
+          "O",
+          "S",
+          "W"
+        ]
+      },
+      "isomorphic_to_n_poset_graph": true
+    },
+    "S": {
+      "graph": {
+        "automorphism_order": 2,
+        "degree_sequence": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "edge_count": 5,
+        "edges": [
+          [
+            "E",
+            "N"
+          ],
+          [
+            "E",
+            "S"
+          ],
+          [
+            "N",
+            "W"
+          ],
+          [
+            "O",
+            "S"
+          ],
+          [
+            "S",
+            "W"
+          ]
+        ],
+        "vertex_count": 5,
+        "vertices": [
+          "E",
+          "N",
+          "O",
+          "S",
+          "W"
+        ]
+      },
+      "isomorphic_to_n_poset_graph": true
+    },
+    "W": {
+      "graph": {
+        "automorphism_order": 2,
+        "degree_sequence": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ],
+        "edge_count": 5,
+        "edges": [
+          [
+            "E",
+            "N"
+          ],
+          [
+            "E",
+            "S"
+          ],
+          [
+            "N",
+            "W"
+          ],
+          [
+            "O",
+            "W"
+          ],
+          [
+            "S",
+            "W"
+          ]
+        ],
+        "vertex_count": 5,
+        "vertices": [
+          "E",
+          "N",
+          "O",
+          "S",
+          "W"
+        ]
+      },
+      "isomorphic_to_n_poset_graph": true
+    }
+  },
+  "pointed_loshu_graph_mark_E": {
+    "automorphism_order": 2,
+    "degree_sequence": [
+      1,
+      2,
+      2,
+      2,
+      3
+    ],
+    "edge_count": 5,
+    "edges": [
+      [
+        "E",
+        "N"
+      ],
+      [
+        "E",
+        "O"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "S",
+        "W"
+      ]
+    ],
+    "vertex_count": 5,
+    "vertices": [
+      "E",
+      "N",
+      "O",
+      "S",
+      "W"
+    ]
+  }
+}

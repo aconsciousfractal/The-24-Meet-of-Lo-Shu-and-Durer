@@ -1,0 +1,244 @@
+{
+  "class_degree_distributions": {
+    "exact_v4": {
+      "1": 2,
+      "3": 130,
+      "4": 10,
+      "6": 2
+    },
+    "main_extra": {
+      "0": 12,
+      "1": 20
+    },
+    "outside_main": {
+      "0": 38,
+      "1": 14,
+      "2": 8
+    }
+  },
+  "component_class_profiles": {
+    "exact_v4:4": 28,
+    "exact_v4:4,main_extra:2,outside_main:2": 2,
+    "exact_v4:4,outside_main:2": 4,
+    "exact_v4:8": 1,
+    "main_extra:1": 12,
+    "main_extra:1,outside_main:1": 10,
+    "main_extra:2": 3,
+    "outside_main:1": 38
+  },
+  "component_count": 98,
+  "component_size_distribution": {
+    "1": 50,
+    "2": 13,
+    "4": 28,
+    "6": 4,
+    "8": 3
+  },
+  "degree_distribution": {
+    "0": 50,
+    "1": 36,
+    "2": 8,
+    "3": 130,
+    "4": 10,
+    "6": 2
+  },
+  "edge_class_counts": {
+    "('exact_v4', 'exact_v4')": 218,
+    "('exact_v4', 'outside_main')": 8,
+    "('main_extra', 'main_extra')": 3,
+    "('main_extra', 'outside_main')": 14,
+    "('outside_main', 'outside_main')": 4
+  },
+  "edge_count": 247,
+  "largest_components": [
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "main_extra": 2,
+        "outside_main": 2
+      },
+      "node_indices": [
+        7,
+        9,
+        10,
+        60,
+        63,
+        67,
+        120,
+        127
+      ],
+      "size": 8
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "main_extra": 2,
+        "outside_main": 2
+      },
+      "node_indices": [
+        40,
+        41,
+        42,
+        98,
+        99,
+        100,
+        141,
+        143
+      ],
+      "size": 8
+    },
+    {
+      "class_counts": {
+        "exact_v4": 8
+      },
+      "node_indices": [
+        122,
+        124,
+        145,
+        147,
+        154,
+        157,
+        184,
+        185
+      ],
+      "size": 8
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "outside_main": 2
+      },
+      "node_indices": [
+        13,
+        15,
+        27,
+        73,
+        83,
+        84
+      ],
+      "size": 6
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "outside_main": 2
+      },
+      "node_indices": [
+        34,
+        36,
+        38,
+        94,
+        96,
+        97
+      ],
+      "size": 6
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "outside_main": 2
+      },
+      "node_indices": [
+        195,
+        197,
+        202,
+        214,
+        217,
+        223
+      ],
+      "size": 6
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4,
+        "outside_main": 2
+      },
+      "node_indices": [
+        211,
+        212,
+        213,
+        231,
+        234,
+        235
+      ],
+      "size": 6
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4
+      },
+      "node_indices": [
+        2,
+        4,
+        54,
+        57
+      ],
+      "size": 4
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4
+      },
+      "node_indices": [
+        3,
+        5,
+        56,
+        58
+      ],
+      "size": 4
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4
+      },
+      "node_indices": [
+        6,
+        8,
+        59,
+        61
+      ],
+      "size": 4
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4
+      },
+      "node_indices": [
+        11,
+        26,
+        72,
+        82
+      ],
+      "size": 4
+    },
+    {
+      "class_counts": {
+        "exact_v4": 4
+      },
+      "node_indices": [
+        16,
+        28,
+        75,
+        86
+      ],
+      "size": 4
+    }
+  ],
+  "metadata": {
+    "description": "Graph on terminal endpoint squares using primitive {-1,0,1} fixed-sum diagonal-magic kernel moves.",
+    "guardrail": "This is a small-move graph, not a complete Markov-basis theorem.",
+    "phase": "Phase H first terminal-24 Markov-style graph",
+    "project": "Magic 24"
+  },
+  "move_count_up_to_sign": 109,
+  "move_support_distribution_up_to_sign": {
+    "10": 16,
+    "12": 12,
+    "16": 8,
+    "4": 2,
+    "6": 24,
+    "8": 47
+  },
+  "node_count": 236,
+  "signed_move_count": 218
+}

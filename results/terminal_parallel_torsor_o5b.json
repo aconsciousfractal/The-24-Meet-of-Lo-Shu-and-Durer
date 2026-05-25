@@ -1,0 +1,330 @@
+{
+  "all_affine_translation_torsor_summary": {
+    "record_count": 3456,
+    "translation_direction_balanced_distribution": {
+      "True": 3456
+    },
+    "translation_direction_complementary_to_selected_distribution": {
+      "True": 3456
+    },
+    "translation_to_selected_point_map_affine_distribution": {
+      "True": 3456
+    },
+    "translation_to_selected_point_map_bijection_distribution": {
+      "True": 3456
+    },
+    "translation_transversal_intersection_distribution": {
+      "(1, 1, 1, 1)": 3456
+    }
+  },
+  "balanced_complements_to_selected_direction_count_distribution": {
+    "9": 144
+  },
+  "full_translation_terminal_torsor_summary": {
+    "record_count": 1968,
+    "translation_direction_balanced_distribution": {
+      "True": 1968
+    },
+    "translation_direction_complementary_to_selected_distribution": {
+      "True": 1968
+    },
+    "translation_to_selected_point_map_affine_distribution": {
+      "True": 1968
+    },
+    "translation_to_selected_point_map_bijection_distribution": {
+      "True": 1968
+    },
+    "translation_transversal_intersection_distribution": {
+      "(1, 1, 1, 1)": 1968
+    }
+  },
+  "interpretation": {
+    "kernel_guardrail": "The value-bit kernel V4 does not act transitively on the selected plane; only a size-2 setwise stabilizer remains, with point-orbit pattern (1,1,2).",
+    "terminal_torsor_statement": "Across the full affine square-mask layer, the fixed domain translation V4 maps affinely and bijectively to the selected value plane by intersecting its four parallel value-space cosets with that plane.  In the full-translation terminal subclass, this is the terminal V4.",
+    "transversal_reason": "The selected plane direction is complementary to the terminal balanced direction, so the selected plane is a section of the quotient by that direction."
+  },
+  "kernel_full_selected_plane_orbit_size_distribution": {
+    "2": 144
+  },
+  "kernel_setwise_point_orbit_size_distribution": {
+    "(1, 1, 2)": 144
+  },
+  "kernel_setwise_stabilizer_size_distribution": {
+    "2": 144
+  },
+  "metadata": {
+    "description": "Terminal translation V4 as a parallel-class torsor over the selected value plane.",
+    "phase": "Phase O5b",
+    "project": "Magic 24"
+  },
+  "sample_records": [
+    {
+      "kernel_full_plane_orbit_size": 2,
+      "kernel_setwise_point_orbit_sizes": [
+        1,
+        1,
+        2
+      ],
+      "kernel_setwise_stabilizer_size": 2,
+      "mask": "3102",
+      "point_map_affine": true,
+      "point_map_value_labels": {
+        "0": 15,
+        "1": 11,
+        "2": 12,
+        "3": 16
+      },
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_direction_complementary_to_terminal_direction": true,
+      "selected_plane": "11,12,15,16",
+      "square_index": 16,
+      "terminal_coset_intersections": {
+        "0": [
+          14
+        ],
+        "1": [
+          10
+        ],
+        "2": [
+          11
+        ],
+        "3": [
+          15
+        ]
+      },
+      "terminal_direction": [
+        0,
+        7,
+        9,
+        14
+      ],
+      "terminal_direction_balanced": true
+    },
+    {
+      "kernel_full_plane_orbit_size": 2,
+      "kernel_setwise_point_orbit_sizes": [
+        1,
+        1,
+        2
+      ],
+      "kernel_setwise_stabilizer_size": 2,
+      "mask": "3021",
+      "point_map_affine": true,
+      "point_map_value_labels": {
+        "0": 12,
+        "1": 15,
+        "2": 11,
+        "3": 16
+      },
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_direction_complementary_to_terminal_direction": true,
+      "selected_plane": "11,12,15,16",
+      "square_index": 17,
+      "terminal_coset_intersections": {
+        "0": [
+          11
+        ],
+        "1": [
+          14
+        ],
+        "2": [
+          10
+        ],
+        "3": [
+          15
+        ]
+      },
+      "terminal_direction": [
+        0,
+        6,
+        11,
+        13
+      ],
+      "terminal_direction_balanced": true
+    },
+    {
+      "kernel_full_plane_orbit_size": 2,
+      "kernel_setwise_point_orbit_sizes": [
+        1,
+        1,
+        2
+      ],
+      "kernel_setwise_stabilizer_size": 2,
+      "mask": "3102",
+      "point_map_affine": true,
+      "point_map_value_labels": {
+        "0": 16,
+        "1": 11,
+        "2": 12,
+        "3": 15
+      },
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_direction_complementary_to_terminal_direction": true,
+      "selected_plane": "11,12,15,16",
+      "square_index": 21,
+      "terminal_coset_intersections": {
+        "0": [
+          15
+        ],
+        "1": [
+          10
+        ],
+        "2": [
+          11
+        ],
+        "3": [
+          14
+        ]
+      },
+      "terminal_direction": [
+        0,
+        6,
+        9,
+        15
+      ],
+      "terminal_direction_balanced": true
+    },
+    {
+      "kernel_full_plane_orbit_size": 2,
+      "kernel_setwise_point_orbit_sizes": [
+        1,
+        1,
+        2
+      ],
+      "kernel_setwise_stabilizer_size": 2,
+      "mask": "3021",
+      "point_map_affine": true,
+      "point_map_value_labels": {
+        "0": 12,
+        "1": 16,
+        "2": 11,
+        "3": 15
+      },
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_direction_complementary_to_terminal_direction": true,
+      "selected_plane": "11,12,15,16",
+      "square_index": 23,
+      "terminal_coset_intersections": {
+        "0": [
+          11
+        ],
+        "1": [
+          15
+        ],
+        "2": [
+          10
+        ],
+        "3": [
+          14
+        ]
+      },
+      "terminal_direction": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "terminal_direction_balanced": true
+    },
+    {
+      "kernel_full_plane_orbit_size": 2,
+      "kernel_setwise_point_orbit_sizes": [
+        1,
+        1,
+        2
+      ],
+      "kernel_setwise_stabilizer_size": 2,
+      "mask": "2130",
+      "point_map_affine": true,
+      "point_map_value_labels": {
+        "0": 16,
+        "1": 11,
+        "2": 15,
+        "3": 12
+      },
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_direction_complementary_to_terminal_direction": true,
+      "selected_plane": "11,12,15,16",
+      "square_index": 26,
+      "terminal_coset_intersections": {
+        "0": [
+          15
+        ],
+        "1": [
+          10
+        ],
+        "2": [
+          14
+        ],
+        "3": [
+          11
+        ]
+      },
+      "terminal_direction": [
+        0,
+        6,
+        9,
+        15
+      ],
+      "terminal_direction_balanced": true
+    }
+  ],
+  "selected_direction_distribution": {
+    "0,1,4,5": 144
+  },
+  "selected_plane_transversal_intersection_distribution": {
+    "(1, 1, 1, 1)": 144
+  },
+  "terminal24_affine_record_count": 144,
+  "terminal_direction_balanced_distribution": {
+    "True": 144
+  },
+  "terminal_direction_complementary_to_selected_distribution": {
+    "True": 144
+  },
+  "terminal_direction_distribution": {
+    "0,3,12,15": 24,
+    "0,3,13,14": 24,
+    "0,6,11,13": 24,
+    "0,6,9,15": 24,
+    "0,7,11,12": 24,
+    "0,7,9,14": 24
+  },
+  "terminal_direction_is_balanced_complement_distribution": {
+    "True": 144
+  },
+  "terminal_to_selected_point_map_affine_distribution": {
+    "True": 144
+  },
+  "terminal_to_selected_point_map_bijection_distribution": {
+    "True": 144
+  },
+  "terminal_to_selected_point_map_direction_distribution": {
+    "True": 144
+  }
+}

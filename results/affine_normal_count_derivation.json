@@ -1,0 +1,146 @@
+{
+  "admissible_mask_torsor": {
+    "admissible_mask_count": 8,
+    "is_free_transitive": true,
+    "orbit_count": 1,
+    "orbit_size_distribution": {
+      "8": 8
+    },
+    "square_symmetry_count": 8,
+    "stabilizer_size_distribution": {
+      "1": 8
+    }
+  },
+  "balanced_complementarity_graph": {
+    "edge_count": 27,
+    "ordered_triangle_count": 36,
+    "triangle_count": 6,
+    "vertex_count": 13
+  },
+  "balanced_direction_count": 13,
+  "balanced_directions": [
+    [
+      0,
+      1,
+      14,
+      15
+    ],
+    [
+      0,
+      2,
+      13,
+      15
+    ],
+    [
+      0,
+      3,
+      12,
+      15
+    ],
+    [
+      0,
+      3,
+      13,
+      14
+    ],
+    [
+      0,
+      4,
+      11,
+      15
+    ],
+    [
+      0,
+      5,
+      10,
+      15
+    ],
+    [
+      0,
+      5,
+      11,
+      14
+    ],
+    [
+      0,
+      6,
+      9,
+      15
+    ],
+    [
+      0,
+      6,
+      11,
+      13
+    ],
+    [
+      0,
+      7,
+      8,
+      15
+    ],
+    [
+      0,
+      7,
+      9,
+      14
+    ],
+    [
+      0,
+      7,
+      10,
+      13
+    ],
+    [
+      0,
+      7,
+      11,
+      12
+    ]
+  ],
+  "derivation": {
+    "essential_affine_representatives": "3456 raw squares / 8 square symmetries = 432",
+    "good_linear_parts": "36 balanced triples x 6 maps per triple = 216",
+    "raw_affine_magic_squares": "216 linear parts x 16 offsets = 3456"
+  },
+  "domain_magic_directions": {
+    "column": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "diagonal_and_antidiagonal": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "row": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "domain_magic_directions_pairwise_complementary": true,
+  "domain_triple_stabilizer_size": 6,
+  "essential_affine_representative_count": 432,
+  "gl4_linear_part_count": 20160,
+  "good_linear_part_count": 216,
+  "guardrail": "This is a finite F2-linear count, not a classification theorem for non-affine order-4 magic squares or for higher orders.",
+  "image_triple_count": 36,
+  "image_triple_multiplicity_distribution": {
+    "6": 36
+  },
+  "metadata": {
+    "description": "Linear-algebra count derivation for the 432 globally affine essential representatives.",
+    "phase": "Phase O4",
+    "project": "Magic 24"
+  },
+  "offset_count": 16,
+  "ordered_pairwise_complementary_balanced_triple_count": 36,
+  "raw_affine_magic_square_count": 3456,
+  "square_symmetry_orbit_size_for_normal_squares": 8,
+  "two_dimensional_subspace_count": 35
+}

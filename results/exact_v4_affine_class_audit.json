@@ -1,0 +1,735 @@
+{
+  "affine_cell_labeling_pair_count": 144,
+  "exact_canonical_v4_equals_affine_cell_labeling": true,
+  "exact_canonical_v4_equals_selected_mask_affine_and_cell_affine": true,
+  "exact_canonical_v4_pair_count": 144,
+  "high_plane_selected_values_pair_count": 176,
+  "main_176_split_by_cell_labeling": {
+    "cell_affine_exact_v4": 144,
+    "cell_non_affine_non_exact": 32
+  },
+  "metadata": {
+    "description": "Exact-canonical V4 affine-class audit on the 236 terminal-24 pairs.",
+    "input": "results/order4_f2_extension.json and results/f2_orientation_stability.json",
+    "phase": "Phase J",
+    "project": "Magic 24"
+  },
+  "orientation_free_reading": {
+    "affine_cell_value_criterion_stable_under_complement": true,
+    "affine_cell_value_criterion_stable_under_d4": true,
+    "canonical_v4_wording_orientation_free": false,
+    "terminal24_pair_f2_profiles_stable_under_d4": true
+  },
+  "phase_j_minimal_filter_ladder": {
+    "exact_canonical_v4": 144,
+    "plus_affine_cell_value_labeling": 144,
+    "selected_values_11_12_15_16_or_selected_mask_affine": 176,
+    "terminal24": 236
+  },
+  "selected_affine_non_cell_affine_extra_count": 32,
+  "selected_affine_non_cell_affine_records": [
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 5,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 78,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 87,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 93,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 133,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2130",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 143,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 201,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 204,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 238,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 244,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 348,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "1320",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 370,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 411,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 415,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 416,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 537,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "1320",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 550,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 554,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 578,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2130",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 610,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 630,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 649,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 654,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 688,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2013",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 699,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2130",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 735,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 782,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2130",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 795,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "0213",
+        "3120",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3102",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 829,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    },
+    {
+      "mask": "3021",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 830,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "2130",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 846,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "1302",
+        "2031",
+        "3210"
+      ]
+    },
+    {
+      "mask": "1320",
+      "pure_transport": true,
+      "sorted_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "square_index": 855,
+      "terminal_affine_count": 36,
+      "terminal_diagonal_set": [
+        "0123",
+        "3210"
+      ]
+    }
+  ],
+  "selected_affine_non_cell_affine_terminal_sets": {
+    "0123,0213,3120,3210": 8,
+    "0123,1302,2031,3210": 8,
+    "0123,3210": 16
+  },
+  "selected_mask_affine_equals_selected_values_11_12_15_16": true,
+  "selected_mask_affine_pair_count": 176,
+  "selected_value_cell_affine_exact_v4_split": [
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 4,
+      "selected_mask_affine": false,
+      "sorted_values": "11,12,13,15"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 4,
+      "selected_mask_affine": false,
+      "sorted_values": "11,12,13,16"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 4,
+      "selected_mask_affine": false,
+      "sorted_values": "11,12,14,15"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 8,
+      "selected_mask_affine": false,
+      "sorted_values": "11,12,14,16"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 32,
+      "selected_mask_affine": true,
+      "sorted_values": "11,12,15,16"
+    },
+    {
+      "cell_labeling_affine": true,
+      "exact_canonical_v4": true,
+      "pair_count": 144,
+      "selected_mask_affine": true,
+      "sorted_values": "11,12,15,16"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 8,
+      "selected_mask_affine": false,
+      "sorted_values": "11,13,14,15"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 4,
+      "selected_mask_affine": false,
+      "sorted_values": "11,13,14,16"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 16,
+      "selected_mask_affine": false,
+      "sorted_values": "11,13,15,16"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 12,
+      "selected_mask_affine": false,
+      "sorted_values": "11,14,15,16"
+    }
+  ],
+  "terminal24_pair_count": 236,
+  "terminal_set_cell_affine_exact_v4_split": [
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 16,
+      "terminal_diagonal_set": "0123,0213,3120,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 2,
+      "terminal_diagonal_set": "0123,1023,3210"
+    },
+    {
+      "cell_labeling_affine": true,
+      "exact_canonical_v4": true,
+      "pair_count": 144,
+      "terminal_diagonal_set": "0123,1032,2301,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 4,
+      "terminal_diagonal_set": "0123,1203,1302,2031,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 2,
+      "terminal_diagonal_set": "0123,1230,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 8,
+      "terminal_diagonal_set": "0123,1302,2031,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 2,
+      "terminal_diagonal_set": "0123,1320,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 2,
+      "terminal_diagonal_set": "0123,2103,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 1,
+      "terminal_diagonal_set": "0123,2130,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 1,
+      "terminal_diagonal_set": "0123,3102,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 2,
+      "terminal_diagonal_set": "0123,3201,3210"
+    },
+    {
+      "cell_labeling_affine": false,
+      "exact_canonical_v4": false,
+      "pair_count": 52,
+      "terminal_diagonal_set": "0123,3210"
+    }
+  ],
+  "three_way_split_selected_mask_affine_cell_affine_exact_v4": {
+    "(False, False, False)": 60,
+    "(True, False, False)": 32,
+    "(True, True, True)": 144
+  }
+}

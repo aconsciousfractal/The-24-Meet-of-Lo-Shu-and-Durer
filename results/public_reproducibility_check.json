@@ -1,0 +1,45 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/magic24_certificates.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/analyze_f2_tesseract.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/analyze_affine_normal_count_derivation.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "scripts/analyze_forbidden_shadow_split_p6.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0
+    }
+  ]
+}

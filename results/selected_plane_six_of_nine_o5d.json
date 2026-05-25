@@ -1,0 +1,905 @@
+{
+  "affine_square_mask_pair_count": 3456,
+  "all_planes_have_nine_balanced_complements": true,
+  "all_planes_have_six_invertible_and_three_rank_one_complements": true,
+  "all_planes_use_exactly_invertible_complements": true,
+  "balanced_complement_rank_split_distribution": {
+    "(6, 3)": 24
+  },
+  "direction_summaries": [
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,1,2,3",
+      "selected_plane_count": 4
+    },
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,1,4,5",
+      "selected_plane_count": 4
+    },
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,1,8,9",
+      "selected_plane_count": 4
+    },
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,2,4,6",
+      "selected_plane_count": 4
+    },
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,2,8,10",
+      "selected_plane_count": 4
+    },
+    {
+      "all_planes_use_six_invertible_complements": true,
+      "selected_direction": "0,4,8,12",
+      "selected_plane_count": 4
+    }
+  ],
+  "interpretation": {
+    "general_six_of_nine": "For every selected value plane in the globally affine layer, the nine balanced complements to its direction split as six invertible graphs plus three rank-one graphs relative to the coordinate partner direction.",
+    "used_directions": "The terminal/translation directions used by the affine layer are exactly the six invertible graph complements, with each of the six occurring 24 times for each selected plane."
+  },
+  "metadata": {
+    "description": "Shows the six-of-nine split for every selected value plane in the affine layer.",
+    "phase": "Phase O5d",
+    "project": "Magic 24"
+  },
+  "plane_record_count_distribution": {
+    "144": 24
+  },
+  "plane_summaries": [
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "selected_plane": "1,2,3,4",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_plane": "1,2,5,6",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "selected_plane": "1,2,9,10",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "selected_plane": "1,3,5,7",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "selected_plane": "1,3,9,11",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "selected_plane": "1,5,9,13",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "selected_plane": "10,12,14,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_plane": "11,12,15,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "selected_plane": "13,14,15,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "selected_plane": "2,4,10,12",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "selected_plane": "2,4,6,8",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "selected_plane": "2,6,10,14",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "selected_plane": "3,4,11,12",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_plane": "3,4,7,8",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "selected_plane": "3,7,11,15",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "selected_plane": "4,8,12,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "selected_plane": "5,6,13,14",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "selected_plane": "5,6,7,8",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "selected_plane": "5,7,13,15",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "selected_plane": "6,8,14,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "selected_plane": "7,8,15,16",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "selected_plane": "9,10,11,12",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,10,13": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "selected_plane": "9,10,13,14",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,6,11,13": 24,
+        "0,6,9,15": 24,
+        "0,7,11,12": 24,
+        "0,7,9,14": 24
+      }
+    },
+    {
+      "balanced_complement_count": 9,
+      "balanced_complement_rank_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "coordinate_partner_direction": [
+        0,
+        1,
+        8,
+        9
+      ],
+      "invertible_graph_complement_count": 6,
+      "rank_one_graph_complement_count": 3,
+      "record_count": 144,
+      "selected_direction": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "selected_plane": "9,11,13,15",
+      "unused_invertible_complements": [],
+      "used_directions_equal_invertible_complements": true,
+      "used_noninvertible_complements": [],
+      "used_terminal_direction_count": 6,
+      "used_terminal_direction_distribution": {
+        "0,3,12,15": 24,
+        "0,3,13,14": 24,
+        "0,5,10,15": 24,
+        "0,5,11,14": 24,
+        "0,7,10,13": 24,
+        "0,7,11,12": 24
+      }
+    }
+  ],
+  "selected_direction_count": 6,
+  "selected_plane_count": 24,
+  "used_direction_count_per_plane_distribution": {
+    "6": 24
+  },
+  "used_direction_multiplicity_per_plane_distribution": {
+    "(24, 24, 24, 24, 24, 24)": 24
+  },
+  "violation_count": 0,
+  "violation_records": []
+}

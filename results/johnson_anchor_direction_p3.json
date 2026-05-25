@@ -1,0 +1,539 @@
+{
+  "class_counts": {
+    "exact_v4": 144,
+    "extra32": 32,
+    "outside_main": 60
+  },
+  "interpretation": {
+    "anchored_profile_meaning": "The P2 profiles 4,0,0,0 / 2,2,0,0 / 1,1,1,1 are the coset-intersection shadows of same / line / complement direction relations relative to the fixed translation V4 partition.",
+    "exact_v4": "The exact 144 have the uniform terminal-affine direction inventory same=1, line=5, complement=3 and no non-domain-affine terminal affine quaternes.",
+    "guardrail": "This explains the O5-anchored split. It is not a mask-only Johnson invariant and it does not explain the strong meet itself."
+  },
+  "metadata": {
+    "description": "Direction-level explanation of fixed-translation anchored Johnson profiles.",
+    "fixed_translation_direction": "0.5.10.15",
+    "fixed_translation_v4": [
+      "0123",
+      "1032",
+      "2301",
+      "3210"
+    ],
+    "phase": "P3",
+    "project": "Magic 24"
+  },
+  "summary": {
+    "pairwise_intersections": {
+      "exact_v4__extra32": 0,
+      "exact_v4__outside_main": 0,
+      "extra32__outside_main": 0
+    },
+    "samples": {
+      "exact_v4": [
+        {
+          "class": "exact_v4",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 5,
+              "same": 1
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.1.12.13",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.1.4.5",
+                "0.1.10.11",
+                "0.2.8.10",
+                "0.3.12.15",
+                "0.6.10.12"
+              ],
+              "same": [
+                "0.5.10.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 0,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 20,
+              "same": 4
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3102",
+          "square_index": 16,
+          "terminal_set": [
+            "0123",
+            "1032",
+            "2301",
+            "3210"
+          ]
+        },
+        {
+          "class": "exact_v4",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 5,
+              "same": 1
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.2.12.14",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.1.4.5",
+                "0.2.5.7",
+                "0.2.8.10",
+                "0.3.12.15",
+                "0.5.9.12"
+              ],
+              "same": [
+                "0.5.10.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 0,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 20,
+              "same": 4
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3021",
+          "square_index": 17,
+          "terminal_set": [
+            "0123",
+            "1032",
+            "2301",
+            "3210"
+          ]
+        },
+        {
+          "class": "exact_v4",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 5,
+              "same": 1
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.3.8.11",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.1.4.5",
+                "0.2.8.10",
+                "0.3.5.6",
+                "0.3.12.15",
+                "0.5.8.13"
+              ],
+              "same": [
+                "0.5.10.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 0,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 20,
+              "same": 4
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3102",
+          "square_index": 21,
+          "terminal_set": [
+            "0123",
+            "1032",
+            "2301",
+            "3210"
+          ]
+        }
+      ],
+      "extra32": [
+        {
+          "class": "extra32",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 4,
+              "line": 2
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.1.8.9",
+                "0.2.12.14",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.12.15",
+                "0.5.9.12"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 12,
+            "quad_relation_counts": {
+              "complement": 16,
+              "line": 8
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3021",
+          "square_index": 5,
+          "terminal_set": [
+            "0123",
+            "3210"
+          ]
+        },
+        {
+          "class": "extra32",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 4,
+              "line": 2
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.1.8.9",
+                "0.2.12.14",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.12.15",
+                "0.5.9.12"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 12,
+            "quad_relation_counts": {
+              "complement": 16,
+              "line": 8
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3021",
+          "square_index": 78,
+          "terminal_set": [
+            "0123",
+            "3210"
+          ]
+        },
+        {
+          "class": "extra32",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 4,
+              "line": 2
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.2.4.6",
+                "0.3.8.11",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.5.6",
+                "0.3.12.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 12,
+            "quad_relation_counts": {
+              "complement": 16,
+              "line": 8
+            },
+            "terminal_affine_count": 36
+          },
+          "mask": "3102",
+          "square_index": 87,
+          "terminal_set": [
+            "0123",
+            "3210"
+          ]
+        }
+      ],
+      "outside_main": [
+        {
+          "class": "outside_main",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2,
+              "same": 1
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.1.12.13",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.12.15",
+                "0.6.10.12"
+              ],
+              "same": [
+                "0.5.10.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 10,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8,
+              "same": 2
+            },
+            "terminal_affine_count": 32
+          },
+          "mask": "3102",
+          "square_index": 14,
+          "terminal_set": [
+            "0123",
+            "1320",
+            "3210"
+          ]
+        },
+        {
+          "class": "outside_main",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.3.8.11",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.5.6",
+                "0.3.12.15"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 15,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8
+            },
+            "terminal_affine_count": 35
+          },
+          "mask": "2013",
+          "square_index": 42,
+          "terminal_set": [
+            "0123",
+            "3210"
+          ]
+        },
+        {
+          "class": "outside_main",
+          "inventory": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2
+            },
+            "directions_by_relation": {
+              "complement": [
+                "0.1.2.3",
+                "0.2.12.14",
+                "0.4.8.12"
+              ],
+              "line": [
+                "0.3.12.15",
+                "0.5.9.12"
+              ]
+            },
+            "non_domain_affine_terminal_affine_count": 12,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8
+            },
+            "terminal_affine_count": 32
+          },
+          "mask": "3021",
+          "square_index": 74,
+          "terminal_set": [
+            "0123",
+            "3210"
+          ]
+        }
+      ]
+    },
+    "signature_counts": {
+      "exact_v4": 1,
+      "extra32": 2,
+      "outside_main": 10
+    },
+    "top_by_class": {
+      "exact_v4": [
+        {
+          "count": 144,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 5,
+              "same": 1
+            },
+            "non_domain_affine": 0,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 20,
+              "same": 4
+            }
+          }
+        }
+      ],
+      "extra32": [
+        {
+          "count": 16,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 4,
+              "line": 2
+            },
+            "non_domain_affine": 12,
+            "quad_relation_counts": {
+              "complement": 16,
+              "line": 8
+            }
+          }
+        },
+        {
+          "count": 16,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2
+            },
+            "non_domain_affine": 16,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8
+            }
+          }
+        }
+      ],
+      "outside_main": [
+        {
+          "count": 16,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2
+            },
+            "non_domain_affine": 15,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8
+            }
+          }
+        },
+        {
+          "count": 8,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2,
+              "same": 1
+            },
+            "non_domain_affine": 10,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8,
+              "same": 2
+            }
+          }
+        },
+        {
+          "count": 8,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 2,
+              "line": 3
+            },
+            "non_domain_affine": 13,
+            "quad_relation_counts": {
+              "complement": 8,
+              "line": 8
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2
+            },
+            "non_domain_affine": 12,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 3
+            },
+            "non_domain_affine": 10,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 10
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 2,
+              "line": 2
+            },
+            "non_domain_affine": 18,
+            "quad_relation_counts": {
+              "complement": 8,
+              "line": 6
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 2,
+              "line": 2
+            },
+            "non_domain_affine": 16,
+            "quad_relation_counts": {
+              "complement": 8,
+              "line": 6
+            }
+          }
+        },
+        {
+          "count": 4,
+          "signature": {
+            "direction_relation_counts": {
+              "complement": 3,
+              "line": 2,
+              "same": 1
+            },
+            "non_domain_affine": 9,
+            "quad_relation_counts": {
+              "complement": 12,
+              "line": 8,
+              "same": 2
+            }
+          }
+        }
+      ]
+    }
+  }
+}
