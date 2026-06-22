@@ -123,6 +123,29 @@ Since the magic sum along the ray is `34-t`, the bounded downward spectrum is:
 {24,25,26,27,28,29,30,31,32,33}.
 ```
 
+More generally, this weak-meet range is forced by terminal feasibility before
+using the specific Sagrada mask.  In any normal order-four square, a
+one-incidence mask selects four distinct values from `{1,...,16}`.  If `m` is
+the smallest selected value, then
+
+```text
+t_max = m - 1
+terminal sum = 34 - t_max = 35 - m.
+```
+
+To match a Lo Shu upper sum `S in {18,21,24,27}`, the selected minimum would
+have to be `m = 35-S`:
+
+| Lo Shu sum `S` | Required selected minimum `m` | Terminal feasible? |
+|---:|---:|---|
+| 18 | 17 | no, outside `{1,...,16}` |
+| 21 | 14 | no, only three values `>=14` exist |
+| 24 | 11 | yes |
+| 27 | 8 | yes, but Lo Shu-degenerate |
+
+Thus the only terminally feasible weak meet values are already `{24,27}`;
+after the Lo Shu non-degeneration filter, only `24` remains.
+
 Thus
 
 ```text

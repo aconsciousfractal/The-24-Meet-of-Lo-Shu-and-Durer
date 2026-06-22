@@ -369,6 +369,37 @@ sum \(34\), namely \(\{24,\ldots,33\}\), because the meet compares Lo Shu
 values above the base sum \(15\) with nontrivial downward perturbations below
 the \Durer source.
 
+\begin{lemma}[Terminal feasibility]
+\label{lem:terminal-feasibility}
+Let \(A\) be any normal order-four magic square, with entries
+\(\{1,\ldots,16\}\), and let \(N\) be a one-incidence mask selecting four
+cells.  If \(m\) is the smallest selected entry, then the terminal sum of the
+bounded descent \(A-tN\) is \(35-m\).  Consequently, among the upper Lo Shu
+sums
+\[
+\{18,21,24,27\},
+\]
+only \(24\) and \(27\) can occur as terminal sums of such a one-incidence
+descent.
+\end{lemma}
+
+\begin{proof}
+The source magic sum of a normal order-four square is \(34\).  A
+one-incidence mask subtracts \(t\) once from each row, column, and main
+diagonal, so the magic sum becomes \(34-t\).  The lower bound \(1\) allows
+\[
+t_{\max}=m-1,
+\]
+and therefore the terminal sum is \(34-(m-1)=35-m\).
+
+To match an upper Lo Shu sum \(S\), one must have \(m=35-S\).  For
+\(S=18\), this gives \(m=17\), impossible in \(\{1,\ldots,16\}\).  For
+\(S=21\), this gives \(m=14\), but four distinct selected entries all at
+least \(14\) cannot be chosen from \(\{1,\ldots,16\}\).  The remaining cases
+\(S=24\) and \(S=27\) require \(m=11\) and \(m=8\), respectively, and are
+not excluded by this terminal feasibility test.
+\end{proof}
+
 \section{The Strong Meet}
 \label{sec:meet}
 
