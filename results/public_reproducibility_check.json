@@ -19,6 +19,14 @@
     {
       "command": [
         "python",
+        "scripts/analyze_parity_plane_mechanism.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
         "scripts/analyze_affine_normal_count_derivation.py",
         "--write"
       ],

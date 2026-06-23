@@ -1,0 +1,178 @@
+{
+  "analytic_lemmas": {
+    "affine_plane_sum": "A zero-based affine four-plane has sum 30 iff its two directions satisfy u OR w = 15.",
+    "visible_b11_split": "On the NW parity plane, xor(labels)=B11, so B11 != 0 forbids bit-balance."
+  },
+  "definitions": {
+    "bit_balance_counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "nw_parity_plane_row_major_indices": [
+      0,
+      2,
+      8,
+      10
+    ],
+    "residual_values": [
+      2,
+      4,
+      6,
+      8,
+      12,
+      14
+    ],
+    "zero_based_balanced_sum": 30
+  },
+  "finite_residual_table": [
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        2
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 0,
+      "direction_survivor_count": 8,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        12,
+        14
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 64,
+      "v": 2
+    },
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        4
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 1,
+      "direction_survivor_count": 8,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        9,
+        13
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 64,
+      "v": 4
+    },
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        6
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 0,
+      "direction_survivor_count": 16,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        8,
+        10,
+        12,
+        14
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 64,
+      "v": 6
+    },
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        8
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 2,
+      "direction_survivor_count": 8,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        3,
+        11
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 64,
+      "v": 8
+    },
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        12
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 1,
+      "direction_survivor_count": 16,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 64,
+      "v": 12
+    },
+    {
+      "a_equals_v_for_all_survivors": true,
+      "a_values": [
+        14
+      ],
+      "bijection_source_values": [
+        "a"
+      ],
+      "critical_bit": 0,
+      "direction_survivor_count": 24,
+      "g_has_zero_critical_bit_for_all_survivors": true,
+      "g_values": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "nw_bit_balance_possible": false,
+      "nw_direction_covers_all_bits_count": 0,
+      "offset_survivor_count": 48,
+      "v": 14
+    }
+  ],
+  "guardrails": [
+    "The final residual step is a six-value finite check, not a table-free symbolic proof.",
+    "The residual values are scoped input cases from the normalized parity-plane reduction, not newly derived here.",
+    "The mechanism is scoped to the normalized parity-plane model used in this paper.",
+    "This is not a universal endpoint-24 invariant for all magic squares."
+  ],
+  "metadata": {
+    "description": "Public finite residual check for the parity-plane mechanism.",
+    "project": "The 24-Meet of Lo Shu and Durer",
+    "residual_values_source": "Nonzero cases supplied by the normalized parity-plane residual reduction; this script checks them rather than deriving a table-free classification.",
+    "scope": "Shu-Durer bridge paper; not a universal magic-square invariant."
+  },
+  "summary": {
+    "all_survivors_have_a_equals_v": true,
+    "all_survivors_have_g_zero_on_critical_bit": true,
+    "column_residual_by_transpose_symmetry": true,
+    "nw_bit_balance_possible_in_row_residual": false,
+    "proof_status": "finite_residual_check_with_six_values_not_table_free"
+  }
+}

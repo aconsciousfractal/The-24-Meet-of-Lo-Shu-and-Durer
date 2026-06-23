@@ -13,6 +13,7 @@ by the paper and omits development-only roadmap rows.  For the resolvable
 | `D4 -> V4` permutation-diagonal subgroup drop | `results/magic24_certificate_pack.json` |
 | Type-A guardrail: `D4` and `V4` are subgroup/coset chamber tilers, not standard poset cones | `docs/TYPE_A_SUBGROUP_TILERS.md`, `docs/TYPE_A_POSET_CONE_COMPARISON.md`, `results/s4_chamber_fingerprints.json`, `results/s4_poset_cone_comparison.json` |
 | Durer value-minus-one model is a rank-4 `F_2^4` affine coordinatization | `docs/F2_TESSERACT_LAYER.md`, `results/f2_tesseract_analysis.json`, `tests/test_f2_tesseract.py` |
+| Parity-plane mechanism for the endpoint-24 bit-balance, with six-value finite residual check | `docs/PARITY_PLANE_MECHANISM.md`, `results/parity_plane_mechanism.json`, `results/PARITY_PLANE_MECHANISM_REPORT.md`, `tests/test_parity_plane_mechanism.py` |
 | Affine source/terminal transport counts `52 -> 36` | `docs/F2_TESSERACT_LAYER.md`, `results/f2_tesseract_analysis.json` |
 | Bounded-polytope non-vertex guardrail | `docs/BOUNDED_MAGIC_POLYTOPE.md`, `docs/FIXED_SUM24_POLYTOPE_AUDIT.md`, `results/bounded_magic_polytope.json`, `results/fixed_sum24_polytope_audit.json` |
 | Order-four atlas `7040/880/236`, exact `144`, main `176=144+32` | `data/order4_normal_essential_880.json`, `results/order4_endpoint_spectrum.json`, `results/order4_f2_extension.json`, `results/exact_v4_affine_class_audit.json`, `results/inside_out_main_signature_split.json` |

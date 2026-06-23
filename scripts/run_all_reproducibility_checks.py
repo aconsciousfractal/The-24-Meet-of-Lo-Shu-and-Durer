@@ -1,4 +1,4 @@
-"""Run the public Magic 24 reproducibility smoke checks."""
+"""Run the public 24-Meet reproducibility smoke checks."""
 
 from __future__ import annotations
 
@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 COMMANDS = [
     [sys.executable, "scripts/magic24_certificates.py", "--write"],
     [sys.executable, "scripts/analyze_f2_tesseract.py", "--write"],
+    [sys.executable, "scripts/analyze_parity_plane_mechanism.py", "--write"],
     [sys.executable, "scripts/analyze_affine_normal_count_derivation.py", "--write"],
     [sys.executable, "scripts/analyze_forbidden_shadow_split_p6.py", "--write"],
     [sys.executable, "-m", "pytest", "-q"],

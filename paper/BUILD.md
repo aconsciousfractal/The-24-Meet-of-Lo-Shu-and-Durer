@@ -15,7 +15,7 @@ Known build target:
 
 ```text
 engine: pdfLaTeX
-expected output: 17 pages
+expected output: 19 pages
 primary source: the_24_meet_of_lo_shu_and_durer.tex
 bibliography: refs.bib
 ```

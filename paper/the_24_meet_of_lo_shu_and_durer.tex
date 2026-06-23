@@ -85,7 +85,10 @@ The endpoint also carries finite structure on the \Durer side.  The target
 permutation diagonals drop from a dihedral subgroup \(D_4\le S_4\) to the
 Klein four subgroup \(V_4\), and the \Durer value-minus-one cell model gives
 an \(F_2^4\) affine transport layer: \(52\) affine source quaternes reduce to
-\(36\) affine terminal quaternes.  A broader order-four audit shows that
+\(36\) affine terminal quaternes.  Within this layer, a scoped parity-plane
+mechanism explains the endpoint-24 bit-balance as a zero-residual affine
+phenomenon; its final residual obstruction is a six-value finite check, not a
+table-free symbolic theorem.  A broader order-four audit shows that
 terminal \(24\) is not unique: it occurs in \(236\) square-mask pairs.  Inside
 that landscape, the most stable finite class detected by the atlas is a
 \(144\)-pair exact \(V_4\) subclass characterized by global
@@ -163,7 +166,9 @@ blocked claims in the reproducibility package.
 Sections~\ref{sec:bounded}--\ref{sec:meet} prove the strong bounded meet.
 Sections~\ref{sec:quaternes}--\ref{sec:f2} give the \Durer-side enrichment:
 quaterne transport, permutation diagonals, and the \(F_2^4\) tesseract layer.
-Section~\ref{sec:polytope} records the bounded-polytope guardrail, and
+Section~\ref{sec:parity-plane} records the scoped parity-plane mechanism
+behind the endpoint-24 bit-balance.  Section~\ref{sec:polytope} records the
+bounded-polytope guardrail, and
 Section~\ref{sec:order4} summarizes the order-four extension.  The appendices
 collect the endpoint atlas, exact canonical \(V_4\) subclass, secondary
 audits, and open problems.
@@ -765,6 +770,117 @@ exact canonical \(V_4\) affine subclass rather than only the historical
 \Durer/Sagrada cell.
 \end{remark}
 
+\section{Parity-Plane Mechanism}
+\label{sec:parity-plane}
+
+The \(F_2^4\) layer also gives a local explanation of why the endpoint-24
+condition is visible at the \Durer side of the meet.  This explanation is
+scoped: it does not make \(24\) universal, and it does not replace the
+order-four endpoint atlas.  It identifies one parity-plane obstruction inside
+the normalized binary model used in this paper.
+
+Throughout this section, \(L(x)\) denotes the zero-based four-bit label at
+cell \(x\).  The local residual reduction supplies a visible parity coefficient
+\(B_{11}\), defined operationally in the public replay by the identity
+\[
+\bigoplus_{x\in\Pi_{NW}}L(x)=B_{11}.
+\]
+The six residual values below are the nonzero cases left by that normalized
+reduction; this section checks those cases rather than deriving a table-free
+classification of all residual forms.
+
+\begin{definition}[NW parity plane and bit-balance]
+Use zero-based row and column coordinates and write a cell as
+\(x=(r_1,r_0,c_1,c_0)\in\F_2^4\).  The NW parity plane is the even-row,
+even-column four-cell set, equivalently the row-major index set
+\[
+\Pi_{NW}=\{0,2,8,10\}.
+\]
+For zero-based labels in \(\{0,\ldots,15\}\), a four-label set is
+bit-balanced if each of the four coordinate bits occurs exactly twice.  Such a
+set has integer label sum
+\[
+2(1+2+4+8)=30.
+\]
+\end{definition}
+
+\begin{lemma}[Affine-plane sum]
+\label{lem:affine-plane-sum}
+Let \(u,w\in\F_2^4\) be nonzero distinct directions, and let
+\[
+P=\{o,o\oplus u,o\oplus w,o\oplus u\oplus w\}\subset \F_2^4.
+\]
+Then \(P\) has four cells, and the zero-based integer label sum of \(P\) is \(30\) if and only if the two
+directions cover all four bits:
+\[
+u\mathbin{\mathrm{OR}} w=15.
+\]
+\end{lemma}
+
+\begin{proof}
+In a fixed bit position, the four labels on \(P\) are balanced exactly when at
+least one of \(u\) and \(w\) moves that bit.  If both direction bits are zero,
+that bit is constant on \(P\).  Thus all four bits occur twice exactly when
+\(u\) and \(w\) cover all four bit positions, which is the displayed OR
+condition.
+\end{proof}
+
+\begin{certprop}[Parity-plane obstruction, finite residual form]
+\label{prop:parity-plane-mechanism}
+In the normalized residual split used here, the public certificate checks the
+nonzero residual forms supplied by the parity-plane reduction and excludes each
+of them from carrying the NW parity-plane bit-balance.  The visible branch
+\(B_{11}\ne0\) is excluded by
+\[
+\bigoplus_{x\in\Pi_{NW}} L(x)=B_{11},
+\]
+and the remaining nonzero residual forms checked in the replay are the two
+transpose-symmetric row/column patterns
+\[
+(0,0,v,v),\qquad (0,v,0,v),
+\qquad v\in\{2,4,6,8,12,14\}.
+\]
+For these six values the residual direction constraints force the NW
+directions to miss a coordinate bit, so the NW parity plane is not
+bit-balanced.
+\end{certprop}
+
+\begin{proof}[Certification and finite residual check]
+The identity \(\bigoplus_{x\in\Pi_{NW}}L(x)=B_{11}\) gives the first split:
+bit-balance implies xor zero, so \(B_{11}\ne0\) is impossible.  The public
+finite check then handles the nonzero residual branch with \(B_{11}=0\).  For
+the row residual, write the affine anchor as
+\[
+A(x)=o\oplus a r_1\oplus b r_0\oplus g c_1\oplus d c_0.
+\]
+The row and column plane equations, the two diagonal equations, and the
+bijective-toggle condition leave the six values shown above.  In every
+surviving row case the replay verifies \(a=v\), and every admissible \(g\) has
+zero in the critical bit \(\nu_2(v/2)\).  Hence the NW directions \(a,g\) do
+not cover all four bits:
+\[
+a\mathbin{\mathrm{OR}}g\ne15.
+\]
+By Lemma~\ref{lem:affine-plane-sum}, the NW plane is not bit-balanced.  The
+column pattern follows by transposing row and column variables.
+
+The certification artifacts are
+\begin{itemize}[leftmargin=*]
+\item \path{docs/PARITY_PLANE_MECHANISM.md},
+\item \path{results/parity_plane_mechanism.json},
+\item \path{results/PARITY_PLANE_MECHANISM_REPORT.md},
+\item \path{tests/test_parity_plane_mechanism.py}.
+\end{itemize}
+The last step is intentionally recorded as a six-value finite residual check;
+we do not claim here a table-free symbolic proof of the residual obstruction.
+\end{proof}
+
+\begin{remark}[Scope]
+Proposition~\ref{prop:parity-plane-mechanism} is a mechanism for the
+Shu--\Durer bridge inside this normalized binary model.  It is not a universal
+statement about endpoint \(24\) across all magic-square settings.
+\end{remark}
+
 \section{Bounded-Polytope Guardrail}
 \label{sec:polytope}
 
@@ -879,7 +995,7 @@ the claim levels and keeps the computational layers in their proper roles.
 
 \begin{table}[htbp]
 \centering
-\begin{tabular}{p{0.24\linewidth}p{0.30\linewidth}p{0.34\linewidth}}
+\begin{tabular}{p{0.25\linewidth}p{0.25\linewidth}p{0.38\linewidth}}
 \toprule
 Layer & Paper role & Primary repository control\\
 \midrule
@@ -888,6 +1004,7 @@ Lo Shu and Sagrada ray & certified propositions & certificate pack\\
 Quaterne transport & certified proposition & certificate pack, inside-out audit\\
 \(D_4\to V_4\), Type-A scope & certified propositions & \(S_4\) reports\\
 \(F_2^4\), bounded polytope & certified propositions / guardrails & Phase F/E reports\\
+Parity plane & certified finite check & parity-plane report/test\\
 880/236/144/176 extension & certified proposition / appendix & Phase C/H/O reports\\
 APD, Markov, Hilbert, \(N\)-poset & appendix audits & reproducibility package\\
 \bottomrule
