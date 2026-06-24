@@ -41,7 +41,9 @@ mathematical arguments in the paper; their executable scope is described in
 
 Expected result: all public tests pass.  On the reference export this is
 `148 passed`; runtime is normally several minutes on a laptop, depending on
-Python and filesystem speed.
+Python and filesystem speed.  If GitHub Actions is blocked by platform or
+account status, the workflow badge is not a mathematical evidence source;
+reviewers should use the local commands and committed replay summary instead.
 
 To regenerate the central public replay artifacts and write
 `results/public_reproducibility_check.json`, run:

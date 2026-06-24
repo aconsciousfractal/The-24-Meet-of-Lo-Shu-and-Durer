@@ -593,14 +593,17 @@ Source sum 44 & 2 & 21 & 24\\
 Let \(u=1001\) be the terminally recovered duplicate-fiber direction of
 Lemma~\ref{lem:terminal-duplicate-direction}.  Among the \(96\) terminal
 quaternes in \(H_{24}(D(10))\), exactly \(36\) are affine planes in
-\(\F_2^4\) and \(60\) are non-affine.  If the non-affine quaternes are
-quotiented by \(\langle u\rangle\), the resulting count vector is
+\(\F_2^4\) and \(60\) are non-affine.  With respect to the terminal quotient
+direction \(\langle u\rangle\), the \(60\) non-affine records split into the
+count vector
 \[
   60=32+12+16.
 \]
-More explicitly, the \(32\) mixed records have cell-xor \(u\), while the pure
-non-affine records split modulo \(\langle u\rangle\) as \(4+8+16\), grouped as
-\(12+16\) at the count-shadow level.
+Here \(CS_1=32\) counts mixed fold-pair orbits with cell-xor \(u\),
+\(CS_2=12\) counts pure non-affine records with non-full quotient direction,
+and \(CS_3=16\) counts pure non-affine records with full quotient direction.
+This is a classification of records relative to \(\langle u\rangle\), not a
+claim about the cardinality of a quotient set.
 \end{certprop}
 
 \begin{proof}[Certification]
@@ -759,9 +762,9 @@ set-theoretic labelling.  It is linear in row and column bits.
 
 \begin{certprop}[Linear tesseract coordinatization]
 \label{prop:f2-linear}
-Write the row index and column index as two-bit vectors
+Use the same binary cell convention as above: write
 \[
-r=(r_0,r_1),\qquad c=(c_0,c_1).
+r=2r_1+r_0,\qquad c=2c_1+c_0,\qquad x=(r_1,r_0,c_1,c_0).
 \]
 If
 \[

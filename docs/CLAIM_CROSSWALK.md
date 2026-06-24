@@ -9,6 +9,8 @@ by the paper and omits development-only roadmap rows.  For the resolvable
 |---|---|
 | Bounded Lo Shu spectrum and strong-meet inputs | `results/magic24_certificate_pack.json`, `docs/LO_SHU_LATTICE_POLYGON.md` |
 | Sagrada one-incidence ray terminality and unique terminal-24 mask | `results/magic24_certificate_pack.json` |
+| Sagrada terminal finite retraction `D(10)_x = D_{F(x)}`, with `F^2=F`, image size `12`, and fold direction `1001` | `results/sagrada_terminal_retraction_shadow.json`, `results/SAGRADA_TERMINAL_RETRACTION_SHADOW_REPORT.md`, `scripts/analyze_sagrada_terminal_retraction_shadow.py`, `tests/test_sagrada_terminal_retraction_shadow.py` |
+| Terminal duplicate direction and guarded count-shadow `96=36+60`, `60=32+12+16` | `results/sagrada_terminal_retraction_shadow.json`, `results/SAGRADA_TERMINAL_RETRACTION_SHADOW_REPORT.md`, `scripts/analyze_sagrada_terminal_retraction_shadow.py`, `tests/test_sagrada_terminal_retraction_shadow.py` |
 | Quaterne transport `86 -> 50 -> 96` | `results/magic24_certificate_pack.json`, `results/inside_out_set_system_audit.json` |
 | `D4 -> V4` permutation-diagonal subgroup drop | `results/magic24_certificate_pack.json` |
 | Type-A guardrail: `D4` and `V4` are subgroup/coset chamber tilers, not standard poset cones | `docs/TYPE_A_SUBGROUP_TILERS.md`, `docs/TYPE_A_POSET_CONE_COMPARISON.md`, `results/s4_chamber_fingerprints.json`, `results/s4_poset_cone_comparison.json` |

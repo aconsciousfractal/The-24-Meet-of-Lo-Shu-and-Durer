@@ -7,6 +7,7 @@ This public repository includes curated finite replay artifacts for the
 
 - The bounded Lo Shu spectrum and Sagrada ray certificate pack.
 - Quaterne transport and permutation-diagonal D4 -> V4 checks.
+- Sagrada terminal retraction, terminal duplicate-direction recovery, and the guarded terminal count-shadow `60=32+12+16`.
 - The F_2^4 tesseract layer and affine transport counts.
 - The bounded-polytope guardrail artifacts cited in the paper.
 - The order-four endpoint-24 atlas artifacts used in the paper.
