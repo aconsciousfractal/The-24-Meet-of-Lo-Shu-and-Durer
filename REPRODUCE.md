@@ -37,6 +37,7 @@ python scripts/magic24_certificates.py --write
 python scripts/analyze_f2_tesseract.py --write
 python scripts/analyze_affine_normal_count_derivation.py --write
 python scripts/analyze_forbidden_shadow_split_p6.py --write
+python scripts/analyze_sagrada_terminal_retraction_shadow.py --write
 ```
 
 Additional scripts in `scripts/` regenerate the corresponding JSON artifacts
@@ -62,6 +63,7 @@ pdflatex -interaction=nonstopmode -halt-on-error the_24_meet_of_lo_shu_and_durer
 | Paper layer | Canonical artifacts |
 |---|---|
 | Strong meet and Sagrada ray | `results/magic24_certificate_pack.json` |
+| Sagrada terminal retraction/count shadow | `results/sagrada_terminal_retraction_shadow.json`, `results/SAGRADA_TERMINAL_RETRACTION_SHADOW_REPORT.md` |
 | D4 -> V4 and Type-A guardrail | `results/s4_chamber_fingerprints.json`, `results/s4_poset_cone_comparison.json` |
 | F_2^4 tesseract transport | `results/f2_tesseract_analysis.json` |
 | Polytope guardrail | `results/bounded_magic_polytope.json`, `results/fixed_sum24_polytope_audit.json` |

@@ -1,0 +1,217 @@
+{
+  "claims": {
+    "affine_nonaffine_split_is_36_60": true,
+    "duplicate_direction_is_terminally_recovered_u": true,
+    "h24_count_is_96": true,
+    "no_b3_identification_claim": true,
+    "nonaffine_count_shadow_is_32_12_16": true,
+    "retraction_image_size_is_12": true,
+    "terminal_is_retraction_of_source": true
+  },
+  "fold_direction": "1001",
+  "fold_image_mask": "0231",
+  "guardrails": [
+    "The 32/12/16 vector is a count-shadow only.",
+    "The replay does not construct a record/profile lift to any endpoint-24 atlas class.",
+    "The terminal square D(10) is non-normal and is not an endpoint-24 normal atlas record."
+  ],
+  "retraction": {
+    "fiber_size_distribution": {
+      "1": 8,
+      "2": 4
+    },
+    "fold_pairs": [
+      {
+        "from": "0010",
+        "from_cell": [
+          0,
+          2
+        ],
+        "to": "1011",
+        "to_cell": [
+          2,
+          3
+        ]
+      },
+      {
+        "from": "0100",
+        "from_cell": [
+          1,
+          0
+        ],
+        "to": "1101",
+        "to_cell": [
+          3,
+          1
+        ]
+      },
+      {
+        "from": "1001",
+        "from_cell": [
+          2,
+          1
+        ],
+        "to": "0000",
+        "to_cell": [
+          0,
+          0
+        ]
+      },
+      {
+        "from": "1111",
+        "from_cell": [
+          3,
+          3
+        ],
+        "to": "0110",
+        "to_cell": [
+          1,
+          2
+        ]
+      }
+    ],
+    "image_size": 12,
+    "sagrada_plane": [
+      "0010",
+      "0100",
+      "1001",
+      "1111"
+    ],
+    "subtraction_equals_retraction": true
+  },
+  "sagrada_mask": "2013",
+  "square": "Durer-complement Sagrada terminal D(10)",
+  "terminal_duplicate_direction": {
+    "duplicate_directions": [
+      "1001"
+    ],
+    "duplicate_rows": [
+      {
+        "bits": [
+          "0000",
+          "1001"
+        ],
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "difference": "1001",
+        "value": 1
+      },
+      {
+        "bits": [
+          "0100",
+          "1101"
+        ],
+        "cells": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "difference": "1001",
+        "value": 2
+      },
+      {
+        "bits": [
+          "0010",
+          "1011"
+        ],
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "difference": "1001",
+        "value": 5
+      },
+      {
+        "bits": [
+          "0110",
+          "1111"
+        ],
+        "cells": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "difference": "1001",
+        "value": 6
+      }
+    ],
+    "duplicate_values": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "terminally_recovered_direction": "1001"
+  },
+  "terminal_matrix": [
+    [
+      1,
+      14,
+      5,
+      4
+    ],
+    [
+      2,
+      7,
+      6,
+      9
+    ],
+    [
+      8,
+      1,
+      10,
+      5
+    ],
+    [
+      13,
+      2,
+      3,
+      6
+    ]
+  ],
+  "terminal_quaternes": {
+    "affine_count": 36,
+    "h24_count": 96,
+    "nonaffine_count": 60,
+    "orbit_type_counts": {
+      "size1_pure_A": 4,
+      "size1_pure_N": 4,
+      "size2_pure_N2": 12,
+      "size4_mixed_2A2N": 16
+    },
+    "shadow_count_vector": {
+      "CS1_mixed_single_direction": 32,
+      "CS2_pure_nonfull_direction": 12,
+      "CS3_pure_full_direction": 16
+    },
+    "shadow_count_vector_numeric": [
+      32,
+      12,
+      16
+    ]
+  }
+}

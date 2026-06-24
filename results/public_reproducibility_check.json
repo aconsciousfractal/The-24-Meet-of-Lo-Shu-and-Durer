@@ -27,6 +27,14 @@
     {
       "command": [
         "python",
+        "scripts/analyze_sagrada_terminal_retraction_shadow.py",
+        "--write"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
         "scripts/analyze_affine_normal_count_derivation.py",
         "--write"
       ],

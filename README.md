@@ -40,7 +40,7 @@ mathematical arguments in the paper; their executable scope is described in
 `docs/EXECUTABLE_REPLAY_SCOPE.md`.
 
 Expected result: all public tests pass.  On the reference export this is
-`141 passed`; runtime is normally several minutes on a laptop, depending on
+`148 passed`; runtime is normally several minutes on a laptop, depending on
 Python and filesystem speed.
 
 To regenerate the central public replay artifacts and write

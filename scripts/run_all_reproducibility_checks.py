@@ -14,6 +14,7 @@ COMMANDS = [
     [sys.executable, "scripts/magic24_certificates.py", "--write"],
     [sys.executable, "scripts/analyze_f2_tesseract.py", "--write"],
     [sys.executable, "scripts/analyze_parity_plane_mechanism.py", "--write"],
+    [sys.executable, "scripts/analyze_sagrada_terminal_retraction_shadow.py", "--write"],
     [sys.executable, "scripts/analyze_affine_normal_count_derivation.py", "--write"],
     [sys.executable, "scripts/analyze_forbidden_shadow_split_p6.py", "--write"],
     [sys.executable, "-m", "pytest", "-q"],

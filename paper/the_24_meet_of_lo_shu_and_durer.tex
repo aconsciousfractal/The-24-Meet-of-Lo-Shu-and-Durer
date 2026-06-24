@@ -365,6 +365,62 @@ orientation used in this paper.}
 \label{tab:durer-masks}
 \end{table}
 
+\begin{theorem}[Sagrada terminal as a finite retraction]
+\label{thm:sagrada-retraction}
+Index the cells by
+\[
+  x=(r_1,r_0,c_1,c_0)\in \F_2^4,
+  \qquad r=2r_1+r_0,\quad c=2c_1+c_0.
+\]
+Let
+\[
+  M=\{0010,0100,1001,1111\}
+\]
+be the Sagrada mask plane and let \(u=1001\).  Define
+\[
+  F(x)=x+u\chi_M(x).
+\]
+Then the terminal square satisfies
+\[
+  D(10)_x=D_{F(x)}
+\]
+cell by cell.  Moreover \(F^2=F\), \(|\operatorname{im}F|=12\), and
+\(M+u\) is the opposite one-incidence mask \(0231\).
+\end{theorem}
+
+\begin{proof}
+Outside \(M\) the map \(F\) fixes the cell and \(D(10)=D\).  On the four
+selected cells, the source values are \(15,12,11,16\), while the partner cells
+in \(M+u\) have source values \(5,2,1,6\).  Subtracting \(10\) on \(M\) gives
+exactly those partner values, hence \(D(10)_x=D_{F(x)}\).  The two planes
+\(M\) and \(M+u\) are disjoint; therefore points of \(M\) move once, points of
+\(M+u\) are fixed, and \(F\) is idempotent with four two-point fibers and eight
+singleton fibers.  Thus \(|\operatorname{im}F|=12\).
+\end{proof}
+
+\begin{lemma}[Terminal duplicate-fiber direction]
+\label{lem:terminal-duplicate-direction}
+The direction \(u=1001\) is recoverable from the terminal square \(D(10)\)
+itself: the duplicated terminal values are \(1,2,5,6\), and each duplicate
+fiber has cell difference \(1001\).
+\end{lemma}
+
+\begin{proof}
+The duplicate fibers are
+\[
+\begin{array}{c|c|c|c}
+\text{value} & \text{first cell bits} & \text{second cell bits} & \text{xor}\\
+\hline
+1&0000&1001&1001\\
+2&0100&1101&1001\\
+5&0010&1011&1001\\
+6&0110&1111&1001.
+\end{array}
+\]
+All four duplicate fibers therefore determine the same direction.  This is a
+terminal fact; it does not need the source square once \(D(10)\) is given.
+\end{proof}
+
 The closed bounded ray spectrum is
 \[
 \Ray^-_{D,M}=\{24,25,26,27,28,29,30,31,32,33,34\}.
@@ -531,6 +587,32 @@ Source sum 44 & 2 & 21 & 24\\
 \(H_{24}(D(10))\) decomposition.}
 \label{tab:quaterne-transport}
 \end{table}
+
+\begin{certprop}[Terminal quotient count shadow]
+\label{prop:terminal-count-shadow}
+Let \(u=1001\) be the terminally recovered duplicate-fiber direction of
+Lemma~\ref{lem:terminal-duplicate-direction}.  Among the \(96\) terminal
+quaternes in \(H_{24}(D(10))\), exactly \(36\) are affine planes in
+\(\F_2^4\) and \(60\) are non-affine.  If the non-affine quaternes are
+quotiented by \(\langle u\rangle\), the resulting count vector is
+\[
+  60=32+12+16.
+\]
+More explicitly, the \(32\) mixed records have cell-xor \(u\), while the pure
+non-affine records split modulo \(\langle u\rangle\) as \(4+8+16\), grouped as
+\(12+16\) at the count-shadow level.
+\end{certprop}
+
+\begin{proof}[Certification]
+This is replayed in
+\path{results/sagrada_terminal_retraction_shadow.json} and summarized in
+\path{results/SAGRADA_TERMINAL_RETRACTION_SHADOW_REPORT.md}.
+The same replay also verifies Theorem~\ref{thm:sagrada-retraction} and
+Lemma~\ref{lem:terminal-duplicate-direction}.  The statement is deliberately
+only a count-shadow statement: it does not construct a direct record/profile
+lift from \(D(10)\) to any endpoint-24 atlas class, and it does not identify
+the non-normal terminal square \(D(10)\) with a normal order-four atlas record.
+\end{proof}
 
 \begin{remark}[Johnson-scheme reading]
 The quaternes are \(4\)-subsets of the \(16\)-cell set, hence live in the
@@ -1002,6 +1084,7 @@ Layer & Paper role & Primary repository control\\
 Strong meet & theorem & \texttt{CLAIM\_CROSSWALK.md}\\
 Lo Shu and Sagrada ray & certified propositions & certificate pack\\
 Quaterne transport & certified proposition & certificate pack, inside-out audit\\
+Sagrada terminal retraction/count shadow & theorem/certprop & terminal retraction replay\\
 \(D_4\to V_4\), Type-A scope & certified propositions & \(S_4\) reports\\
 \(F_2^4\), bounded polytope & certified propositions / guardrails & Phase F/E reports\\
 Parity plane & certified finite check & parity-plane report/test\\
