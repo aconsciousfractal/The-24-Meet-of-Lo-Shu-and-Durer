@@ -19,7 +19,7 @@ dump of the development workspace.
 ```text
 paper/      manuscript source, PDF, bibliography, and build notes
 data/       curated input data used by the order-four atlas checks
-docs/       claim crosswalk, replay scope note, and certificate notes
+docs/       claim crosswalk, replay scope note, roadmap, and certificate notes
 scripts/    standard-library replay and audit scripts
 tests/      pytest smoke/regression tests for the public scripts
 results/    canonical JSON and Markdown replay outputs
@@ -37,7 +37,8 @@ python -m pytest -q
 
 The checks are computational reproducibility aids.  They do not replace the
 mathematical arguments in the paper; their executable scope is described in
-`docs/EXECUTABLE_REPLAY_SCOPE.md`.
+`docs/EXECUTABLE_REPLAY_SCOPE.md`.  Open follow-up questions are tracked in
+`docs/ROADMAP.md`.
 
 Expected result: all public tests pass.  On the reference export this is
 `148 passed`; runtime is normally several minutes on a laptop, depending on
