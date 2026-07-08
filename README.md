@@ -68,6 +68,18 @@ paper/the_24_meet_of_lo_shu_and_durer.pdf
 paper/BUILD.md
 ```
 
+## Claim Boundary
+
+Companion claim-discipline docs were added on 2026-07-08 (after
+publication; the paper is unchanged). The authoritative claim system is
+the existing `docs/CLAIM_REGISTER.md` + `docs/CLAIM_CROSSWALK.md` +
+`docs/EXECUTABLE_REPLAY_SCOPE.md`; the additions are thin:
+
+- `docs/PUBLIC_CLAIM_BOUNDARY.md` — distilled quoting boundary (incl. the
+  four "Not Included As Claims" families, verbatim).
+- `README_REVIEWER.md` — 10/30-minute reviewer paths (148-test suite
+  green in ~4 min on 2026-07-08).
+
 ## Citation And License
 
 See `CITATION.cff` for citation metadata.  This repository is released under
